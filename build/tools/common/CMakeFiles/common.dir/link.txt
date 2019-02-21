@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcommon.a  CMakeFiles/common.dir/utils.c.o
+/usr/bin/ranlib libcommon.a

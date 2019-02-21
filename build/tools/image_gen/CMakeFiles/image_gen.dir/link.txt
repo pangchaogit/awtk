@@ -1,0 +1,2 @@
+/usr/bin/ar qc libimage_gen.a  CMakeFiles/image_gen.dir/image_gen.c.o
+/usr/bin/ranlib libimage_gen.a

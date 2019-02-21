@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstr_gen.a  CMakeFiles/str_gen.dir/xml_str_gen.cc.o CMakeFiles/str_gen.dir/str_gen.cc.o
+/usr/bin/ranlib libstr_gen.a
