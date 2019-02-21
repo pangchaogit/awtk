@@ -19,3 +19,5 @@ tags
 .vs
 .lo
 scripts/update_res_common.pyc
+.idea/* 
+cmake-build-debug
