@@ -18,6 +18,7 @@ tags
 .vscode
 .vs
 .lo
+awtk_config.pyc
 scripts/update_res_common.pyc
 .idea/* 
 cmake-build-debug

@@ -31,6 +31,11 @@ TEST(Button, basic) {
   ASSERT_EQ(widget_get_prop(w, WIDGET_PROP_REPEAT, &v2), RET_OK);
   ASSERT_EQ(value_int(&v1), value_int(&v2));
 
+  value_set_bool(&v1, TRUE);
+  ASSERT_EQ(widget_set_prop_str(w, WIDGET_PROP_ENABLE_LONG_PRESS, "true"), RET_OK);
+  ASSERT_EQ(widget_get_prop(w, WIDGET_PROP_ENABLE_LONG_PRESS, &v2), RET_OK);
+  ASSERT_EQ(value_bool(&v1), value_bool(&v2));
+
   widget_destroy(w);
 }
 
@@ -78,4 +83,14 @@ TEST(Button, remove_parent) {
 
   widget_destroy(w);
   idle_dispatch();
+}
+
+TEST(Button, cast) {
+  widget_t* w = window_create(NULL, 0, 0, 320, 240);
+  widget_t* b = button_create(w, 10, 10, 30, 40);
+
+  ASSERT_EQ(button_cast(b), b);
+  ASSERT_EQ(button_cast(w), WIDGET(NULL));
+
+  widget_destroy(w);
 }
