@@ -64,6 +64,7 @@ demos/CMakeFiles/assets.dir/assets.c.o
  ../src/base/window_animator.h
  ../src/base/window_base.h
  ../src/base/window_manager.h
+ ../src/blend/image_g2d.h
  ../src/ext_widgets/canvas_widget/canvas_widget.h
  ../src/ext_widgets/color_picker/color_component.h
  ../src/ext_widgets/color_picker/color_picker.h
@@ -76,6 +77,7 @@ demos/CMakeFiles/assets.dir/assets.c.o
  ../src/ext_widgets/image_value/image_value.h
  ../src/ext_widgets/keyboard/candidates.h
  ../src/ext_widgets/keyboard/keyboard.h
+ ../src/ext_widgets/mutable_image/mutable_image.h
  ../src/ext_widgets/progress_circle/progress_circle.h
  ../src/ext_widgets/rich_text/rich_text.h
  ../src/ext_widgets/rich_text/rich_text_node.h
@@ -349,8 +351,6 @@ demos/CMakeFiles/assets.dir/assets.c.o
  /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/images/pointer.bsvg
  /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/images/pointer_1.bsvg
  /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/images/pointer_4.bsvg
- /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/images/post.data
- /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/images/post.res
  /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/images/progress_circle.data
  /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/images/progress_circle.res
  /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/images/question.data
@@ -393,8 +393,6 @@ demos/CMakeFiles/assets.dir/assets.c.o
  /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/images/slider_v_fg.res
  /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/images/switch.data
  /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/images/switch.res
- /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/images/test.data
- /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/images/test.res
  /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/images/unchecked.data
  /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/images/unchecked.res
  /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/images/unmuted.data

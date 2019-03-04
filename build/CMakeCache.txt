@@ -133,7 +133,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=awtk
+CMAKE_PROJECT_NAME:STATIC=awtk-c-demos
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -205,10 +205,10 @@ SDL2_LIB_DEPENDS:STATIC=general;gtk-3;general;gdk-3;general;pangocairo-1.0;gener
 VGCANVAS:STRING=NANOVG
 
 //Value Computed by CMake
-awtk_BINARY_DIR:STATIC=/home/pc/work/awtk/pc_awtk/awtk/build
+awtk-c-demos_BINARY_DIR:STATIC=/home/pc/work/awtk/pc_awtk/awtk/build
 
 //Value Computed by CMake
-awtk_SOURCE_DIR:STATIC=/home/pc/work/awtk/pc_awtk/awtk
+awtk-c-demos_SOURCE_DIR:STATIC=/home/pc/work/awtk/pc_awtk/awtk
 
 //Path to a library.
 pkgcfg_lib_GTK3_atk-1.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libatk-1.0.so

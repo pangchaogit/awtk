@@ -111,36 +111,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-demos/CMakeFiles/demovg.dir/rule:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/demovg.dir/rule
-.PHONY : demos/CMakeFiles/demovg.dir/rule
-
-# Convenience name for target.
-demovg: demos/CMakeFiles/demovg.dir/rule
-
-.PHONY : demovg
-
-# fast build rule for target.
-demovg/fast:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demovg.dir/build.make demos/CMakeFiles/demovg.dir/build
-.PHONY : demovg/fast
-
-# Convenience name for target.
-demos/CMakeFiles/demo1.dir/rule:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/demo1.dir/rule
-.PHONY : demos/CMakeFiles/demo1.dir/rule
-
-# Convenience name for target.
-demo1: demos/CMakeFiles/demo1.dir/rule
-
-.PHONY : demo1
-
-# fast build rule for target.
-demo1/fast:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo1.dir/build.make demos/CMakeFiles/demo1.dir/build
-.PHONY : demo1/fast
-
-# Convenience name for target.
 demos/CMakeFiles/assets.dir/rule:
 	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/assets.dir/rule
 .PHONY : demos/CMakeFiles/assets.dir/rule
@@ -156,94 +126,34 @@ assets/fast:
 .PHONY : assets/fast
 
 # Convenience name for target.
-demos/CMakeFiles/demo_desktop.dir/rule:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/demo_desktop.dir/rule
-.PHONY : demos/CMakeFiles/demo_desktop.dir/rule
+demos/CMakeFiles/demo_animator_app.dir/rule:
+	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/demo_animator_app.dir/rule
+.PHONY : demos/CMakeFiles/demo_animator_app.dir/rule
 
 # Convenience name for target.
-demo_desktop: demos/CMakeFiles/demo_desktop.dir/rule
+demo_animator_app: demos/CMakeFiles/demo_animator_app.dir/rule
 
-.PHONY : demo_desktop
+.PHONY : demo_animator_app
 
 # fast build rule for target.
-demo_desktop/fast:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_desktop.dir/build.make demos/CMakeFiles/demo_desktop.dir/build
-.PHONY : demo_desktop/fast
+demo_animator_app/fast:
+	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_animator_app.dir/build.make demos/CMakeFiles/demo_animator_app.dir/build
+.PHONY : demo_animator_app/fast
 
 # Convenience name for target.
-demos/CMakeFiles/demotr.dir/rule:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/demotr.dir/rule
-.PHONY : demos/CMakeFiles/demotr.dir/rule
+demos/CMakeFiles/mutable_image.dir/rule:
+	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/mutable_image.dir/rule
+.PHONY : demos/CMakeFiles/mutable_image.dir/rule
 
 # Convenience name for target.
-demotr: demos/CMakeFiles/demotr.dir/rule
+mutable_image: demos/CMakeFiles/mutable_image.dir/rule
 
-.PHONY : demotr
+.PHONY : mutable_image
 
 # fast build rule for target.
-demotr/fast:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demotr.dir/build.make demos/CMakeFiles/demotr.dir/build
-.PHONY : demotr/fast
-
-# Convenience name for target.
-demos/CMakeFiles/demoui.dir/rule:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/demoui.dir/rule
-.PHONY : demos/CMakeFiles/demoui.dir/rule
-
-# Convenience name for target.
-demoui: demos/CMakeFiles/demoui.dir/rule
-
-.PHONY : demoui
-
-# fast build rule for target.
-demoui/fast:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demoui.dir/build.make demos/CMakeFiles/demoui.dir/build
-.PHONY : demoui/fast
-
-# Convenience name for target.
-demos/CMakeFiles/demo_animator.dir/rule:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/demo_animator.dir/rule
-.PHONY : demos/CMakeFiles/demo_animator.dir/rule
-
-# Convenience name for target.
-demo_animator: demos/CMakeFiles/demo_animator.dir/rule
-
-.PHONY : demo_animator
-
-# fast build rule for target.
-demo_animator/fast:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_animator.dir/build.make demos/CMakeFiles/demo_animator.dir/build
-.PHONY : demo_animator/fast
-
-# Convenience name for target.
-demos/CMakeFiles/preview_ui.dir/rule:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/preview_ui.dir/rule
-.PHONY : demos/CMakeFiles/preview_ui.dir/rule
-
-# Convenience name for target.
-preview_ui: demos/CMakeFiles/preview_ui.dir/rule
-
-.PHONY : preview_ui
-
-# fast build rule for target.
-preview_ui/fast:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/preview_ui.dir/build.make demos/CMakeFiles/preview_ui.dir/build
-.PHONY : preview_ui/fast
-
-# Convenience name for target.
-demos/CMakeFiles/demo_thread.dir/rule:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/demo_thread.dir/rule
-.PHONY : demos/CMakeFiles/demo_thread.dir/rule
-
-# Convenience name for target.
-demo_thread: demos/CMakeFiles/demo_thread.dir/rule
-
-.PHONY : demo_thread
-
-# fast build rule for target.
-demo_thread/fast:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_thread.dir/build.make demos/CMakeFiles/demo_thread.dir/build
-.PHONY : demo_thread/fast
+mutable_image/fast:
+	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/mutable_image.dir/build.make demos/CMakeFiles/mutable_image.dir/build
+.PHONY : mutable_image/fast
 
 assets.o: assets.c.o
 
@@ -272,40 +182,13 @@ assets.c.s:
 	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/assets.dir/build.make demos/CMakeFiles/assets.dir/assets.c.s
 .PHONY : assets.c.s
 
-demo1_app.o: demo1_app.c.o
-
-.PHONY : demo1_app.o
-
-# target to build an object file
-demo1_app.c.o:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo1.dir/build.make demos/CMakeFiles/demo1.dir/demo1_app.c.o
-.PHONY : demo1_app.c.o
-
-demo1_app.i: demo1_app.c.i
-
-.PHONY : demo1_app.i
-
-# target to preprocess a source file
-demo1_app.c.i:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo1.dir/build.make demos/CMakeFiles/demo1.dir/demo1_app.c.i
-.PHONY : demo1_app.c.i
-
-demo1_app.s: demo1_app.c.s
-
-.PHONY : demo1_app.s
-
-# target to generate assembly for a file
-demo1_app.c.s:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo1.dir/build.make demos/CMakeFiles/demo1.dir/demo1_app.c.s
-.PHONY : demo1_app.c.s
-
 demo_animator_app.o: demo_animator_app.c.o
 
 .PHONY : demo_animator_app.o
 
 # target to build an object file
 demo_animator_app.c.o:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_animator.dir/build.make demos/CMakeFiles/demo_animator.dir/demo_animator_app.c.o
+	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_animator_app.dir/build.make demos/CMakeFiles/demo_animator_app.dir/demo_animator_app.c.o
 .PHONY : demo_animator_app.c.o
 
 demo_animator_app.i: demo_animator_app.c.i
@@ -314,7 +197,7 @@ demo_animator_app.i: demo_animator_app.c.i
 
 # target to preprocess a source file
 demo_animator_app.c.i:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_animator.dir/build.make demos/CMakeFiles/demo_animator.dir/demo_animator_app.c.i
+	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_animator_app.dir/build.make demos/CMakeFiles/demo_animator_app.dir/demo_animator_app.c.i
 .PHONY : demo_animator_app.c.i
 
 demo_animator_app.s: demo_animator_app.c.s
@@ -323,212 +206,35 @@ demo_animator_app.s: demo_animator_app.c.s
 
 # target to generate assembly for a file
 demo_animator_app.c.s:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_animator.dir/build.make demos/CMakeFiles/demo_animator.dir/demo_animator_app.c.s
+	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_animator_app.dir/build.make demos/CMakeFiles/demo_animator_app.dir/demo_animator_app.c.s
 .PHONY : demo_animator_app.c.s
 
-demo_desktop.o: demo_desktop.c.o
+mutable_image.o: mutable_image.c.o
 
-.PHONY : demo_desktop.o
-
-# target to build an object file
-demo_desktop.c.o:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_desktop.dir/build.make demos/CMakeFiles/demo_desktop.dir/demo_desktop.c.o
-.PHONY : demo_desktop.c.o
-
-demo_desktop.i: demo_desktop.c.i
-
-.PHONY : demo_desktop.i
-
-# target to preprocess a source file
-demo_desktop.c.i:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_desktop.dir/build.make demos/CMakeFiles/demo_desktop.dir/demo_desktop.c.i
-.PHONY : demo_desktop.c.i
-
-demo_desktop.s: demo_desktop.c.s
-
-.PHONY : demo_desktop.s
-
-# target to generate assembly for a file
-demo_desktop.c.s:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_desktop.dir/build.make demos/CMakeFiles/demo_desktop.dir/demo_desktop.c.s
-.PHONY : demo_desktop.c.s
-
-demo_main.o: demo_main.c.o
-
-.PHONY : demo_main.o
+.PHONY : mutable_image.o
 
 # target to build an object file
-demo_main.c.o:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demovg.dir/build.make demos/CMakeFiles/demovg.dir/demo_main.c.o
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo1.dir/build.make demos/CMakeFiles/demo1.dir/demo_main.c.o
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demotr.dir/build.make demos/CMakeFiles/demotr.dir/demo_main.c.o
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demoui.dir/build.make demos/CMakeFiles/demoui.dir/demo_main.c.o
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_animator.dir/build.make demos/CMakeFiles/demo_animator.dir/demo_main.c.o
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_thread.dir/build.make demos/CMakeFiles/demo_thread.dir/demo_main.c.o
-.PHONY : demo_main.c.o
+mutable_image.c.o:
+	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/mutable_image.dir/build.make demos/CMakeFiles/mutable_image.dir/mutable_image.c.o
+.PHONY : mutable_image.c.o
 
-demo_main.i: demo_main.c.i
+mutable_image.i: mutable_image.c.i
 
-.PHONY : demo_main.i
+.PHONY : mutable_image.i
 
 # target to preprocess a source file
-demo_main.c.i:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demovg.dir/build.make demos/CMakeFiles/demovg.dir/demo_main.c.i
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo1.dir/build.make demos/CMakeFiles/demo1.dir/demo_main.c.i
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demotr.dir/build.make demos/CMakeFiles/demotr.dir/demo_main.c.i
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demoui.dir/build.make demos/CMakeFiles/demoui.dir/demo_main.c.i
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_animator.dir/build.make demos/CMakeFiles/demo_animator.dir/demo_main.c.i
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_thread.dir/build.make demos/CMakeFiles/demo_thread.dir/demo_main.c.i
-.PHONY : demo_main.c.i
+mutable_image.c.i:
+	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/mutable_image.dir/build.make demos/CMakeFiles/mutable_image.dir/mutable_image.c.i
+.PHONY : mutable_image.c.i
 
-demo_main.s: demo_main.c.s
+mutable_image.s: mutable_image.c.s
 
-.PHONY : demo_main.s
+.PHONY : mutable_image.s
 
 # target to generate assembly for a file
-demo_main.c.s:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demovg.dir/build.make demos/CMakeFiles/demovg.dir/demo_main.c.s
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo1.dir/build.make demos/CMakeFiles/demo1.dir/demo_main.c.s
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demotr.dir/build.make demos/CMakeFiles/demotr.dir/demo_main.c.s
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demoui.dir/build.make demos/CMakeFiles/demoui.dir/demo_main.c.s
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_animator.dir/build.make demos/CMakeFiles/demo_animator.dir/demo_main.c.s
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_thread.dir/build.make demos/CMakeFiles/demo_thread.dir/demo_main.c.s
-.PHONY : demo_main.c.s
-
-demo_thread_app.o: demo_thread_app.c.o
-
-.PHONY : demo_thread_app.o
-
-# target to build an object file
-demo_thread_app.c.o:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_thread.dir/build.make demos/CMakeFiles/demo_thread.dir/demo_thread_app.c.o
-.PHONY : demo_thread_app.c.o
-
-demo_thread_app.i: demo_thread_app.c.i
-
-.PHONY : demo_thread_app.i
-
-# target to preprocess a source file
-demo_thread_app.c.i:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_thread.dir/build.make demos/CMakeFiles/demo_thread.dir/demo_thread_app.c.i
-.PHONY : demo_thread_app.c.i
-
-demo_thread_app.s: demo_thread_app.c.s
-
-.PHONY : demo_thread_app.s
-
-# target to generate assembly for a file
-demo_thread_app.c.s:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demo_thread.dir/build.make demos/CMakeFiles/demo_thread.dir/demo_thread_app.c.s
-.PHONY : demo_thread_app.c.s
-
-demo_tr_app.o: demo_tr_app.c.o
-
-.PHONY : demo_tr_app.o
-
-# target to build an object file
-demo_tr_app.c.o:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demotr.dir/build.make demos/CMakeFiles/demotr.dir/demo_tr_app.c.o
-.PHONY : demo_tr_app.c.o
-
-demo_tr_app.i: demo_tr_app.c.i
-
-.PHONY : demo_tr_app.i
-
-# target to preprocess a source file
-demo_tr_app.c.i:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demotr.dir/build.make demos/CMakeFiles/demotr.dir/demo_tr_app.c.i
-.PHONY : demo_tr_app.c.i
-
-demo_tr_app.s: demo_tr_app.c.s
-
-.PHONY : demo_tr_app.s
-
-# target to generate assembly for a file
-demo_tr_app.c.s:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demotr.dir/build.make demos/CMakeFiles/demotr.dir/demo_tr_app.c.s
-.PHONY : demo_tr_app.c.s
-
-demo_ui_app.o: demo_ui_app.c.o
-
-.PHONY : demo_ui_app.o
-
-# target to build an object file
-demo_ui_app.c.o:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demoui.dir/build.make demos/CMakeFiles/demoui.dir/demo_ui_app.c.o
-.PHONY : demo_ui_app.c.o
-
-demo_ui_app.i: demo_ui_app.c.i
-
-.PHONY : demo_ui_app.i
-
-# target to preprocess a source file
-demo_ui_app.c.i:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demoui.dir/build.make demos/CMakeFiles/demoui.dir/demo_ui_app.c.i
-.PHONY : demo_ui_app.c.i
-
-demo_ui_app.s: demo_ui_app.c.s
-
-.PHONY : demo_ui_app.s
-
-# target to generate assembly for a file
-demo_ui_app.c.s:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demoui.dir/build.make demos/CMakeFiles/demoui.dir/demo_ui_app.c.s
-.PHONY : demo_ui_app.c.s
-
-demo_vg_app.o: demo_vg_app.c.o
-
-.PHONY : demo_vg_app.o
-
-# target to build an object file
-demo_vg_app.c.o:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demovg.dir/build.make demos/CMakeFiles/demovg.dir/demo_vg_app.c.o
-.PHONY : demo_vg_app.c.o
-
-demo_vg_app.i: demo_vg_app.c.i
-
-.PHONY : demo_vg_app.i
-
-# target to preprocess a source file
-demo_vg_app.c.i:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demovg.dir/build.make demos/CMakeFiles/demovg.dir/demo_vg_app.c.i
-.PHONY : demo_vg_app.c.i
-
-demo_vg_app.s: demo_vg_app.c.s
-
-.PHONY : demo_vg_app.s
-
-# target to generate assembly for a file
-demo_vg_app.c.s:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/demovg.dir/build.make demos/CMakeFiles/demovg.dir/demo_vg_app.c.s
-.PHONY : demo_vg_app.c.s
-
-preview_ui.o: preview_ui.c.o
-
-.PHONY : preview_ui.o
-
-# target to build an object file
-preview_ui.c.o:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/preview_ui.dir/build.make demos/CMakeFiles/preview_ui.dir/preview_ui.c.o
-.PHONY : preview_ui.c.o
-
-preview_ui.i: preview_ui.c.i
-
-.PHONY : preview_ui.i
-
-# target to preprocess a source file
-preview_ui.c.i:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/preview_ui.dir/build.make demos/CMakeFiles/preview_ui.dir/preview_ui.c.i
-.PHONY : preview_ui.c.i
-
-preview_ui.s: preview_ui.c.s
-
-.PHONY : preview_ui.s
-
-# target to generate assembly for a file
-preview_ui.c.s:
-	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/preview_ui.dir/build.make demos/CMakeFiles/preview_ui.dir/preview_ui.c.s
-.PHONY : preview_ui.c.s
+mutable_image.c.s:
+	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f demos/CMakeFiles/mutable_image.dir/build.make demos/CMakeFiles/mutable_image.dir/mutable_image.c.s
+.PHONY : mutable_image.c.s
 
 # Help Target
 help:
@@ -536,47 +242,20 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... demovg"
 	@echo "... rebuild_cache"
-	@echo "... demo1"
 	@echo "... assets"
-	@echo "... demo_desktop"
-	@echo "... demotr"
-	@echo "... demoui"
-	@echo "... demo_animator"
-	@echo "... preview_ui"
-	@echo "... demo_thread"
+	@echo "... demo_animator_app"
 	@echo "... edit_cache"
+	@echo "... mutable_image"
 	@echo "... assets.o"
 	@echo "... assets.i"
 	@echo "... assets.s"
-	@echo "... demo1_app.o"
-	@echo "... demo1_app.i"
-	@echo "... demo1_app.s"
 	@echo "... demo_animator_app.o"
 	@echo "... demo_animator_app.i"
 	@echo "... demo_animator_app.s"
-	@echo "... demo_desktop.o"
-	@echo "... demo_desktop.i"
-	@echo "... demo_desktop.s"
-	@echo "... demo_main.o"
-	@echo "... demo_main.i"
-	@echo "... demo_main.s"
-	@echo "... demo_thread_app.o"
-	@echo "... demo_thread_app.i"
-	@echo "... demo_thread_app.s"
-	@echo "... demo_tr_app.o"
-	@echo "... demo_tr_app.i"
-	@echo "... demo_tr_app.s"
-	@echo "... demo_ui_app.o"
-	@echo "... demo_ui_app.i"
-	@echo "... demo_ui_app.s"
-	@echo "... demo_vg_app.o"
-	@echo "... demo_vg_app.i"
-	@echo "... demo_vg_app.s"
-	@echo "... preview_ui.o"
-	@echo "... preview_ui.i"
-	@echo "... preview_ui.s"
+	@echo "... mutable_image.o"
+	@echo "... mutable_image.i"
+	@echo "... mutable_image.s"
 .PHONY : help
 
 

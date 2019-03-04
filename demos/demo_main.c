@@ -62,6 +62,7 @@ int main(void) {
 #endif /*WIN32*/
 
   tk_init(320, 480, APP_SIMULATOR, NULL, res_root);
+  //tk_set_lcd_orientation(LCD_ORIENTATION_90);
 #endif
 
 //#define WITH_LCD_PORTRAIT 1

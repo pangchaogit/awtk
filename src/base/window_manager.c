@@ -737,6 +737,7 @@ ret_t window_manager_dispatch_input_event(widget_t* widget, event_t* e) {
 }
 
 ret_t window_manager_set_show_fps(widget_t* widget, bool_t show_fps) {
+  printf("************run************\n");
   window_manager_t* wm = WINDOW_MANAGER(widget);
   return_value_if_fail(wm != NULL, RET_BAD_PARAMS);
 

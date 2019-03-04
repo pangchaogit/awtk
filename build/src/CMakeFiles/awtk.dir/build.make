@@ -1292,9 +1292,22 @@ src/CMakeFiles/awtk.dir/ext_widgets/keyboard/keyboard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/awtk.dir/ext_widgets/keyboard/keyboard.c.s"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/keyboard/keyboard.c -o CMakeFiles/awtk.dir/ext_widgets/keyboard/keyboard.c.s
 
+src/CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.o: src/CMakeFiles/awtk.dir/flags.make
+src/CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.o: ../src/ext_widgets/mutable_image/mutable_image.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.o"
+	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/mutable_image/mutable_image.c
+
+src/CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.i"
+	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/mutable_image/mutable_image.c > CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.i
+
+src/CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.s"
+	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/mutable_image/mutable_image.c -o CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.s
+
 src/CMakeFiles/awtk.dir/ext_widgets/progress_circle/progress_circle.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ext_widgets/progress_circle/progress_circle.c.o: ../src/ext_widgets/progress_circle/progress_circle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/progress_circle/progress_circle.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/progress_circle/progress_circle.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/progress_circle/progress_circle.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/progress_circle/progress_circle.c
 
 src/CMakeFiles/awtk.dir/ext_widgets/progress_circle/progress_circle.c.i: cmake_force
@@ -1307,7 +1320,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/progress_circle/progress_circle.c.s: cmake_f
 
 src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text.c.o: ../src/ext_widgets/rich_text/rich_text.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/rich_text/rich_text.c
 
 src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text.c.i: cmake_force
@@ -1320,7 +1333,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_node.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_node.c.o: ../src/ext_widgets/rich_text/rich_text_node.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_node.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_node.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_node.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/rich_text/rich_text_node.c
 
 src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_node.c.i: cmake_force
@@ -1333,7 +1346,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_node.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_parser.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_parser.c.o: ../src/ext_widgets/rich_text/rich_text_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_parser.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_parser.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/rich_text/rich_text_parser.c
 
 src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_parser.c.i: cmake_force
@@ -1346,7 +1359,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_parser.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_render_node.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_render_node.c.o: ../src/ext_widgets/rich_text/rich_text_render_node.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_render_node.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_render_node.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_render_node.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/rich_text/rich_text_render_node.c
 
 src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_render_node.c.i: cmake_force
@@ -1359,7 +1372,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_render_node.c.s: cmake_f
 
 src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_item.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_item.c.o: ../src/ext_widgets/scroll_view/list_item.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_item.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_item.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_item.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/scroll_view/list_item.c
 
 src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_item.c.i: cmake_force
@@ -1372,7 +1385,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_item.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_view.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_view.c.o: ../src/ext_widgets/scroll_view/list_view.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_view.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_view.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_view.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/scroll_view/list_view.c
 
 src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_view.c.i: cmake_force
@@ -1385,7 +1398,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_view.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_view_h.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_view_h.c.o: ../src/ext_widgets/scroll_view/list_view_h.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_view_h.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_view_h.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_view_h.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/scroll_view/list_view_h.c
 
 src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_view_h.c.i: cmake_force
@@ -1398,7 +1411,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/list_view_h.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/scroll_bar.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/scroll_bar.c.o: ../src/ext_widgets/scroll_view/scroll_bar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/scroll_bar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/scroll_bar.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/scroll_view/scroll_bar.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/scroll_view/scroll_bar.c
 
 src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/scroll_bar.c.i: cmake_force
@@ -1411,7 +1424,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/scroll_bar.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/scroll_view.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/scroll_view.c.o: ../src/ext_widgets/scroll_view/scroll_view.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/scroll_view.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/scroll_view.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/scroll_view/scroll_view.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/scroll_view/scroll_view.c
 
 src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/scroll_view.c.i: cmake_force
@@ -1424,7 +1437,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/scroll_view/scroll_view.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ext_widgets/slide_menu/slide_menu.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ext_widgets/slide_menu/slide_menu.c.o: ../src/ext_widgets/slide_menu/slide_menu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/slide_menu/slide_menu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/slide_menu/slide_menu.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/slide_menu/slide_menu.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/slide_menu/slide_menu.c
 
 src/CMakeFiles/awtk.dir/ext_widgets/slide_menu/slide_menu.c.i: cmake_force
@@ -1437,7 +1450,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/slide_menu/slide_menu.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ext_widgets/slide_view/slide_view.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ext_widgets/slide_view/slide_view.c.o: ../src/ext_widgets/slide_view/slide_view.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/slide_view/slide_view.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/slide_view/slide_view.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/slide_view/slide_view.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/slide_view/slide_view.c
 
 src/CMakeFiles/awtk.dir/ext_widgets/slide_view/slide_view.c.i: cmake_force
@@ -1450,7 +1463,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/slide_view/slide_view.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ext_widgets/svg_image/svg_image.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ext_widgets/svg_image/svg_image.c.o: ../src/ext_widgets/svg_image/svg_image.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/svg_image/svg_image.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/svg_image/svg_image.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/svg_image/svg_image.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/svg_image/svg_image.c
 
 src/CMakeFiles/awtk.dir/ext_widgets/svg_image/svg_image.c.i: cmake_force
@@ -1463,7 +1476,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/svg_image/svg_image.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ext_widgets/switch/switch.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ext_widgets/switch/switch.c.o: ../src/ext_widgets/switch/switch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/switch/switch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/switch/switch.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/switch/switch.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/switch/switch.c
 
 src/CMakeFiles/awtk.dir/ext_widgets/switch/switch.c.i: cmake_force
@@ -1476,7 +1489,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/switch/switch.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ext_widgets/text_selector/text_selector.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ext_widgets/text_selector/text_selector.c.o: ../src/ext_widgets/text_selector/text_selector.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/text_selector/text_selector.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/text_selector/text_selector.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/text_selector/text_selector.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/text_selector/text_selector.c
 
 src/CMakeFiles/awtk.dir/ext_widgets/text_selector/text_selector.c.i: cmake_force
@@ -1489,7 +1502,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/text_selector/text_selector.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ext_widgets/time_clock/digit_clock.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ext_widgets/time_clock/digit_clock.c.o: ../src/ext_widgets/time_clock/digit_clock.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/time_clock/digit_clock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/time_clock/digit_clock.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/time_clock/digit_clock.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/time_clock/digit_clock.c
 
 src/CMakeFiles/awtk.dir/ext_widgets/time_clock/digit_clock.c.i: cmake_force
@@ -1502,7 +1515,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/time_clock/digit_clock.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ext_widgets/time_clock/time_clock.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ext_widgets/time_clock/time_clock.c.o: ../src/ext_widgets/time_clock/time_clock.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/time_clock/time_clock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object src/CMakeFiles/awtk.dir/ext_widgets/time_clock/time_clock.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ext_widgets/time_clock/time_clock.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/time_clock/time_clock.c
 
 src/CMakeFiles/awtk.dir/ext_widgets/time_clock/time_clock.c.i: cmake_force
@@ -1515,7 +1528,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/time_clock/time_clock.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/font_loader/font_loader_bitmap.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/font_loader/font_loader_bitmap.c.o: ../src/font_loader/font_loader_bitmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object src/CMakeFiles/awtk.dir/font_loader/font_loader_bitmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object src/CMakeFiles/awtk.dir/font_loader/font_loader_bitmap.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/font_loader/font_loader_bitmap.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/font_loader/font_loader_bitmap.c
 
 src/CMakeFiles/awtk.dir/font_loader/font_loader_bitmap.c.i: cmake_force
@@ -1528,7 +1541,7 @@ src/CMakeFiles/awtk.dir/font_loader/font_loader_bitmap.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/font_loader/font_loader_ft.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/font_loader/font_loader_ft.c.o: ../src/font_loader/font_loader_ft.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object src/CMakeFiles/awtk.dir/font_loader/font_loader_ft.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object src/CMakeFiles/awtk.dir/font_loader/font_loader_ft.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/font_loader/font_loader_ft.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/font_loader/font_loader_ft.c
 
 src/CMakeFiles/awtk.dir/font_loader/font_loader_ft.c.i: cmake_force
@@ -1541,7 +1554,7 @@ src/CMakeFiles/awtk.dir/font_loader/font_loader_ft.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/font_loader/font_loader_stb.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/font_loader/font_loader_stb.c.o: ../src/font_loader/font_loader_stb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object src/CMakeFiles/awtk.dir/font_loader/font_loader_stb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object src/CMakeFiles/awtk.dir/font_loader/font_loader_stb.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/font_loader/font_loader_stb.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/font_loader/font_loader_stb.c
 
 src/CMakeFiles/awtk.dir/font_loader/font_loader_stb.c.i: cmake_force
@@ -1554,7 +1567,7 @@ src/CMakeFiles/awtk.dir/font_loader/font_loader_stb.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/image_loader/image_loader_stb.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/image_loader/image_loader_stb.c.o: ../src/image_loader/image_loader_stb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object src/CMakeFiles/awtk.dir/image_loader/image_loader_stb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object src/CMakeFiles/awtk.dir/image_loader/image_loader_stb.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/image_loader/image_loader_stb.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/image_loader/image_loader_stb.c
 
 src/CMakeFiles/awtk.dir/image_loader/image_loader_stb.c.i: cmake_force
@@ -1567,7 +1580,7 @@ src/CMakeFiles/awtk.dir/image_loader/image_loader_stb.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/input_methods/input_method_creator.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/input_methods/input_method_creator.c.o: ../src/input_methods/input_method_creator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object src/CMakeFiles/awtk.dir/input_methods/input_method_creator.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object src/CMakeFiles/awtk.dir/input_methods/input_method_creator.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/input_methods/input_method_creator.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/input_methods/input_method_creator.c
 
 src/CMakeFiles/awtk.dir/input_methods/input_method_creator.c.i: cmake_force
@@ -1580,7 +1593,7 @@ src/CMakeFiles/awtk.dir/input_methods/input_method_creator.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/layouters/children_layouter_default.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/layouters/children_layouter_default.c.o: ../src/layouters/children_layouter_default.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object src/CMakeFiles/awtk.dir/layouters/children_layouter_default.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object src/CMakeFiles/awtk.dir/layouters/children_layouter_default.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/layouters/children_layouter_default.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/layouters/children_layouter_default.c
 
 src/CMakeFiles/awtk.dir/layouters/children_layouter_default.c.i: cmake_force
@@ -1593,7 +1606,7 @@ src/CMakeFiles/awtk.dir/layouters/children_layouter_default.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/layouters/children_layouter_factory.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/layouters/children_layouter_factory.c.o: ../src/layouters/children_layouter_factory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object src/CMakeFiles/awtk.dir/layouters/children_layouter_factory.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object src/CMakeFiles/awtk.dir/layouters/children_layouter_factory.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/layouters/children_layouter_factory.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/layouters/children_layouter_factory.c
 
 src/CMakeFiles/awtk.dir/layouters/children_layouter_factory.c.i: cmake_force
@@ -1606,7 +1619,7 @@ src/CMakeFiles/awtk.dir/layouters/children_layouter_factory.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/layouters/self_layouter_default.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/layouters/self_layouter_default.c.o: ../src/layouters/self_layouter_default.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object src/CMakeFiles/awtk.dir/layouters/self_layouter_default.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object src/CMakeFiles/awtk.dir/layouters/self_layouter_default.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/layouters/self_layouter_default.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/layouters/self_layouter_default.c
 
 src/CMakeFiles/awtk.dir/layouters/self_layouter_default.c.i: cmake_force
@@ -1619,7 +1632,7 @@ src/CMakeFiles/awtk.dir/layouters/self_layouter_default.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/layouters/self_layouter_factory.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/layouters/self_layouter_factory.c.o: ../src/layouters/self_layouter_factory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object src/CMakeFiles/awtk.dir/layouters/self_layouter_factory.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object src/CMakeFiles/awtk.dir/layouters/self_layouter_factory.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/layouters/self_layouter_factory.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/layouters/self_layouter_factory.c
 
 src/CMakeFiles/awtk.dir/layouters/self_layouter_factory.c.i: cmake_force
@@ -1632,7 +1645,7 @@ src/CMakeFiles/awtk.dir/layouters/self_layouter_factory.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgr565.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgr565.c.o: ../src/lcd/lcd_mem_bgr565.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgr565.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgr565.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/lcd/lcd_mem_bgr565.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/lcd/lcd_mem_bgr565.c
 
 src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgr565.c.i: cmake_force
@@ -1645,7 +1658,7 @@ src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgr565.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgr888.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgr888.c.o: ../src/lcd/lcd_mem_bgr888.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgr888.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgr888.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/lcd/lcd_mem_bgr888.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/lcd/lcd_mem_bgr888.c
 
 src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgr888.c.i: cmake_force
@@ -1658,7 +1671,7 @@ src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgr888.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgra8888.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgra8888.c.o: ../src/lcd/lcd_mem_bgra8888.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgra8888.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgra8888.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/lcd/lcd_mem_bgra8888.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/lcd/lcd_mem_bgra8888.c
 
 src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgra8888.c.i: cmake_force
@@ -1671,7 +1684,7 @@ src/CMakeFiles/awtk.dir/lcd/lcd_mem_bgra8888.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/lcd/lcd_mem_rgb565.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/lcd/lcd_mem_rgb565.c.o: ../src/lcd/lcd_mem_rgb565.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object src/CMakeFiles/awtk.dir/lcd/lcd_mem_rgb565.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object src/CMakeFiles/awtk.dir/lcd/lcd_mem_rgb565.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/lcd/lcd_mem_rgb565.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/lcd/lcd_mem_rgb565.c
 
 src/CMakeFiles/awtk.dir/lcd/lcd_mem_rgb565.c.i: cmake_force
@@ -1684,7 +1697,7 @@ src/CMakeFiles/awtk.dir/lcd/lcd_mem_rgb565.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/lcd/lcd_mem_rgba8888.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/lcd/lcd_mem_rgba8888.c.o: ../src/lcd/lcd_mem_rgba8888.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object src/CMakeFiles/awtk.dir/lcd/lcd_mem_rgba8888.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object src/CMakeFiles/awtk.dir/lcd/lcd_mem_rgba8888.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/lcd/lcd_mem_rgba8888.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/lcd/lcd_mem_rgba8888.c
 
 src/CMakeFiles/awtk.dir/lcd/lcd_mem_rgba8888.c.i: cmake_force
@@ -1697,7 +1710,7 @@ src/CMakeFiles/awtk.dir/lcd/lcd_mem_rgba8888.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/main_loop/main_loop_simple.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/main_loop/main_loop_simple.c.o: ../src/main_loop/main_loop_simple.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object src/CMakeFiles/awtk.dir/main_loop/main_loop_simple.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object src/CMakeFiles/awtk.dir/main_loop/main_loop_simple.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/main_loop/main_loop_simple.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/main_loop/main_loop_simple.c
 
 src/CMakeFiles/awtk.dir/main_loop/main_loop_simple.c.i: cmake_force
@@ -1710,7 +1723,7 @@ src/CMakeFiles/awtk.dir/main_loop/main_loop_simple.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/misc/new.cpp.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/misc/new.cpp.o: ../src/misc/new.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object src/CMakeFiles/awtk.dir/misc/new.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object src/CMakeFiles/awtk.dir/misc/new.cpp.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/awtk.dir/misc/new.cpp.o -c /home/pc/work/awtk/pc_awtk/awtk/src/misc/new.cpp
 
 src/CMakeFiles/awtk.dir/misc/new.cpp.i: cmake_force
@@ -1723,7 +1736,7 @@ src/CMakeFiles/awtk.dir/misc/new.cpp.s: cmake_force
 
 src/CMakeFiles/awtk.dir/misc/test_cpp.cpp.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/misc/test_cpp.cpp.o: ../src/misc/test_cpp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object src/CMakeFiles/awtk.dir/misc/test_cpp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object src/CMakeFiles/awtk.dir/misc/test_cpp.cpp.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/awtk.dir/misc/test_cpp.cpp.o -c /home/pc/work/awtk/pc_awtk/awtk/src/misc/test_cpp.cpp
 
 src/CMakeFiles/awtk.dir/misc/test_cpp.cpp.i: cmake_force
@@ -1736,7 +1749,7 @@ src/CMakeFiles/awtk.dir/misc/test_cpp.cpp.s: cmake_force
 
 src/CMakeFiles/awtk.dir/platforms/pc/fs_os.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/platforms/pc/fs_os.c.o: ../src/platforms/pc/fs_os.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object src/CMakeFiles/awtk.dir/platforms/pc/fs_os.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object src/CMakeFiles/awtk.dir/platforms/pc/fs_os.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/platforms/pc/fs_os.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/platforms/pc/fs_os.c
 
 src/CMakeFiles/awtk.dir/platforms/pc/fs_os.c.i: cmake_force
@@ -1749,7 +1762,7 @@ src/CMakeFiles/awtk.dir/platforms/pc/fs_os.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/platforms/pc/mutex.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/platforms/pc/mutex.c.o: ../src/platforms/pc/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object src/CMakeFiles/awtk.dir/platforms/pc/mutex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object src/CMakeFiles/awtk.dir/platforms/pc/mutex.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/platforms/pc/mutex.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/platforms/pc/mutex.c
 
 src/CMakeFiles/awtk.dir/platforms/pc/mutex.c.i: cmake_force
@@ -1762,7 +1775,7 @@ src/CMakeFiles/awtk.dir/platforms/pc/mutex.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/platforms/pc/platform.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/platforms/pc/platform.c.o: ../src/platforms/pc/platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object src/CMakeFiles/awtk.dir/platforms/pc/platform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object src/CMakeFiles/awtk.dir/platforms/pc/platform.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/platforms/pc/platform.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/platforms/pc/platform.c
 
 src/CMakeFiles/awtk.dir/platforms/pc/platform.c.i: cmake_force
@@ -1775,7 +1788,7 @@ src/CMakeFiles/awtk.dir/platforms/pc/platform.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/platforms/pc/thread.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/platforms/pc/thread.c.o: ../src/platforms/pc/thread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object src/CMakeFiles/awtk.dir/platforms/pc/thread.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object src/CMakeFiles/awtk.dir/platforms/pc/thread.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/platforms/pc/thread.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/platforms/pc/thread.c
 
 src/CMakeFiles/awtk.dir/platforms/pc/thread.c.i: cmake_force
@@ -1788,7 +1801,7 @@ src/CMakeFiles/awtk.dir/platforms/pc/thread.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/svg/bsvg.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/svg/bsvg.c.o: ../src/svg/bsvg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object src/CMakeFiles/awtk.dir/svg/bsvg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object src/CMakeFiles/awtk.dir/svg/bsvg.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/svg/bsvg.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/svg/bsvg.c
 
 src/CMakeFiles/awtk.dir/svg/bsvg.c.i: cmake_force
@@ -1801,7 +1814,7 @@ src/CMakeFiles/awtk.dir/svg/bsvg.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/svg/bsvg_builder.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/svg/bsvg_builder.c.o: ../src/svg/bsvg_builder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object src/CMakeFiles/awtk.dir/svg/bsvg_builder.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object src/CMakeFiles/awtk.dir/svg/bsvg_builder.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/svg/bsvg_builder.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/svg/bsvg_builder.c
 
 src/CMakeFiles/awtk.dir/svg/bsvg_builder.c.i: cmake_force
@@ -1814,7 +1827,7 @@ src/CMakeFiles/awtk.dir/svg/bsvg_builder.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/svg/bsvg_draw.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/svg/bsvg_draw.c.o: ../src/svg/bsvg_draw.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object src/CMakeFiles/awtk.dir/svg/bsvg_draw.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object src/CMakeFiles/awtk.dir/svg/bsvg_draw.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/svg/bsvg_draw.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/svg/bsvg_draw.c
 
 src/CMakeFiles/awtk.dir/svg/bsvg_draw.c.i: cmake_force
@@ -1827,7 +1840,7 @@ src/CMakeFiles/awtk.dir/svg/bsvg_draw.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/svg/bsvg_to_svg.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/svg/bsvg_to_svg.c.o: ../src/svg/bsvg_to_svg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object src/CMakeFiles/awtk.dir/svg/bsvg_to_svg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object src/CMakeFiles/awtk.dir/svg/bsvg_to_svg.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/svg/bsvg_to_svg.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/svg/bsvg_to_svg.c
 
 src/CMakeFiles/awtk.dir/svg/bsvg_to_svg.c.i: cmake_force
@@ -1840,7 +1853,7 @@ src/CMakeFiles/awtk.dir/svg/bsvg_to_svg.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/svg/svg_path.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/svg/svg_path.c.o: ../src/svg/svg_path.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object src/CMakeFiles/awtk.dir/svg/svg_path.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object src/CMakeFiles/awtk.dir/svg/svg_path.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/svg/svg_path.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/svg/svg_path.c
 
 src/CMakeFiles/awtk.dir/svg/svg_path.c.i: cmake_force
@@ -1853,7 +1866,7 @@ src/CMakeFiles/awtk.dir/svg/svg_path.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/svg/svg_path_parser.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/svg/svg_path_parser.c.o: ../src/svg/svg_path_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object src/CMakeFiles/awtk.dir/svg/svg_path_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object src/CMakeFiles/awtk.dir/svg/svg_path_parser.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/svg/svg_path_parser.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/svg/svg_path_parser.c
 
 src/CMakeFiles/awtk.dir/svg/svg_path_parser.c.i: cmake_force
@@ -1866,7 +1879,7 @@ src/CMakeFiles/awtk.dir/svg/svg_path_parser.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/svg/svg_shape.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/svg/svg_shape.c.o: ../src/svg/svg_shape.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object src/CMakeFiles/awtk.dir/svg/svg_shape.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object src/CMakeFiles/awtk.dir/svg/svg_shape.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/svg/svg_shape.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/svg/svg_shape.c
 
 src/CMakeFiles/awtk.dir/svg/svg_shape.c.i: cmake_force
@@ -1879,7 +1892,7 @@ src/CMakeFiles/awtk.dir/svg/svg_shape.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/svg/svg_to_bsvg.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/svg/svg_to_bsvg.c.o: ../src/svg/svg_to_bsvg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object src/CMakeFiles/awtk.dir/svg/svg_to_bsvg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object src/CMakeFiles/awtk.dir/svg/svg_to_bsvg.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/svg/svg_to_bsvg.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/svg/svg_to_bsvg.c
 
 src/CMakeFiles/awtk.dir/svg/svg_to_bsvg.c.i: cmake_force
@@ -1892,7 +1905,7 @@ src/CMakeFiles/awtk.dir/svg/svg_to_bsvg.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/buffer.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/buffer.c.o: ../src/tkc/buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object src/CMakeFiles/awtk.dir/tkc/buffer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object src/CMakeFiles/awtk.dir/tkc/buffer.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/buffer.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/buffer.c
 
 src/CMakeFiles/awtk.dir/tkc/buffer.c.i: cmake_force
@@ -1905,7 +1918,7 @@ src/CMakeFiles/awtk.dir/tkc/buffer.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/color.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/color.c.o: ../src/tkc/color.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object src/CMakeFiles/awtk.dir/tkc/color.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object src/CMakeFiles/awtk.dir/tkc/color.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/color.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/color.c
 
 src/CMakeFiles/awtk.dir/tkc/color.c.i: cmake_force
@@ -1918,7 +1931,7 @@ src/CMakeFiles/awtk.dir/tkc/color.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/color_parser.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/color_parser.c.o: ../src/tkc/color_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object src/CMakeFiles/awtk.dir/tkc/color_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object src/CMakeFiles/awtk.dir/tkc/color_parser.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/color_parser.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/color_parser.c
 
 src/CMakeFiles/awtk.dir/tkc/color_parser.c.i: cmake_force
@@ -1931,7 +1944,7 @@ src/CMakeFiles/awtk.dir/tkc/color_parser.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/darray.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/darray.c.o: ../src/tkc/darray.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object src/CMakeFiles/awtk.dir/tkc/darray.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object src/CMakeFiles/awtk.dir/tkc/darray.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/darray.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/darray.c
 
 src/CMakeFiles/awtk.dir/tkc/darray.c.i: cmake_force
@@ -1944,7 +1957,7 @@ src/CMakeFiles/awtk.dir/tkc/darray.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/date_time.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/date_time.c.o: ../src/tkc/date_time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object src/CMakeFiles/awtk.dir/tkc/date_time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object src/CMakeFiles/awtk.dir/tkc/date_time.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/date_time.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/date_time.c
 
 src/CMakeFiles/awtk.dir/tkc/date_time.c.i: cmake_force
@@ -1957,7 +1970,7 @@ src/CMakeFiles/awtk.dir/tkc/date_time.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/easing.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/easing.c.o: ../src/tkc/easing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object src/CMakeFiles/awtk.dir/tkc/easing.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object src/CMakeFiles/awtk.dir/tkc/easing.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/easing.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/easing.c
 
 src/CMakeFiles/awtk.dir/tkc/easing.c.i: cmake_force
@@ -1970,7 +1983,7 @@ src/CMakeFiles/awtk.dir/tkc/easing.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/emitter.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/emitter.c.o: ../src/tkc/emitter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object src/CMakeFiles/awtk.dir/tkc/emitter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object src/CMakeFiles/awtk.dir/tkc/emitter.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/emitter.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/emitter.c
 
 src/CMakeFiles/awtk.dir/tkc/emitter.c.i: cmake_force
@@ -1983,7 +1996,7 @@ src/CMakeFiles/awtk.dir/tkc/emitter.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/event.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/event.c.o: ../src/tkc/event.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object src/CMakeFiles/awtk.dir/tkc/event.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object src/CMakeFiles/awtk.dir/tkc/event.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/event.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/event.c
 
 src/CMakeFiles/awtk.dir/tkc/event.c.i: cmake_force
@@ -1996,7 +2009,7 @@ src/CMakeFiles/awtk.dir/tkc/event.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/expr_eval.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/expr_eval.c.o: ../src/tkc/expr_eval.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object src/CMakeFiles/awtk.dir/tkc/expr_eval.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object src/CMakeFiles/awtk.dir/tkc/expr_eval.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/expr_eval.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/expr_eval.c
 
 src/CMakeFiles/awtk.dir/tkc/expr_eval.c.i: cmake_force
@@ -2009,7 +2022,7 @@ src/CMakeFiles/awtk.dir/tkc/expr_eval.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/fs.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/fs.c.o: ../src/tkc/fs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object src/CMakeFiles/awtk.dir/tkc/fs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object src/CMakeFiles/awtk.dir/tkc/fs.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/fs.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/fs.c
 
 src/CMakeFiles/awtk.dir/tkc/fs.c.i: cmake_force
@@ -2022,7 +2035,7 @@ src/CMakeFiles/awtk.dir/tkc/fs.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/func_call_parser.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/func_call_parser.c.o: ../src/tkc/func_call_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object src/CMakeFiles/awtk.dir/tkc/func_call_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object src/CMakeFiles/awtk.dir/tkc/func_call_parser.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/func_call_parser.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/func_call_parser.c
 
 src/CMakeFiles/awtk.dir/tkc/func_call_parser.c.i: cmake_force
@@ -2035,7 +2048,7 @@ src/CMakeFiles/awtk.dir/tkc/func_call_parser.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/int_str.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/int_str.c.o: ../src/tkc/int_str.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object src/CMakeFiles/awtk.dir/tkc/int_str.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object src/CMakeFiles/awtk.dir/tkc/int_str.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/int_str.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/int_str.c
 
 src/CMakeFiles/awtk.dir/tkc/int_str.c.i: cmake_force
@@ -2048,7 +2061,7 @@ src/CMakeFiles/awtk.dir/tkc/int_str.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/matrix.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/matrix.c.o: ../src/tkc/matrix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object src/CMakeFiles/awtk.dir/tkc/matrix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object src/CMakeFiles/awtk.dir/tkc/matrix.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/matrix.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/matrix.c
 
 src/CMakeFiles/awtk.dir/tkc/matrix.c.i: cmake_force
@@ -2061,7 +2074,7 @@ src/CMakeFiles/awtk.dir/tkc/matrix.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/mem.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/mem.c.o: ../src/tkc/mem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object src/CMakeFiles/awtk.dir/tkc/mem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object src/CMakeFiles/awtk.dir/tkc/mem.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/mem.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/mem.c
 
 src/CMakeFiles/awtk.dir/tkc/mem.c.i: cmake_force
@@ -2074,7 +2087,7 @@ src/CMakeFiles/awtk.dir/tkc/mem.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/named_value.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/named_value.c.o: ../src/tkc/named_value.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object src/CMakeFiles/awtk.dir/tkc/named_value.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object src/CMakeFiles/awtk.dir/tkc/named_value.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/named_value.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/named_value.c
 
 src/CMakeFiles/awtk.dir/tkc/named_value.c.i: cmake_force
@@ -2087,7 +2100,7 @@ src/CMakeFiles/awtk.dir/tkc/named_value.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/object.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/object.c.o: ../src/tkc/object.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object src/CMakeFiles/awtk.dir/tkc/object.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object src/CMakeFiles/awtk.dir/tkc/object.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/object.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/object.c
 
 src/CMakeFiles/awtk.dir/tkc/object.c.i: cmake_force
@@ -2100,7 +2113,7 @@ src/CMakeFiles/awtk.dir/tkc/object.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/object_default.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/object_default.c.o: ../src/tkc/object_default.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object src/CMakeFiles/awtk.dir/tkc/object_default.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object src/CMakeFiles/awtk.dir/tkc/object_default.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/object_default.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/object_default.c
 
 src/CMakeFiles/awtk.dir/tkc/object_default.c.i: cmake_force
@@ -2113,7 +2126,7 @@ src/CMakeFiles/awtk.dir/tkc/object_default.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/path.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/path.c.o: ../src/tkc/path.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object src/CMakeFiles/awtk.dir/tkc/path.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object src/CMakeFiles/awtk.dir/tkc/path.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/path.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/path.c
 
 src/CMakeFiles/awtk.dir/tkc/path.c.i: cmake_force
@@ -2126,7 +2139,7 @@ src/CMakeFiles/awtk.dir/tkc/path.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/rect.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/rect.c.o: ../src/tkc/rect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object src/CMakeFiles/awtk.dir/tkc/rect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object src/CMakeFiles/awtk.dir/tkc/rect.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/rect.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/rect.c
 
 src/CMakeFiles/awtk.dir/tkc/rect.c.i: cmake_force
@@ -2139,7 +2152,7 @@ src/CMakeFiles/awtk.dir/tkc/rect.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/slist.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/slist.c.o: ../src/tkc/slist.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object src/CMakeFiles/awtk.dir/tkc/slist.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object src/CMakeFiles/awtk.dir/tkc/slist.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/slist.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/slist.c
 
 src/CMakeFiles/awtk.dir/tkc/slist.c.i: cmake_force
@@ -2152,7 +2165,7 @@ src/CMakeFiles/awtk.dir/tkc/slist.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/str.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/str.c.o: ../src/tkc/str.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object src/CMakeFiles/awtk.dir/tkc/str.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object src/CMakeFiles/awtk.dir/tkc/str.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/str.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/str.c
 
 src/CMakeFiles/awtk.dir/tkc/str.c.i: cmake_force
@@ -2165,7 +2178,7 @@ src/CMakeFiles/awtk.dir/tkc/str.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/str_str.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/str_str.c.o: ../src/tkc/str_str.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object src/CMakeFiles/awtk.dir/tkc/str_str.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object src/CMakeFiles/awtk.dir/tkc/str_str.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/str_str.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/str_str.c
 
 src/CMakeFiles/awtk.dir/tkc/str_str.c.i: cmake_force
@@ -2178,7 +2191,7 @@ src/CMakeFiles/awtk.dir/tkc/str_str.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/time_now.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/time_now.c.o: ../src/tkc/time_now.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object src/CMakeFiles/awtk.dir/tkc/time_now.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object src/CMakeFiles/awtk.dir/tkc/time_now.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/time_now.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/time_now.c
 
 src/CMakeFiles/awtk.dir/tkc/time_now.c.i: cmake_force
@@ -2191,7 +2204,7 @@ src/CMakeFiles/awtk.dir/tkc/time_now.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/tokenizer.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/tokenizer.c.o: ../src/tkc/tokenizer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object src/CMakeFiles/awtk.dir/tkc/tokenizer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object src/CMakeFiles/awtk.dir/tkc/tokenizer.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/tokenizer.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/tokenizer.c
 
 src/CMakeFiles/awtk.dir/tkc/tokenizer.c.i: cmake_force
@@ -2204,7 +2217,7 @@ src/CMakeFiles/awtk.dir/tkc/tokenizer.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/utf8.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/utf8.c.o: ../src/tkc/utf8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object src/CMakeFiles/awtk.dir/tkc/utf8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object src/CMakeFiles/awtk.dir/tkc/utf8.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/utf8.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/utf8.c
 
 src/CMakeFiles/awtk.dir/tkc/utf8.c.i: cmake_force
@@ -2217,7 +2230,7 @@ src/CMakeFiles/awtk.dir/tkc/utf8.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/utils.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/utils.c.o: ../src/tkc/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object src/CMakeFiles/awtk.dir/tkc/utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object src/CMakeFiles/awtk.dir/tkc/utils.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/utils.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/utils.c
 
 src/CMakeFiles/awtk.dir/tkc/utils.c.i: cmake_force
@@ -2230,7 +2243,7 @@ src/CMakeFiles/awtk.dir/tkc/utils.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/value.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/value.c.o: ../src/tkc/value.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object src/CMakeFiles/awtk.dir/tkc/value.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object src/CMakeFiles/awtk.dir/tkc/value.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/value.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/value.c
 
 src/CMakeFiles/awtk.dir/tkc/value.c.i: cmake_force
@@ -2243,7 +2256,7 @@ src/CMakeFiles/awtk.dir/tkc/value.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/tkc/wstr.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/tkc/wstr.c.o: ../src/tkc/wstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object src/CMakeFiles/awtk.dir/tkc/wstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object src/CMakeFiles/awtk.dir/tkc/wstr.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/tkc/wstr.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/tkc/wstr.c
 
 src/CMakeFiles/awtk.dir/tkc/wstr.c.i: cmake_force
@@ -2256,7 +2269,7 @@ src/CMakeFiles/awtk.dir/tkc/wstr.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ui_loader/ui_binary_writer.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ui_loader/ui_binary_writer.c.o: ../src/ui_loader/ui_binary_writer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object src/CMakeFiles/awtk.dir/ui_loader/ui_binary_writer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object src/CMakeFiles/awtk.dir/ui_loader/ui_binary_writer.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ui_loader/ui_binary_writer.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ui_loader/ui_binary_writer.c
 
 src/CMakeFiles/awtk.dir/ui_loader/ui_binary_writer.c.i: cmake_force
@@ -2269,7 +2282,7 @@ src/CMakeFiles/awtk.dir/ui_loader/ui_binary_writer.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ui_loader/ui_builder_default.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ui_loader/ui_builder_default.c.o: ../src/ui_loader/ui_builder_default.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object src/CMakeFiles/awtk.dir/ui_loader/ui_builder_default.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object src/CMakeFiles/awtk.dir/ui_loader/ui_builder_default.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ui_loader/ui_builder_default.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ui_loader/ui_builder_default.c
 
 src/CMakeFiles/awtk.dir/ui_loader/ui_builder_default.c.i: cmake_force
@@ -2282,7 +2295,7 @@ src/CMakeFiles/awtk.dir/ui_loader/ui_builder_default.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ui_loader/ui_loader_default.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ui_loader/ui_loader_default.c.o: ../src/ui_loader/ui_loader_default.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object src/CMakeFiles/awtk.dir/ui_loader/ui_loader_default.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object src/CMakeFiles/awtk.dir/ui_loader/ui_loader_default.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ui_loader/ui_loader_default.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ui_loader/ui_loader_default.c
 
 src/CMakeFiles/awtk.dir/ui_loader/ui_loader_default.c.i: cmake_force
@@ -2295,7 +2308,7 @@ src/CMakeFiles/awtk.dir/ui_loader/ui_loader_default.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ui_loader/ui_loader_xml.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ui_loader/ui_loader_xml.c.o: ../src/ui_loader/ui_loader_xml.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object src/CMakeFiles/awtk.dir/ui_loader/ui_loader_xml.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object src/CMakeFiles/awtk.dir/ui_loader/ui_loader_xml.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ui_loader/ui_loader_xml.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ui_loader/ui_loader_xml.c
 
 src/CMakeFiles/awtk.dir/ui_loader/ui_loader_xml.c.i: cmake_force
@@ -2308,7 +2321,7 @@ src/CMakeFiles/awtk.dir/ui_loader/ui_loader_xml.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ui_loader/ui_serializer.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ui_loader/ui_serializer.c.o: ../src/ui_loader/ui_serializer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object src/CMakeFiles/awtk.dir/ui_loader/ui_serializer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object src/CMakeFiles/awtk.dir/ui_loader/ui_serializer.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ui_loader/ui_serializer.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ui_loader/ui_serializer.c
 
 src/CMakeFiles/awtk.dir/ui_loader/ui_serializer.c.i: cmake_force
@@ -2321,7 +2334,7 @@ src/CMakeFiles/awtk.dir/ui_loader/ui_serializer.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ui_loader/ui_xml_writer.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ui_loader/ui_xml_writer.c.o: ../src/ui_loader/ui_xml_writer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object src/CMakeFiles/awtk.dir/ui_loader/ui_xml_writer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object src/CMakeFiles/awtk.dir/ui_loader/ui_xml_writer.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ui_loader/ui_xml_writer.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ui_loader/ui_xml_writer.c
 
 src/CMakeFiles/awtk.dir/ui_loader/ui_xml_writer.c.i: cmake_force
@@ -2334,7 +2347,7 @@ src/CMakeFiles/awtk.dir/ui_loader/ui_xml_writer.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/ui_loader/window_open.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/ui_loader/window_open.c.o: ../src/ui_loader/window_open.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object src/CMakeFiles/awtk.dir/ui_loader/window_open.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object src/CMakeFiles/awtk.dir/ui_loader/window_open.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/ui_loader/window_open.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/ui_loader/window_open.c
 
 src/CMakeFiles/awtk.dir/ui_loader/window_open.c.i: cmake_force
@@ -2347,7 +2360,7 @@ src/CMakeFiles/awtk.dir/ui_loader/window_open.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widget_animators/widget_animator_factory.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widget_animators/widget_animator_factory.c.o: ../src/widget_animators/widget_animator_factory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object src/CMakeFiles/awtk.dir/widget_animators/widget_animator_factory.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object src/CMakeFiles/awtk.dir/widget_animators/widget_animator_factory.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widget_animators/widget_animator_factory.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widget_animators/widget_animator_factory.c
 
 src/CMakeFiles/awtk.dir/widget_animators/widget_animator_factory.c.i: cmake_force
@@ -2360,7 +2373,7 @@ src/CMakeFiles/awtk.dir/widget_animators/widget_animator_factory.c.s: cmake_forc
 
 src/CMakeFiles/awtk.dir/widget_animators/widget_animator_prop.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widget_animators/widget_animator_prop.c.o: ../src/widget_animators/widget_animator_prop.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object src/CMakeFiles/awtk.dir/widget_animators/widget_animator_prop.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object src/CMakeFiles/awtk.dir/widget_animators/widget_animator_prop.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widget_animators/widget_animator_prop.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widget_animators/widget_animator_prop.c
 
 src/CMakeFiles/awtk.dir/widget_animators/widget_animator_prop.c.i: cmake_force
@@ -2373,7 +2386,7 @@ src/CMakeFiles/awtk.dir/widget_animators/widget_animator_prop.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widget_animators/widget_animator_prop2.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widget_animators/widget_animator_prop2.c.o: ../src/widget_animators/widget_animator_prop2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object src/CMakeFiles/awtk.dir/widget_animators/widget_animator_prop2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object src/CMakeFiles/awtk.dir/widget_animators/widget_animator_prop2.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widget_animators/widget_animator_prop2.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widget_animators/widget_animator_prop2.c
 
 src/CMakeFiles/awtk.dir/widget_animators/widget_animator_prop2.c.i: cmake_force
@@ -2386,7 +2399,7 @@ src/CMakeFiles/awtk.dir/widget_animators/widget_animator_prop2.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widget_animators/widget_animator_scroll.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widget_animators/widget_animator_scroll.c.o: ../src/widget_animators/widget_animator_scroll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object src/CMakeFiles/awtk.dir/widget_animators/widget_animator_scroll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object src/CMakeFiles/awtk.dir/widget_animators/widget_animator_scroll.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widget_animators/widget_animator_scroll.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widget_animators/widget_animator_scroll.c
 
 src/CMakeFiles/awtk.dir/widget_animators/widget_animator_scroll.c.i: cmake_force
@@ -2399,7 +2412,7 @@ src/CMakeFiles/awtk.dir/widget_animators/widget_animator_scroll.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/app_bar.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/app_bar.c.o: ../src/widgets/app_bar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object src/CMakeFiles/awtk.dir/widgets/app_bar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object src/CMakeFiles/awtk.dir/widgets/app_bar.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/app_bar.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/app_bar.c
 
 src/CMakeFiles/awtk.dir/widgets/app_bar.c.i: cmake_force
@@ -2412,7 +2425,7 @@ src/CMakeFiles/awtk.dir/widgets/app_bar.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/button.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/button.c.o: ../src/widgets/button.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object src/CMakeFiles/awtk.dir/widgets/button.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object src/CMakeFiles/awtk.dir/widgets/button.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/button.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/button.c
 
 src/CMakeFiles/awtk.dir/widgets/button.c.i: cmake_force
@@ -2425,7 +2438,7 @@ src/CMakeFiles/awtk.dir/widgets/button.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/button_group.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/button_group.c.o: ../src/widgets/button_group.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object src/CMakeFiles/awtk.dir/widgets/button_group.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object src/CMakeFiles/awtk.dir/widgets/button_group.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/button_group.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/button_group.c
 
 src/CMakeFiles/awtk.dir/widgets/button_group.c.i: cmake_force
@@ -2438,7 +2451,7 @@ src/CMakeFiles/awtk.dir/widgets/button_group.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/calibration_win.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/calibration_win.c.o: ../src/widgets/calibration_win.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object src/CMakeFiles/awtk.dir/widgets/calibration_win.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object src/CMakeFiles/awtk.dir/widgets/calibration_win.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/calibration_win.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/calibration_win.c
 
 src/CMakeFiles/awtk.dir/widgets/calibration_win.c.i: cmake_force
@@ -2451,7 +2464,7 @@ src/CMakeFiles/awtk.dir/widgets/calibration_win.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/check_button.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/check_button.c.o: ../src/widgets/check_button.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object src/CMakeFiles/awtk.dir/widgets/check_button.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object src/CMakeFiles/awtk.dir/widgets/check_button.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/check_button.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/check_button.c
 
 src/CMakeFiles/awtk.dir/widgets/check_button.c.i: cmake_force
@@ -2464,7 +2477,7 @@ src/CMakeFiles/awtk.dir/widgets/check_button.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/color_tile.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/color_tile.c.o: ../src/widgets/color_tile.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object src/CMakeFiles/awtk.dir/widgets/color_tile.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object src/CMakeFiles/awtk.dir/widgets/color_tile.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/color_tile.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/color_tile.c
 
 src/CMakeFiles/awtk.dir/widgets/color_tile.c.i: cmake_force
@@ -2477,7 +2490,7 @@ src/CMakeFiles/awtk.dir/widgets/color_tile.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/column.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/column.c.o: ../src/widgets/column.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object src/CMakeFiles/awtk.dir/widgets/column.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object src/CMakeFiles/awtk.dir/widgets/column.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/column.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/column.c
 
 src/CMakeFiles/awtk.dir/widgets/column.c.i: cmake_force
@@ -2490,7 +2503,7 @@ src/CMakeFiles/awtk.dir/widgets/column.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/combo_box.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/combo_box.c.o: ../src/widgets/combo_box.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object src/CMakeFiles/awtk.dir/widgets/combo_box.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object src/CMakeFiles/awtk.dir/widgets/combo_box.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/combo_box.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/combo_box.c
 
 src/CMakeFiles/awtk.dir/widgets/combo_box.c.i: cmake_force
@@ -2503,7 +2516,7 @@ src/CMakeFiles/awtk.dir/widgets/combo_box.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/combo_box_item.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/combo_box_item.c.o: ../src/widgets/combo_box_item.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object src/CMakeFiles/awtk.dir/widgets/combo_box_item.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object src/CMakeFiles/awtk.dir/widgets/combo_box_item.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/combo_box_item.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/combo_box_item.c
 
 src/CMakeFiles/awtk.dir/widgets/combo_box_item.c.i: cmake_force
@@ -2516,7 +2529,7 @@ src/CMakeFiles/awtk.dir/widgets/combo_box_item.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/dialog.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/dialog.c.o: ../src/widgets/dialog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object src/CMakeFiles/awtk.dir/widgets/dialog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object src/CMakeFiles/awtk.dir/widgets/dialog.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/dialog.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/dialog.c
 
 src/CMakeFiles/awtk.dir/widgets/dialog.c.i: cmake_force
@@ -2529,7 +2542,7 @@ src/CMakeFiles/awtk.dir/widgets/dialog.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/dialog_client.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/dialog_client.c.o: ../src/widgets/dialog_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object src/CMakeFiles/awtk.dir/widgets/dialog_client.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object src/CMakeFiles/awtk.dir/widgets/dialog_client.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/dialog_client.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/dialog_client.c
 
 src/CMakeFiles/awtk.dir/widgets/dialog_client.c.i: cmake_force
@@ -2542,7 +2555,7 @@ src/CMakeFiles/awtk.dir/widgets/dialog_client.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/dialog_title.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/dialog_title.c.o: ../src/widgets/dialog_title.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object src/CMakeFiles/awtk.dir/widgets/dialog_title.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object src/CMakeFiles/awtk.dir/widgets/dialog_title.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/dialog_title.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/dialog_title.c
 
 src/CMakeFiles/awtk.dir/widgets/dialog_title.c.i: cmake_force
@@ -2555,7 +2568,7 @@ src/CMakeFiles/awtk.dir/widgets/dialog_title.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/dragger.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/dragger.c.o: ../src/widgets/dragger.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object src/CMakeFiles/awtk.dir/widgets/dragger.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object src/CMakeFiles/awtk.dir/widgets/dragger.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/dragger.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/dragger.c
 
 src/CMakeFiles/awtk.dir/widgets/dragger.c.i: cmake_force
@@ -2568,7 +2581,7 @@ src/CMakeFiles/awtk.dir/widgets/dragger.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/edit.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/edit.c.o: ../src/widgets/edit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object src/CMakeFiles/awtk.dir/widgets/edit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object src/CMakeFiles/awtk.dir/widgets/edit.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/edit.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/edit.c
 
 src/CMakeFiles/awtk.dir/widgets/edit.c.i: cmake_force
@@ -2581,7 +2594,7 @@ src/CMakeFiles/awtk.dir/widgets/edit.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/grid.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/grid.c.o: ../src/widgets/grid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object src/CMakeFiles/awtk.dir/widgets/grid.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object src/CMakeFiles/awtk.dir/widgets/grid.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/grid.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/grid.c
 
 src/CMakeFiles/awtk.dir/widgets/grid.c.i: cmake_force
@@ -2594,7 +2607,7 @@ src/CMakeFiles/awtk.dir/widgets/grid.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/grid_item.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/grid_item.c.o: ../src/widgets/grid_item.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object src/CMakeFiles/awtk.dir/widgets/grid_item.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object src/CMakeFiles/awtk.dir/widgets/grid_item.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/grid_item.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/grid_item.c
 
 src/CMakeFiles/awtk.dir/widgets/grid_item.c.i: cmake_force
@@ -2607,7 +2620,7 @@ src/CMakeFiles/awtk.dir/widgets/grid_item.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/group_box.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/group_box.c.o: ../src/widgets/group_box.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object src/CMakeFiles/awtk.dir/widgets/group_box.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object src/CMakeFiles/awtk.dir/widgets/group_box.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/group_box.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/group_box.c
 
 src/CMakeFiles/awtk.dir/widgets/group_box.c.i: cmake_force
@@ -2620,7 +2633,7 @@ src/CMakeFiles/awtk.dir/widgets/group_box.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/image.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/image.c.o: ../src/widgets/image.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object src/CMakeFiles/awtk.dir/widgets/image.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object src/CMakeFiles/awtk.dir/widgets/image.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/image.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/image.c
 
 src/CMakeFiles/awtk.dir/widgets/image.c.i: cmake_force
@@ -2633,7 +2646,7 @@ src/CMakeFiles/awtk.dir/widgets/image.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/label.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/label.c.o: ../src/widgets/label.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object src/CMakeFiles/awtk.dir/widgets/label.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object src/CMakeFiles/awtk.dir/widgets/label.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/label.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/label.c
 
 src/CMakeFiles/awtk.dir/widgets/label.c.i: cmake_force
@@ -2646,7 +2659,7 @@ src/CMakeFiles/awtk.dir/widgets/label.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/pages.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/pages.c.o: ../src/widgets/pages.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object src/CMakeFiles/awtk.dir/widgets/pages.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object src/CMakeFiles/awtk.dir/widgets/pages.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/pages.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/pages.c
 
 src/CMakeFiles/awtk.dir/widgets/pages.c.i: cmake_force
@@ -2659,7 +2672,7 @@ src/CMakeFiles/awtk.dir/widgets/pages.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/popup.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/popup.c.o: ../src/widgets/popup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object src/CMakeFiles/awtk.dir/widgets/popup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object src/CMakeFiles/awtk.dir/widgets/popup.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/popup.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/popup.c
 
 src/CMakeFiles/awtk.dir/widgets/popup.c.i: cmake_force
@@ -2672,7 +2685,7 @@ src/CMakeFiles/awtk.dir/widgets/popup.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/progress_bar.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/progress_bar.c.o: ../src/widgets/progress_bar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object src/CMakeFiles/awtk.dir/widgets/progress_bar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object src/CMakeFiles/awtk.dir/widgets/progress_bar.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/progress_bar.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/progress_bar.c
 
 src/CMakeFiles/awtk.dir/widgets/progress_bar.c.i: cmake_force
@@ -2685,7 +2698,7 @@ src/CMakeFiles/awtk.dir/widgets/progress_bar.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/row.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/row.c.o: ../src/widgets/row.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object src/CMakeFiles/awtk.dir/widgets/row.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object src/CMakeFiles/awtk.dir/widgets/row.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/row.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/row.c
 
 src/CMakeFiles/awtk.dir/widgets/row.c.i: cmake_force
@@ -2698,7 +2711,7 @@ src/CMakeFiles/awtk.dir/widgets/row.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/slider.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/slider.c.o: ../src/widgets/slider.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object src/CMakeFiles/awtk.dir/widgets/slider.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object src/CMakeFiles/awtk.dir/widgets/slider.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/slider.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/slider.c
 
 src/CMakeFiles/awtk.dir/widgets/slider.c.i: cmake_force
@@ -2711,7 +2724,7 @@ src/CMakeFiles/awtk.dir/widgets/slider.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/spin_box.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/spin_box.c.o: ../src/widgets/spin_box.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object src/CMakeFiles/awtk.dir/widgets/spin_box.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object src/CMakeFiles/awtk.dir/widgets/spin_box.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/spin_box.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/spin_box.c
 
 src/CMakeFiles/awtk.dir/widgets/spin_box.c.i: cmake_force
@@ -2724,7 +2737,7 @@ src/CMakeFiles/awtk.dir/widgets/spin_box.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/system_bar.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/system_bar.c.o: ../src/widgets/system_bar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object src/CMakeFiles/awtk.dir/widgets/system_bar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object src/CMakeFiles/awtk.dir/widgets/system_bar.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/system_bar.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/system_bar.c
 
 src/CMakeFiles/awtk.dir/widgets/system_bar.c.i: cmake_force
@@ -2737,7 +2750,7 @@ src/CMakeFiles/awtk.dir/widgets/system_bar.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/tab_button.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/tab_button.c.o: ../src/widgets/tab_button.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object src/CMakeFiles/awtk.dir/widgets/tab_button.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object src/CMakeFiles/awtk.dir/widgets/tab_button.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/tab_button.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/tab_button.c
 
 src/CMakeFiles/awtk.dir/widgets/tab_button.c.i: cmake_force
@@ -2750,7 +2763,7 @@ src/CMakeFiles/awtk.dir/widgets/tab_button.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/tab_button_group.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/tab_button_group.c.o: ../src/widgets/tab_button_group.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object src/CMakeFiles/awtk.dir/widgets/tab_button_group.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object src/CMakeFiles/awtk.dir/widgets/tab_button_group.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/tab_button_group.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/tab_button_group.c
 
 src/CMakeFiles/awtk.dir/widgets/tab_button_group.c.i: cmake_force
@@ -2763,7 +2776,7 @@ src/CMakeFiles/awtk.dir/widgets/tab_button_group.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/tab_control.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/tab_control.c.o: ../src/widgets/tab_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object src/CMakeFiles/awtk.dir/widgets/tab_control.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object src/CMakeFiles/awtk.dir/widgets/tab_control.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/tab_control.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/tab_control.c
 
 src/CMakeFiles/awtk.dir/widgets/tab_control.c.i: cmake_force
@@ -2776,7 +2789,7 @@ src/CMakeFiles/awtk.dir/widgets/tab_control.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/view.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/view.c.o: ../src/widgets/view.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object src/CMakeFiles/awtk.dir/widgets/view.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object src/CMakeFiles/awtk.dir/widgets/view.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/view.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/view.c
 
 src/CMakeFiles/awtk.dir/widgets/view.c.i: cmake_force
@@ -2789,7 +2802,7 @@ src/CMakeFiles/awtk.dir/widgets/view.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/widgets/window.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/widgets/window.c.o: ../src/widgets/window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object src/CMakeFiles/awtk.dir/widgets/window.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object src/CMakeFiles/awtk.dir/widgets/window.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/widgets/window.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/widgets/window.c
 
 src/CMakeFiles/awtk.dir/widgets/window.c.i: cmake_force
@@ -2802,7 +2815,7 @@ src/CMakeFiles/awtk.dir/widgets/window.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/xml/xml_builder.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/xml/xml_builder.c.o: ../src/xml/xml_builder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object src/CMakeFiles/awtk.dir/xml/xml_builder.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object src/CMakeFiles/awtk.dir/xml/xml_builder.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/xml/xml_builder.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/xml/xml_builder.c
 
 src/CMakeFiles/awtk.dir/xml/xml_builder.c.i: cmake_force
@@ -2815,7 +2828,7 @@ src/CMakeFiles/awtk.dir/xml/xml_builder.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/xml/xml_parser.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/xml/xml_parser.c.o: ../src/xml/xml_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object src/CMakeFiles/awtk.dir/xml/xml_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object src/CMakeFiles/awtk.dir/xml/xml_parser.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/xml/xml_parser.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/xml/xml_parser.c
 
 src/CMakeFiles/awtk.dir/xml/xml_parser.c.i: cmake_force
@@ -2828,7 +2841,7 @@ src/CMakeFiles/awtk.dir/xml/xml_parser.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/window_animators/window_animator_gpu.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/window_animators/window_animator_gpu.c.o: ../src/window_animators/window_animator_gpu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object src/CMakeFiles/awtk.dir/window_animators/window_animator_gpu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object src/CMakeFiles/awtk.dir/window_animators/window_animator_gpu.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/window_animators/window_animator_gpu.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/window_animators/window_animator_gpu.c
 
 src/CMakeFiles/awtk.dir/window_animators/window_animator_gpu.c.i: cmake_force
@@ -2841,7 +2854,7 @@ src/CMakeFiles/awtk.dir/window_animators/window_animator_gpu.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/lcd/lcd_nanovg.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/lcd/lcd_nanovg.c.o: ../src/lcd/lcd_nanovg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object src/CMakeFiles/awtk.dir/lcd/lcd_nanovg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object src/CMakeFiles/awtk.dir/lcd/lcd_nanovg.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/lcd/lcd_nanovg.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/lcd/lcd_nanovg.c
 
 src/CMakeFiles/awtk.dir/lcd/lcd_nanovg.c.i: cmake_force
@@ -2854,7 +2867,7 @@ src/CMakeFiles/awtk.dir/lcd/lcd_nanovg.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/main_loop/main_loop_sdl_gpu.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/main_loop/main_loop_sdl_gpu.c.o: ../src/main_loop/main_loop_sdl_gpu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object src/CMakeFiles/awtk.dir/main_loop/main_loop_sdl_gpu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object src/CMakeFiles/awtk.dir/main_loop/main_loop_sdl_gpu.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/main_loop/main_loop_sdl_gpu.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/main_loop/main_loop_sdl_gpu.c
 
 src/CMakeFiles/awtk.dir/main_loop/main_loop_sdl_gpu.c.i: cmake_force
@@ -2867,7 +2880,7 @@ src/CMakeFiles/awtk.dir/main_loop/main_loop_sdl_gpu.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/vgcanvas/vgcanvas_nanovg_gl.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/vgcanvas/vgcanvas_nanovg_gl.c.o: ../src/vgcanvas/vgcanvas_nanovg_gl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object src/CMakeFiles/awtk.dir/vgcanvas/vgcanvas_nanovg_gl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object src/CMakeFiles/awtk.dir/vgcanvas/vgcanvas_nanovg_gl.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/vgcanvas/vgcanvas_nanovg_gl.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/vgcanvas/vgcanvas_nanovg_gl.c
 
 src/CMakeFiles/awtk.dir/vgcanvas/vgcanvas_nanovg_gl.c.i: cmake_force
@@ -2880,7 +2893,7 @@ src/CMakeFiles/awtk.dir/vgcanvas/vgcanvas_nanovg_gl.c.s: cmake_force
 
 src/CMakeFiles/awtk.dir/input_engines/input_engine_null.c.o: src/CMakeFiles/awtk.dir/flags.make
 src/CMakeFiles/awtk.dir/input_engines/input_engine_null.c.o: ../src/input_engines/input_engine_null.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object src/CMakeFiles/awtk.dir/input_engines/input_engine_null.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object src/CMakeFiles/awtk.dir/input_engines/input_engine_null.c.o"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/awtk.dir/input_engines/input_engine_null.c.o   -c /home/pc/work/awtk/pc_awtk/awtk/src/input_engines/input_engine_null.c
 
 src/CMakeFiles/awtk.dir/input_engines/input_engine_null.c.i: cmake_force
@@ -2988,6 +3001,7 @@ awtk_OBJECTS = \
 "CMakeFiles/awtk.dir/ext_widgets/image_value/image_value.c.o" \
 "CMakeFiles/awtk.dir/ext_widgets/keyboard/candidates.c.o" \
 "CMakeFiles/awtk.dir/ext_widgets/keyboard/keyboard.c.o" \
+"CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.o" \
 "CMakeFiles/awtk.dir/ext_widgets/progress_circle/progress_circle.c.o" \
 "CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text.c.o" \
 "CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_node.c.o" \
@@ -3210,6 +3224,7 @@ src/libawtk.a: src/CMakeFiles/awtk.dir/ext_widgets/image_animation/image_animati
 src/libawtk.a: src/CMakeFiles/awtk.dir/ext_widgets/image_value/image_value.c.o
 src/libawtk.a: src/CMakeFiles/awtk.dir/ext_widgets/keyboard/candidates.c.o
 src/libawtk.a: src/CMakeFiles/awtk.dir/ext_widgets/keyboard/keyboard.c.o
+src/libawtk.a: src/CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.o
 src/libawtk.a: src/CMakeFiles/awtk.dir/ext_widgets/progress_circle/progress_circle.c.o
 src/libawtk.a: src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text.c.o
 src/libawtk.a: src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_node.c.o
@@ -3335,7 +3350,7 @@ src/libawtk.a: src/CMakeFiles/awtk.dir/vgcanvas/vgcanvas_nanovg_gl.c.o
 src/libawtk.a: src/CMakeFiles/awtk.dir/input_engines/input_engine_null.c.o
 src/libawtk.a: src/CMakeFiles/awtk.dir/build.make
 src/libawtk.a: src/CMakeFiles/awtk.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Linking CXX static library libawtk.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Linking CXX static library libawtk.a"
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && $(CMAKE_COMMAND) -P CMakeFiles/awtk.dir/cmake_clean_target.cmake
 	cd /home/pc/work/awtk/pc_awtk/awtk/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/awtk.dir/link.txt --verbose=$(VERBOSE)
 

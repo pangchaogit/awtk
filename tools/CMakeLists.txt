@@ -1,0 +1,6 @@
+include_directories(${AWTK_INCLUDES})
+add_subdirectory(common)
+add_subdirectory(font_gen)
+add_subdirectory(image_gen)
+add_subdirectory(str_gen)
+add_subdirectory(theme_gen)

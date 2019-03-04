@@ -1282,6 +1282,12 @@ base/widget.h
 base/window_base.h
 ../src/ext_widgets/keyboard/base/window_base.h
 
+../src/ext_widgets/mutable_image/mutable_image.h
+base/widget.h
+../src/ext_widgets/mutable_image/base/widget.h
+base/image_base.h
+../src/ext_widgets/mutable_image/base/image_base.h
+
 ../src/ext_widgets/progress_circle/progress_circle.h
 base/widget.h
 ../src/ext_widgets/progress_circle/base/widget.h
@@ -1859,6 +1865,8 @@ awtk_global.h
 /home/pc/work/awtk/pc_awtk/awtk/src/awtk_global.h
 awtk_widgets.h
 /home/pc/work/awtk/pc_awtk/awtk/src/awtk_widgets.h
+blend/image_g2d.h
+/home/pc/work/awtk/pc_awtk/awtk/src/blend/image_g2d.h
 awtk_ext_widgets.h
 /home/pc/work/awtk/pc_awtk/awtk/src/awtk_ext_widgets.h
 
@@ -2013,6 +2021,8 @@ progress_circle/progress_circle.h
 /home/pc/work/awtk/pc_awtk/awtk/src/progress_circle/progress_circle.h
 image_animation/image_animation.h
 /home/pc/work/awtk/pc_awtk/awtk/src/image_animation/image_animation.h
+mutable_image/mutable_image.h
+/home/pc/work/awtk/pc_awtk/awtk/src/mutable_image/mutable_image.h
 ext_widgets/ext_widgets.h
 /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/ext_widgets.h
 
@@ -3276,6 +3286,12 @@ blend/soft_g2d.h
 blend/image_g2d.h
 /home/pc/work/awtk/pc_awtk/awtk/src/blend/blend/image_g2d.h
 
+/home/pc/work/awtk/pc_awtk/awtk/src/blend/image_g2d.h
+tkc/rect.h
+/home/pc/work/awtk/pc_awtk/awtk/src/blend/tkc/rect.h
+base/bitmap.h
+/home/pc/work/awtk/pc_awtk/awtk/src/blend/base/bitmap.h
+
 /home/pc/work/awtk/pc_awtk/awtk/src/blend/pixel_ops.inc
 
 /home/pc/work/awtk/pc_awtk/awtk/src/blend/rotate_image.inc
@@ -3585,6 +3601,8 @@ progress_circle/progress_circle.h
 /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/progress_circle/progress_circle.h
 image_animation/image_animation.h
 /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/image_animation/image_animation.h
+mutable_image/mutable_image.h
+/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/mutable_image/mutable_image.h
 
 /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/ext_widgets.h
 tkc/types_def.h
@@ -3721,6 +3739,26 @@ base/window_manager.h
 /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/keyboard/keyboard.h
 base/window_base.h
 /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/keyboard/base/window_base.h
+
+/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/mutable_image/mutable_image.c
+tkc/mem.h
+/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/mutable_image/tkc/mem.h
+tkc/utils.h
+/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/mutable_image/tkc/utils.h
+base/timer.h
+/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/mutable_image/base/timer.h
+blend/image_g2d.h
+/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/mutable_image/blend/image_g2d.h
+base/widget_vtable.h
+/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/mutable_image/base/widget_vtable.h
+mutable_image/mutable_image.h
+/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/mutable_image/mutable_image/mutable_image.h
+
+/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/mutable_image/mutable_image.h
+base/widget.h
+/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/mutable_image/base/widget.h
+base/image_base.h
+/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/mutable_image/base/image_base.h
 
 /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/progress_circle/progress_circle.c
 tkc/mem.h
@@ -4945,6 +4983,8 @@ tkc/mem.h
 /home/pc/work/awtk/pc_awtk/awtk/src/widgets/tkc/mem.h
 widgets/app_bar.h
 /home/pc/work/awtk/pc_awtk/awtk/src/widgets/widgets/app_bar.h
+base/widget_vtable.h
+/home/pc/work/awtk/pc_awtk/awtk/src/widgets/base/widget_vtable.h
 
 /home/pc/work/awtk/pc_awtk/awtk/src/widgets/app_bar.h
 base/widget.h

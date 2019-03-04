@@ -254,32 +254,6 @@ theme_gen/fast:
 .PHONY : theme_gen/fast
 
 #=============================================================================
-# Target rules for targets named demovg
-
-# Build rule for target.
-demovg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 demovg
-.PHONY : demovg
-
-# fast build rule for target.
-demovg/fast:
-	$(MAKE) -f demos/CMakeFiles/demovg.dir/build.make demos/CMakeFiles/demovg.dir/build
-.PHONY : demovg/fast
-
-#=============================================================================
-# Target rules for targets named demo1
-
-# Build rule for target.
-demo1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 demo1
-.PHONY : demo1
-
-# fast build rule for target.
-demo1/fast:
-	$(MAKE) -f demos/CMakeFiles/demo1.dir/build.make demos/CMakeFiles/demo1.dir/build
-.PHONY : demo1/fast
-
-#=============================================================================
 # Target rules for targets named assets
 
 # Build rule for target.
@@ -293,82 +267,30 @@ assets/fast:
 .PHONY : assets/fast
 
 #=============================================================================
-# Target rules for targets named demo_desktop
+# Target rules for targets named demo_animator_app
 
 # Build rule for target.
-demo_desktop: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 demo_desktop
-.PHONY : demo_desktop
+demo_animator_app: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_animator_app
+.PHONY : demo_animator_app
 
 # fast build rule for target.
-demo_desktop/fast:
-	$(MAKE) -f demos/CMakeFiles/demo_desktop.dir/build.make demos/CMakeFiles/demo_desktop.dir/build
-.PHONY : demo_desktop/fast
+demo_animator_app/fast:
+	$(MAKE) -f demos/CMakeFiles/demo_animator_app.dir/build.make demos/CMakeFiles/demo_animator_app.dir/build
+.PHONY : demo_animator_app/fast
 
 #=============================================================================
-# Target rules for targets named demotr
+# Target rules for targets named mutable_image
 
 # Build rule for target.
-demotr: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 demotr
-.PHONY : demotr
+mutable_image: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mutable_image
+.PHONY : mutable_image
 
 # fast build rule for target.
-demotr/fast:
-	$(MAKE) -f demos/CMakeFiles/demotr.dir/build.make demos/CMakeFiles/demotr.dir/build
-.PHONY : demotr/fast
-
-#=============================================================================
-# Target rules for targets named demoui
-
-# Build rule for target.
-demoui: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 demoui
-.PHONY : demoui
-
-# fast build rule for target.
-demoui/fast:
-	$(MAKE) -f demos/CMakeFiles/demoui.dir/build.make demos/CMakeFiles/demoui.dir/build
-.PHONY : demoui/fast
-
-#=============================================================================
-# Target rules for targets named demo_animator
-
-# Build rule for target.
-demo_animator: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 demo_animator
-.PHONY : demo_animator
-
-# fast build rule for target.
-demo_animator/fast:
-	$(MAKE) -f demos/CMakeFiles/demo_animator.dir/build.make demos/CMakeFiles/demo_animator.dir/build
-.PHONY : demo_animator/fast
-
-#=============================================================================
-# Target rules for targets named preview_ui
-
-# Build rule for target.
-preview_ui: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 preview_ui
-.PHONY : preview_ui
-
-# fast build rule for target.
-preview_ui/fast:
-	$(MAKE) -f demos/CMakeFiles/preview_ui.dir/build.make demos/CMakeFiles/preview_ui.dir/build
-.PHONY : preview_ui/fast
-
-#=============================================================================
-# Target rules for targets named demo_thread
-
-# Build rule for target.
-demo_thread: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 demo_thread
-.PHONY : demo_thread
-
-# fast build rule for target.
-demo_thread/fast:
-	$(MAKE) -f demos/CMakeFiles/demo_thread.dir/build.make demos/CMakeFiles/demo_thread.dir/build
-.PHONY : demo_thread/fast
+mutable_image/fast:
+	$(MAKE) -f demos/CMakeFiles/mutable_image.dir/build.make demos/CMakeFiles/mutable_image.dir/build
+.PHONY : mutable_image/fast
 
 # Help Target
 help:
@@ -389,15 +311,9 @@ help:
 	@echo "... image_gen"
 	@echo "... str_gen"
 	@echo "... theme_gen"
-	@echo "... demovg"
-	@echo "... demo1"
 	@echo "... assets"
-	@echo "... demo_desktop"
-	@echo "... demotr"
-	@echo "... demoui"
-	@echo "... demo_animator"
-	@echo "... preview_ui"
-	@echo "... demo_thread"
+	@echo "... demo_animator_app"
+	@echo "... mutable_image"
 .PHONY : help
 
 

@@ -40,7 +40,8 @@
 #include "widget_animators/widget_animator_move.h"
 #include "widget_animators/widget_animator_scale.h"
 #include "widget_animators/widget_animator_rotation.h"
-
+#include <time.h>
+#include <stdio.h>
 static ret_t on_start(void* ctx, event_t* e) {
   widget_start_animator(NULL, NULL);
   return RET_OK;
@@ -152,3 +153,5 @@ ret_t application_init() {
 
   return RET_OK;
 }
+
+#include "demo_main.c"

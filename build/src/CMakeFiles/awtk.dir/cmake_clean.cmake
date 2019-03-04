@@ -94,6 +94,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/awtk.dir/ext_widgets/image_value/image_value.c.o"
   "CMakeFiles/awtk.dir/ext_widgets/keyboard/candidates.c.o"
   "CMakeFiles/awtk.dir/ext_widgets/keyboard/keyboard.c.o"
+  "CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.o"
   "CMakeFiles/awtk.dir/ext_widgets/progress_circle/progress_circle.c.o"
   "CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text.c.o"
   "CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_node.c.o"

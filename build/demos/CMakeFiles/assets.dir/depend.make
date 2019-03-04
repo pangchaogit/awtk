@@ -63,6 +63,7 @@ demos/CMakeFiles/assets.dir/assets.c.o: ../src/base/widget_vtable.h
 demos/CMakeFiles/assets.dir/assets.c.o: ../src/base/window_animator.h
 demos/CMakeFiles/assets.dir/assets.c.o: ../src/base/window_base.h
 demos/CMakeFiles/assets.dir/assets.c.o: ../src/base/window_manager.h
+demos/CMakeFiles/assets.dir/assets.c.o: ../src/blend/image_g2d.h
 demos/CMakeFiles/assets.dir/assets.c.o: ../src/ext_widgets/canvas_widget/canvas_widget.h
 demos/CMakeFiles/assets.dir/assets.c.o: ../src/ext_widgets/color_picker/color_component.h
 demos/CMakeFiles/assets.dir/assets.c.o: ../src/ext_widgets/color_picker/color_picker.h
@@ -75,6 +76,7 @@ demos/CMakeFiles/assets.dir/assets.c.o: ../src/ext_widgets/image_animation/image
 demos/CMakeFiles/assets.dir/assets.c.o: ../src/ext_widgets/image_value/image_value.h
 demos/CMakeFiles/assets.dir/assets.c.o: ../src/ext_widgets/keyboard/candidates.h
 demos/CMakeFiles/assets.dir/assets.c.o: ../src/ext_widgets/keyboard/keyboard.h
+demos/CMakeFiles/assets.dir/assets.c.o: ../src/ext_widgets/mutable_image/mutable_image.h
 demos/CMakeFiles/assets.dir/assets.c.o: ../src/ext_widgets/progress_circle/progress_circle.h
 demos/CMakeFiles/assets.dir/assets.c.o: ../src/ext_widgets/rich_text/rich_text.h
 demos/CMakeFiles/assets.dir/assets.c.o: ../src/ext_widgets/rich_text/rich_text_node.h
@@ -348,8 +350,6 @@ demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/play_p.res
 demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/pointer.bsvg
 demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/pointer_1.bsvg
 demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/pointer_4.bsvg
-demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/post.data
-demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/post.res
 demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/progress_circle.data
 demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/progress_circle.res
 demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/question.data
@@ -392,8 +392,6 @@ demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/slider_v_fg.d
 demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/slider_v_fg.res
 demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/switch.data
 demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/switch.res
-demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/test.data
-demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/test.res
 demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/unchecked.data
 demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/unchecked.res
 demos/CMakeFiles/assets.dir/assets.c.o: ../demos/assets/inc/images/unmuted.data

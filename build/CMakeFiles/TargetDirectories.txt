@@ -37,14 +37,8 @@
 /home/pc/work/awtk/pc_awtk/awtk/build/tools/theme_gen/CMakeFiles/rebuild_cache.dir
 /home/pc/work/awtk/pc_awtk/awtk/build/tools/theme_gen/CMakeFiles/edit_cache.dir
 /home/pc/work/awtk/pc_awtk/awtk/build/tools/theme_gen/CMakeFiles/theme_gen.dir
-/home/pc/work/awtk/pc_awtk/awtk/build/demos/CMakeFiles/demovg.dir
 /home/pc/work/awtk/pc_awtk/awtk/build/demos/CMakeFiles/rebuild_cache.dir
-/home/pc/work/awtk/pc_awtk/awtk/build/demos/CMakeFiles/demo1.dir
 /home/pc/work/awtk/pc_awtk/awtk/build/demos/CMakeFiles/assets.dir
-/home/pc/work/awtk/pc_awtk/awtk/build/demos/CMakeFiles/demo_desktop.dir
-/home/pc/work/awtk/pc_awtk/awtk/build/demos/CMakeFiles/demotr.dir
-/home/pc/work/awtk/pc_awtk/awtk/build/demos/CMakeFiles/demoui.dir
-/home/pc/work/awtk/pc_awtk/awtk/build/demos/CMakeFiles/demo_animator.dir
-/home/pc/work/awtk/pc_awtk/awtk/build/demos/CMakeFiles/preview_ui.dir
-/home/pc/work/awtk/pc_awtk/awtk/build/demos/CMakeFiles/demo_thread.dir
+/home/pc/work/awtk/pc_awtk/awtk/build/demos/CMakeFiles/demo_animator_app.dir
 /home/pc/work/awtk/pc_awtk/awtk/build/demos/CMakeFiles/edit_cache.dir
+/home/pc/work/awtk/pc_awtk/awtk/build/demos/CMakeFiles/mutable_image.dir

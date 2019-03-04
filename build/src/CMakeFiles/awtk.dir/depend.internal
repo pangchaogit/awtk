@@ -31,6 +31,7 @@ src/CMakeFiles/awtk.dir/awtk_global.c.o
  ../src/ext_widgets/image_value/image_value.h
  ../src/ext_widgets/keyboard/candidates.h
  ../src/ext_widgets/keyboard/keyboard.h
+ ../src/ext_widgets/mutable_image/mutable_image.h
  ../src/ext_widgets/progress_circle/progress_circle.h
  ../src/ext_widgets/rich_text/rich_text.h
  ../src/ext_widgets/rich_text/rich_text_node.h
@@ -103,6 +104,7 @@ src/CMakeFiles/awtk.dir/awtk_global.c.o
  /home/pc/work/awtk/pc_awtk/awtk/src/base/widget_vtable.h
  /home/pc/work/awtk/pc_awtk/awtk/src/base/window_base.h
  /home/pc/work/awtk/pc_awtk/awtk/src/base/window_manager.h
+ /home/pc/work/awtk/pc_awtk/awtk/src/blend/image_g2d.h
  /home/pc/work/awtk/pc_awtk/awtk/src/clip_board/clip_board_default.h
  /home/pc/work/awtk/pc_awtk/awtk/src/clip_board/clip_board_sdl.h
  /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/ext_widgets.h
@@ -2158,6 +2160,7 @@ src/CMakeFiles/awtk.dir/ext_widgets/ext_widgets.c.o
  /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/image_value/image_value.h
  /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/keyboard/candidates.h
  /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/keyboard/keyboard.h
+ /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/mutable_image/mutable_image.h
  /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/progress_circle/progress_circle.h
  /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/rich_text/rich_text.h
  /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/scroll_view/list_item.h
@@ -2489,6 +2492,47 @@ src/CMakeFiles/awtk.dir/ext_widgets/keyboard/keyboard.c.o
  ../src/tkc/wstr.h
  ../src/widgets/pages.h
  /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/keyboard/keyboard.c
+src/CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.o
+ ../src/base/assets_manager.h
+ ../src/base/bitmap.h
+ ../src/base/canvas.h
+ ../src/base/children_layouter.h
+ ../src/base/events.h
+ ../src/base/font.h
+ ../src/base/font_loader.h
+ ../src/base/font_manager.h
+ ../src/base/image_base.h
+ ../src/base/layout_def.h
+ ../src/base/lcd.h
+ ../src/base/self_layouter.h
+ ../src/base/style.h
+ ../src/base/system_info.h
+ ../src/base/theme.h
+ ../src/base/timer.h
+ ../src/base/timer_info.h
+ ../src/base/timer_manager.h
+ ../src/base/types_def.h
+ ../src/base/vgcanvas.h
+ ../src/base/widget.h
+ ../src/base/widget_consts.h
+ ../src/base/widget_vtable.h
+ ../src/blend/image_g2d.h
+ ../src/ext_widgets/mutable_image/mutable_image.h
+ ../src/tkc/color.h
+ ../src/tkc/darray.h
+ ../src/tkc/emitter.h
+ ../src/tkc/event.h
+ ../src/tkc/matrix.h
+ ../src/tkc/mem.h
+ ../src/tkc/object.h
+ ../src/tkc/rect.h
+ ../src/tkc/slist.h
+ ../src/tkc/str.h
+ ../src/tkc/types_def.h
+ ../src/tkc/utils.h
+ ../src/tkc/value.h
+ ../src/tkc/wstr.h
+ /home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/mutable_image/mutable_image.c
 src/CMakeFiles/awtk.dir/ext_widgets/progress_circle/progress_circle.c.o
  ../src/base/assets_manager.h
  ../src/base/bitmap.h
@@ -4713,6 +4757,7 @@ src/CMakeFiles/awtk.dir/widgets/app_bar.c.o
  ../src/base/vgcanvas.h
  ../src/base/widget.h
  ../src/base/widget_consts.h
+ ../src/base/widget_vtable.h
  ../src/tkc/color.h
  ../src/tkc/darray.h
  ../src/tkc/emitter.h

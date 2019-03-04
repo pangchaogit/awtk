@@ -100,6 +100,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/image_value/image_value.c" "/home/pc/work/awtk/pc_awtk/awtk/build/src/CMakeFiles/awtk.dir/ext_widgets/image_value/image_value.c.o"
   "/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/keyboard/candidates.c" "/home/pc/work/awtk/pc_awtk/awtk/build/src/CMakeFiles/awtk.dir/ext_widgets/keyboard/candidates.c.o"
   "/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/keyboard/keyboard.c" "/home/pc/work/awtk/pc_awtk/awtk/build/src/CMakeFiles/awtk.dir/ext_widgets/keyboard/keyboard.c.o"
+  "/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/mutable_image/mutable_image.c" "/home/pc/work/awtk/pc_awtk/awtk/build/src/CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.o"
   "/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/progress_circle/progress_circle.c" "/home/pc/work/awtk/pc_awtk/awtk/build/src/CMakeFiles/awtk.dir/ext_widgets/progress_circle/progress_circle.c.o"
   "/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/rich_text/rich_text.c" "/home/pc/work/awtk/pc_awtk/awtk/build/src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text.c.o"
   "/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets/rich_text/rich_text_node.c" "/home/pc/work/awtk/pc_awtk/awtk/build/src/CMakeFiles/awtk.dir/ext_widgets/rich_text/rich_text_node.c.o"

@@ -2690,6 +2690,33 @@ ext_widgets/keyboard/keyboard.c.s:
 	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f src/CMakeFiles/awtk.dir/build.make src/CMakeFiles/awtk.dir/ext_widgets/keyboard/keyboard.c.s
 .PHONY : ext_widgets/keyboard/keyboard.c.s
 
+ext_widgets/mutable_image/mutable_image.o: ext_widgets/mutable_image/mutable_image.c.o
+
+.PHONY : ext_widgets/mutable_image/mutable_image.o
+
+# target to build an object file
+ext_widgets/mutable_image/mutable_image.c.o:
+	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f src/CMakeFiles/awtk.dir/build.make src/CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.o
+.PHONY : ext_widgets/mutable_image/mutable_image.c.o
+
+ext_widgets/mutable_image/mutable_image.i: ext_widgets/mutable_image/mutable_image.c.i
+
+.PHONY : ext_widgets/mutable_image/mutable_image.i
+
+# target to preprocess a source file
+ext_widgets/mutable_image/mutable_image.c.i:
+	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f src/CMakeFiles/awtk.dir/build.make src/CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.i
+.PHONY : ext_widgets/mutable_image/mutable_image.c.i
+
+ext_widgets/mutable_image/mutable_image.s: ext_widgets/mutable_image/mutable_image.c.s
+
+.PHONY : ext_widgets/mutable_image/mutable_image.s
+
+# target to generate assembly for a file
+ext_widgets/mutable_image/mutable_image.c.s:
+	cd /home/pc/work/awtk/pc_awtk/awtk/build && $(MAKE) -f src/CMakeFiles/awtk.dir/build.make src/CMakeFiles/awtk.dir/ext_widgets/mutable_image/mutable_image.c.s
+.PHONY : ext_widgets/mutable_image/mutable_image.c.s
+
 ext_widgets/progress_circle/progress_circle.o: ext_widgets/progress_circle/progress_circle.c.o
 
 .PHONY : ext_widgets/progress_circle/progress_circle.o
@@ -6305,6 +6332,9 @@ help:
 	@echo "... ext_widgets/keyboard/keyboard.o"
 	@echo "... ext_widgets/keyboard/keyboard.i"
 	@echo "... ext_widgets/keyboard/keyboard.s"
+	@echo "... ext_widgets/mutable_image/mutable_image.o"
+	@echo "... ext_widgets/mutable_image/mutable_image.i"
+	@echo "... ext_widgets/mutable_image/mutable_image.s"
 	@echo "... ext_widgets/progress_circle/progress_circle.o"
 	@echo "... ext_widgets/progress_circle/progress_circle.i"
 	@echo "... ext_widgets/progress_circle/progress_circle.s"
