@@ -186,7 +186,6 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../3rd/SDL/gen"
   "../3rd/SDL/src/video/khronos"
   "../3rd/SDL/src"
-  "/home/work/protobuflib/include"
   "/usr/include/gtk-3.0"
   "/usr/include/at-spi2-atk/2.0"
   "/usr/include/at-spi-2.0"
