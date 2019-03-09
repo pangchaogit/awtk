@@ -1,6 +1,11 @@
+include_directories(${AWTK_INCLUDES}
+        )
 
-include_directories(${AWTK_INCLUDES})
+find_package(OpenCV REQUIRED)
 
+find_package(Caffe REQUIRED)
+#message(FATAL_ERROR ${Caffe_INCLUDE_DIRS})
+include_directories(${Caffe_INCLUDE_DIRS})
 add_library(assets assets.c)
 set(AWTK_LIBS ${AWTK_LIBS} assets CACHE INTERNAL "")
 
@@ -19,3 +24,8 @@ target_link_libraries(frambuffer ${AWTK_LIBS})
 
 add_executable(new_frambuffer new_frambuffer.c)
 target_link_libraries(new_frambuffer ${AWTK_LIBS})
+
+add_executable(test_opencv test_opencv.cpp mtcnn.h mtcnn.cpp)
+target_link_libraries(test_opencv ${OpenCV_LIBS} ${AWTK_LIBS}  ${Caffe_LIBRARIES} freetype )
+add_executable(MTCNN test_mtcnn.cpp mtcnn.cpp mtcnn.h)
+target_link_libraries(MTCNN ${OpenCV_LIBS} ${Caffe_LIBRARIES} )

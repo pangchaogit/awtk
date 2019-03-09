@@ -34,10 +34,10 @@ void ShowInfor()
             ptime->tm_hour, ptime->tm_min, ptime->tm_sec);
     printf("Time:%s\n",time_str);
     widget_use_style(label_name,"big_green");
-    widget_set_text(label_name,L"庞超");
+
     widget_use_style(label_time,"big_green");
     widget_set_text(label_time,time_str);
-    widget_t *tc=digit_clock_create(win,10,10,240,30);
+    widget_t *tc=digit_clock_create(win,300,300,240,30);
     digit_clock_set_format(tc,"YYYY年MM月DD日 hh:mm:ss");
     widget_layout(win);
 
@@ -68,16 +68,18 @@ int main(void) {
         strcpy(res_root, app_root);
         log_debug("%s not exist, try %s\n", res_root, app_root);
     }
-    tk_init(IM_HEIGHT,IM_WIDTH,APP_SIMULATOR, NULL, res_root);
-    tk_set_lcd_orientation(LCD_ORIENTATION_90);
+    tk_init(IM_WIDTH,IM_HEIGHT,APP_SIMULATOR, NULL, res_root);
+    //tk_set_lcd_orientation(LCD_ORIENTATION_90);
     assets_init();
     widget_t* image = NULL;
     widget_t* win = window_create(NULL, 0, 0, 0, 0);
-
+    label_name=label_create(win,200,300,80,40);
+    widget_set_text(label_name,L"庞超");
+    widget_layout(win);
     image = mutable_image_create(win, 0, 0, win->w, win->h);
     mutable_image_set_prepare_image(image, dummy_prepare_image,
             &s_bg_color);
-    label_name=label_create(win,300,100,80,40);
+
    // label_time=label_create(win,300,200,150,20);
 
     tk_run();
