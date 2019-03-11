@@ -1,10 +1,144 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
 #IncludeRegexComplain: ^$
 
 #IncludeRegexTransform: 
+
+../3rd/SDL/include/SDL_config.h
+SDL_platform.h
+../3rd/SDL/include/SDL_platform.h
+SDL_config_windows.h
+../3rd/SDL/include/SDL_config_windows.h
+SDL_config_winrt.h
+../3rd/SDL/include/SDL_config_winrt.h
+SDL_config_macosx.h
+../3rd/SDL/include/SDL_config_macosx.h
+SDL_config_iphoneos.h
+../3rd/SDL/include/SDL_config_iphoneos.h
+SDL_config_android.h
+../3rd/SDL/include/SDL_config_android.h
+SDL_config_psp.h
+../3rd/SDL/include/SDL_config_psp.h
+SDL_config_minimal.h
+../3rd/SDL/include/SDL_config_minimal.h
+
+../3rd/SDL/include/SDL_config_android.h
+SDL_platform.h
+../3rd/SDL/include/SDL_platform.h
+stdarg.h
+-
+
+../3rd/SDL/include/SDL_config_iphoneos.h
+SDL_platform.h
+../3rd/SDL/include/SDL_platform.h
+
+../3rd/SDL/include/SDL_config_macosx.h
+SDL_platform.h
+../3rd/SDL/include/SDL_platform.h
+AvailabilityMacros.h
+-
+
+../3rd/SDL/include/SDL_config_minimal.h
+SDL_platform.h
+../3rd/SDL/include/SDL_platform.h
+
+../3rd/SDL/include/SDL_config_psp.h
+SDL_platform.h
+../3rd/SDL/include/SDL_platform.h
+
+../3rd/SDL/include/SDL_config_windows.h
+SDL_platform.h
+../3rd/SDL/include/SDL_platform.h
+
+../3rd/SDL/include/SDL_config_winrt.h
+SDL_platform.h
+../3rd/SDL/include/SDL_platform.h
+sdkddkver.h
+-
+
+../3rd/SDL/include/SDL_keycode.h
+SDL_stdinc.h
+../3rd/SDL/include/SDL_stdinc.h
+SDL_scancode.h
+../3rd/SDL/include/SDL_scancode.h
+
+../3rd/SDL/include/SDL_platform.h
+AvailabilityMacros.h
+../3rd/SDL/include/AvailabilityMacros.h
+TargetConditionals.h
+../3rd/SDL/include/TargetConditionals.h
+winapifamily.h
+-
+begin_code.h
+../3rd/SDL/include/begin_code.h
+close_code.h
+../3rd/SDL/include/close_code.h
+
+../3rd/SDL/include/SDL_scancode.h
+SDL_stdinc.h
+../3rd/SDL/include/SDL_stdinc.h
+
+../3rd/SDL/include/SDL_stdinc.h
+SDL_config.h
+../3rd/SDL/include/SDL_config.h
+sys/types.h
+-
+stdio.h
+-
+stdlib.h
+-
+stddef.h
+-
+stdarg.h
+-
+stdlib.h
+-
+malloc.h
+-
+stddef.h
+-
+stdarg.h
+-
+memory.h
+-
+string.h
+-
+strings.h
+-
+wchar.h
+-
+inttypes.h
+-
+stdint.h
+-
+ctype.h
+-
+math.h
+-
+float.h
+-
+alloca.h
+-
+malloc.h
+-
+malloc.h
+-
+malloc.h
+-
+stdlib.h
+-
+sal.h
+-
+begin_code.h
+../3rd/SDL/include/begin_code.h
+close_code.h
+../3rd/SDL/include/close_code.h
+
+../3rd/SDL/include/begin_code.h
+
+../3rd/SDL/include/close_code.h
 
 ../src/awtk.h
 awtk_tkc.h
@@ -21,6 +155,8 @@ awtk_ext_widgets.h
 ../src/awtk_ext_widgets.h
 
 ../src/awtk_base.h
+base/keys.h
+../src/base/keys.h
 base/assets_manager.h
 ../src/base/assets_manager.h
 base/awtk_config_sample.h
@@ -422,6 +558,12 @@ base/input_engine.h
 base/suggest_words.h
 ../src/base/base/suggest_words.h
 
+../src/base/keys.h
+SDL_keycode.h
+-
+base/types_def.h
+../src/base/base/types_def.h
+
 ../src/base/layout.h
 base/types_def.h
 ../src/base/base/types_def.h
@@ -449,6 +591,8 @@ base/types_def.h
 ../src/base/locale_info.h
 tkc/emitter.h
 ../src/base/tkc/emitter.h
+base/events.h
+../src/base/base/events.h
 base/assets_manager.h
 ../src/base/base/assets_manager.h
 
@@ -499,6 +643,8 @@ base/assets_manager.h
 ../src/base/base/assets_manager.h
 
 ../src/base/system_info.h
+tkc/object.h
+../src/base/tkc/object.h
 base/lcd.h
 ../src/base/base/lcd.h
 
@@ -821,8 +967,8 @@ tkc/types_def.h
 ../src/tkc/tkc/types_def.h
 
 ../src/tkc/emitter.h
-base/events.h
-../src/tkc/base/events.h
+tkc/event.h
+../src/tkc/tkc/event.h
 
 ../src/tkc/event.h
 tkc/value.h
@@ -1069,6 +1215,8 @@ assets/inc/strings/en_US.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/strings/en_US.data
 assets/inc/styles/slide_menu.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/slide_menu.data
+assets/inc/styles/dialog_toast.data
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/dialog_toast.data
 assets/inc/styles/edit.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/edit.data
 assets/inc/styles/keyboard.data
@@ -1087,8 +1235,12 @@ assets/inc/styles/big_font.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/big_font.data
 assets/inc/styles/tab_top_compact.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/tab_top_compact.data
+assets/inc/styles/dialog_info.data
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/dialog_info.data
 assets/inc/styles/guage.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/guage.data
+assets/inc/styles/dialog_confirm.data
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/dialog_confirm.data
 assets/inc/styles/dialog.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/dialog.data
 assets/inc/styles/tab_top.data
@@ -1099,6 +1251,8 @@ assets/inc/styles/system_bar.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/system_bar.data
 assets/inc/styles/tab_bottom_compact.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/tab_bottom_compact.data
+assets/inc/styles/dialog_warn.data
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/dialog_warn.data
 assets/inc/ui/kb_ascii.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/kb_ascii.data
 assets/inc/ui/vgcanvas.data
@@ -1109,6 +1263,8 @@ assets/inc/ui/slide_menu.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/slide_menu.data
 assets/inc/ui/radial_gradient.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/radial_gradient.data
+assets/inc/ui/auto_play_landscape.data
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/auto_play_landscape.data
 assets/inc/ui/color_picker_simple.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/color_picker_simple.data
 assets/inc/ui/progress_circle.data
@@ -1161,10 +1317,14 @@ assets/inc/ui/tab_bottom.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/tab_bottom.data
 assets/inc/ui/list_view_m.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/list_view_m.data
+assets/inc/ui/slide_view_h_loop.data
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/slide_view_h_loop.data
 assets/inc/ui/calibration_win.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/calibration_win.data
 assets/inc/ui/memtest.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/memtest.data
+assets/inc/ui/slide_view_v_loop.data
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/slide_view_v_loop.data
 assets/inc/ui/language.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/language.data
 assets/inc/ui/kb_float.data
@@ -1193,6 +1353,8 @@ assets/inc/ui/label.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/label.data
 assets/inc/ui/gif_image.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/gif_image.data
+assets/inc/ui/auto_play_portrait.data
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/auto_play_portrait.data
 assets/inc/ui/text_selector.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/text_selector.data
 assets/inc/ui/big_font.data
@@ -1201,6 +1363,8 @@ assets/inc/ui/tab_top_compact.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/tab_top_compact.data
 assets/inc/ui/slide_view_h.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/slide_view_h.data
+assets/inc/ui/dialogs.data
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/dialogs.data
 assets/inc/ui/selectm.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/selectm.data
 assets/inc/ui/list_view.data
@@ -2280,6 +2444,14 @@ assets/inc/fonts/default.data
 
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/dialog.data
 
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/dialog_confirm.data
+
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/dialog_info.data
+
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/dialog_toast.data
+
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/dialog_warn.data
+
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/edit.data
 
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/styles/guage.data
@@ -2305,6 +2477,10 @@ assets/inc/fonts/default.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/animator.data
 
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/auto_play.data
+
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/auto_play_landscape.data
+
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/auto_play_portrait.data
 
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/basic.data
 
@@ -2333,6 +2509,8 @@ assets/inc/fonts/default.data
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/dialog1.data
 
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/dialog2.data
+
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/dialogs.data
 
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/digit_clock.data
 
@@ -2430,7 +2608,11 @@ assets/inc/fonts/default.data
 
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/slide_view_h.data
 
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/slide_view_h_loop.data
+
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/slide_view_v.data
+
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/slide_view_v_loop.data
 
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets/inc/ui/spinbox.data
 

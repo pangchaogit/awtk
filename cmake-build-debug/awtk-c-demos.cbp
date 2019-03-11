@@ -1247,6 +1247,140 @@
 					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/tools/theme_gen/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="awtk_show">
+				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/awtk_show" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_STB_FONT"/>
+					<Add option="-DWITH_FT_FONT"/>
+					<Add option="-DSTBTT_STATIC"/>
+					<Add option="-DSTB_IMAGE_STATIC"/>
+					<Add option="-DWITH_STB_IMAGE"/>
+					<Add option="-DWITH_VGCANVAS"/>
+					<Add option="-DWITH_UNICODE_BREAK"/>
+					<Add option="-DWITH_DESKTOP_STYLE"/>
+					<Add option="-DSDL2"/>
+					<Add option="-DHAS_STD_MALLOC"/>
+					<Add option="-DWITH_SDL"/>
+					<Add option="-DWITH_FS_RES"/>
+					<Add option="-DHAS_STDIO"/>
+					<Add option="-DWITH_NANOVG_GPU"/>
+					<Add option="-DWITH_VGCANVAS_LCD"/>
+					<Add option="-DWITH_NANOVG_GL3"/>
+					<Add option="-DWITH_NANOVG_GL"/>
+					<Add option="-DLINUX"/>
+					<Add option="-DHAS_PTHREAD"/>
+					<Add option="-DSDL_REAL_API"/>
+					<Add option="-DSDL_TIMER_UNIX"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
+					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
+					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
+					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
+					<Add option="-DSDL_LOADSO_DLOPEN"/>
+					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
+					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
+					<Add option="-DSDL_HAPTIC_DISABLED"/>
+					<Add option="-DSDL_SENSOR_DISABLED"/>
+					<Add option="-DSDL_JOYSTICK_DISABLED"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DUSE_CUDNN"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/hdf5/serial"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/atlas"/>
+					<Add directory="/home/pc/software/caffe/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/Makefile&quot;  VERBOSE=1 awtk_show"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="awtk_show/fast">
+				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/awtk_show" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_STB_FONT"/>
+					<Add option="-DWITH_FT_FONT"/>
+					<Add option="-DSTBTT_STATIC"/>
+					<Add option="-DSTB_IMAGE_STATIC"/>
+					<Add option="-DWITH_STB_IMAGE"/>
+					<Add option="-DWITH_VGCANVAS"/>
+					<Add option="-DWITH_UNICODE_BREAK"/>
+					<Add option="-DWITH_DESKTOP_STYLE"/>
+					<Add option="-DSDL2"/>
+					<Add option="-DHAS_STD_MALLOC"/>
+					<Add option="-DWITH_SDL"/>
+					<Add option="-DWITH_FS_RES"/>
+					<Add option="-DHAS_STDIO"/>
+					<Add option="-DWITH_NANOVG_GPU"/>
+					<Add option="-DWITH_VGCANVAS_LCD"/>
+					<Add option="-DWITH_NANOVG_GL3"/>
+					<Add option="-DWITH_NANOVG_GL"/>
+					<Add option="-DLINUX"/>
+					<Add option="-DHAS_PTHREAD"/>
+					<Add option="-DSDL_REAL_API"/>
+					<Add option="-DSDL_TIMER_UNIX"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
+					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
+					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
+					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
+					<Add option="-DSDL_LOADSO_DLOPEN"/>
+					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
+					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
+					<Add option="-DSDL_HAPTIC_DISABLED"/>
+					<Add option="-DSDL_SENSOR_DISABLED"/>
+					<Add option="-DSDL_JOYSTICK_DISABLED"/>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DUSE_CUDNN"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/hdf5/serial"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/atlas"/>
+					<Add directory="/home/pc/software/caffe/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/Makefile&quot;  VERBOSE=1 awtk_show/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="demo_animator_app">
 				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/demo_animator_app" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos"/>
@@ -2709,11 +2843,22 @@
 		<Unit filename="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base/nanovg.h">
 			<Option target="nanovg"/>
 		</Unit>
+		<Unit filename="/home/pc/work/awtk/pc_awtk/awtk/demos/CvxText.cpp">
+			<Option target="awtk_show"/>
+			<Option target="test_opencv"/>
+		</Unit>
+		<Unit filename="/home/pc/work/awtk/pc_awtk/awtk/demos/CvxText.h">
+			<Option target="awtk_show"/>
+			<Option target="test_opencv"/>
+		</Unit>
 		<Unit filename="/home/pc/work/awtk/pc_awtk/awtk/demos/assets.c">
 			<Option target="assets"/>
 		</Unit>
 		<Unit filename="/home/pc/work/awtk/pc_awtk/awtk/demos/assets.h">
 			<Option target="assets"/>
+		</Unit>
+		<Unit filename="/home/pc/work/awtk/pc_awtk/awtk/demos/awtk_show.cpp">
+			<Option target="awtk_show"/>
 		</Unit>
 		<Unit filename="/home/pc/work/awtk/pc_awtk/awtk/demos/demo_animator_app.c">
 			<Option target="demo_animator_app"/>
@@ -2722,10 +2867,12 @@
 			<Option target="frambuffer"/>
 		</Unit>
 		<Unit filename="/home/pc/work/awtk/pc_awtk/awtk/demos/mtcnn.cpp">
+			<Option target="awtk_show"/>
 			<Option target="test_opencv"/>
 			<Option target="MTCNN"/>
 		</Unit>
 		<Unit filename="/home/pc/work/awtk/pc_awtk/awtk/demos/mtcnn.h">
+			<Option target="awtk_show"/>
 			<Option target="test_opencv"/>
 			<Option target="MTCNN"/>
 		</Unit>

@@ -38,6 +38,7 @@
 /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/tools/theme_gen/CMakeFiles/theme_gen.dir
 /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/tools/theme_gen/CMakeFiles/edit_cache.dir
 /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/CMakeFiles/rebuild_cache.dir
+/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/CMakeFiles/awtk_show.dir
 /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/CMakeFiles/edit_cache.dir
 /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/CMakeFiles/demo_animator_app.dir
 /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/CMakeFiles/test_opencv.dir

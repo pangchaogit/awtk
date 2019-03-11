@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/pc/work/awtk/pc_awtk/awtk/demos/CvxText.cpp" "/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/CMakeFiles/test_opencv.dir/CvxText.cpp.o"
   "/home/pc/work/awtk/pc_awtk/awtk/demos/mtcnn.cpp" "/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/CMakeFiles/test_opencv.dir/mtcnn.cpp.o"
   "/home/pc/work/awtk/pc_awtk/awtk/demos/test_opencv.cpp" "/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/demos/CMakeFiles/test_opencv.dir/test_opencv.cpp.o"
   )

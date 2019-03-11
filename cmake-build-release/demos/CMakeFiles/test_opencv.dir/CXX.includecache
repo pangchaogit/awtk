@@ -1,10 +1,144 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
 #IncludeRegexComplain: ^$
 
 #IncludeRegexTransform: 
+
+../3rd/SDL/include/SDL_config.h
+SDL_platform.h
+../3rd/SDL/include/SDL_platform.h
+SDL_config_windows.h
+../3rd/SDL/include/SDL_config_windows.h
+SDL_config_winrt.h
+../3rd/SDL/include/SDL_config_winrt.h
+SDL_config_macosx.h
+../3rd/SDL/include/SDL_config_macosx.h
+SDL_config_iphoneos.h
+../3rd/SDL/include/SDL_config_iphoneos.h
+SDL_config_android.h
+../3rd/SDL/include/SDL_config_android.h
+SDL_config_psp.h
+../3rd/SDL/include/SDL_config_psp.h
+SDL_config_minimal.h
+../3rd/SDL/include/SDL_config_minimal.h
+
+../3rd/SDL/include/SDL_config_android.h
+SDL_platform.h
+../3rd/SDL/include/SDL_platform.h
+stdarg.h
+-
+
+../3rd/SDL/include/SDL_config_iphoneos.h
+SDL_platform.h
+../3rd/SDL/include/SDL_platform.h
+
+../3rd/SDL/include/SDL_config_macosx.h
+SDL_platform.h
+../3rd/SDL/include/SDL_platform.h
+AvailabilityMacros.h
+-
+
+../3rd/SDL/include/SDL_config_minimal.h
+SDL_platform.h
+../3rd/SDL/include/SDL_platform.h
+
+../3rd/SDL/include/SDL_config_psp.h
+SDL_platform.h
+../3rd/SDL/include/SDL_platform.h
+
+../3rd/SDL/include/SDL_config_windows.h
+SDL_platform.h
+../3rd/SDL/include/SDL_platform.h
+
+../3rd/SDL/include/SDL_config_winrt.h
+SDL_platform.h
+../3rd/SDL/include/SDL_platform.h
+sdkddkver.h
+-
+
+../3rd/SDL/include/SDL_keycode.h
+SDL_stdinc.h
+../3rd/SDL/include/SDL_stdinc.h
+SDL_scancode.h
+../3rd/SDL/include/SDL_scancode.h
+
+../3rd/SDL/include/SDL_platform.h
+AvailabilityMacros.h
+../3rd/SDL/include/AvailabilityMacros.h
+TargetConditionals.h
+../3rd/SDL/include/TargetConditionals.h
+winapifamily.h
+-
+begin_code.h
+../3rd/SDL/include/begin_code.h
+close_code.h
+../3rd/SDL/include/close_code.h
+
+../3rd/SDL/include/SDL_scancode.h
+SDL_stdinc.h
+../3rd/SDL/include/SDL_stdinc.h
+
+../3rd/SDL/include/SDL_stdinc.h
+SDL_config.h
+../3rd/SDL/include/SDL_config.h
+sys/types.h
+-
+stdio.h
+-
+stdlib.h
+-
+stddef.h
+-
+stdarg.h
+-
+stdlib.h
+-
+malloc.h
+-
+stddef.h
+-
+stdarg.h
+-
+memory.h
+-
+string.h
+-
+strings.h
+-
+wchar.h
+-
+inttypes.h
+-
+stdint.h
+-
+ctype.h
+-
+math.h
+-
+float.h
+-
+alloca.h
+-
+malloc.h
+-
+malloc.h
+-
+malloc.h
+-
+stdlib.h
+-
+sal.h
+-
+begin_code.h
+../3rd/SDL/include/begin_code.h
+close_code.h
+../3rd/SDL/include/close_code.h
+
+../3rd/SDL/include/begin_code.h
+
+../3rd/SDL/include/close_code.h
 
 ../src/awtk.h
 awtk_tkc.h
@@ -21,6 +155,8 @@ awtk_ext_widgets.h
 ../src/awtk_ext_widgets.h
 
 ../src/awtk_base.h
+base/keys.h
+../src/base/keys.h
 base/assets_manager.h
 ../src/base/assets_manager.h
 base/awtk_config_sample.h
@@ -422,6 +558,12 @@ base/input_engine.h
 base/suggest_words.h
 ../src/base/base/suggest_words.h
 
+../src/base/keys.h
+SDL_keycode.h
+-
+base/types_def.h
+../src/base/base/types_def.h
+
 ../src/base/layout.h
 base/types_def.h
 ../src/base/base/types_def.h
@@ -449,6 +591,8 @@ base/types_def.h
 ../src/base/locale_info.h
 tkc/emitter.h
 ../src/base/tkc/emitter.h
+base/events.h
+../src/base/base/events.h
 base/assets_manager.h
 ../src/base/base/assets_manager.h
 
@@ -499,6 +643,8 @@ base/assets_manager.h
 ../src/base/base/assets_manager.h
 
 ../src/base/system_info.h
+tkc/object.h
+../src/base/tkc/object.h
 base/lcd.h
 ../src/base/base/lcd.h
 
@@ -821,8 +967,8 @@ tkc/types_def.h
 ../src/tkc/tkc/types_def.h
 
 ../src/tkc/emitter.h
-base/events.h
-../src/tkc/base/events.h
+tkc/event.h
+../src/tkc/tkc/event.h
 
 ../src/tkc/event.h
 tkc/value.h
@@ -1356,8 +1502,22 @@ string
 caffe/proto/caffe.pb.h
 /home/pc/software/caffe/include/caffe/util/caffe/proto/caffe.pb.h
 
+/home/pc/work/awtk/pc_awtk/awtk/demos/CvxText.cpp
+wchar.h
+-
+assert.h
+-
+locale.h
+-
+ctype.h
+-
+cmath
+-
+CvxText.h
 /home/pc/work/awtk/pc_awtk/awtk/demos/CvxText.h
-ft2build.h
+
+/home/pc/work/awtk/pc_awtk/awtk/demos/CvxText.h
+freetype2/ft2build.h
 -
 opencv2/opencv.hpp
 -
@@ -1365,6 +1525,10 @@ opencv2/opencv.hpp
 /home/pc/work/awtk/pc_awtk/awtk/demos/assets.h
 tkc/types_def.h
 /home/pc/work/awtk/pc_awtk/awtk/demos/tkc/types_def.h
+
+/home/pc/work/awtk/pc_awtk/awtk/demos/mtcnn.cpp
+mtcnn.h
+/home/pc/work/awtk/pc_awtk/awtk/demos/mtcnn.h
 
 /home/pc/work/awtk/pc_awtk/awtk/demos/mtcnn.h
 caffe/caffe.hpp
@@ -1381,12 +1545,16 @@ boost/shared_ptr.hpp
 -
 
 /home/pc/work/awtk/pc_awtk/awtk/demos/test_opencv.cpp
-awtk.h
-/home/pc/work/awtk/pc_awtk/awtk/demos/awtk.h
-assets.h
-/home/pc/work/awtk/pc_awtk/awtk/demos/assets.h
-mtcnn.h
-/home/pc/work/awtk/pc_awtk/awtk/demos/mtcnn.h
+fstream
+-
+iostream
+-
+sstream
+-
+string
+-
+string.h
+-
 opencv2/opencv.hpp
 -
 opencv2/face.hpp
@@ -1395,14 +1563,14 @@ opencv2/core/core.hpp
 -
 opencv2/face/facerec.hpp
 -
-fstream
--
-iostream
--
-sstream
--
 math.h
 -
+awtk.h
+/home/pc/work/awtk/pc_awtk/awtk/demos/awtk.h
+assets.h
+/home/pc/work/awtk/pc_awtk/awtk/demos/assets.h
+mtcnn.h
+/home/pc/work/awtk/pc_awtk/awtk/demos/mtcnn.h
 CvxText.h
 /home/pc/work/awtk/pc_awtk/awtk/demos/CvxText.h
 

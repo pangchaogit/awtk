@@ -25,7 +25,12 @@ target_link_libraries(frambuffer ${AWTK_LIBS})
 add_executable(new_frambuffer new_frambuffer.c)
 target_link_libraries(new_frambuffer ${AWTK_LIBS})
 
-add_executable(test_opencv test_opencv.cpp mtcnn.h mtcnn.cpp)
+add_executable(test_opencv test_opencv.cpp mtcnn.h mtcnn.cpp CvxText.h CvxText.cpp)
 target_link_libraries(test_opencv ${OpenCV_LIBS} ${AWTK_LIBS}  ${Caffe_LIBRARIES} freetype )
+
+add_executable(awtk_show awtk_show.cpp mtcnn.h mtcnn.cpp CvxText.h CvxText.cpp)
+target_link_libraries(awtk_show ${OpenCV_LIBS} ${AWTK_LIBS}  ${Caffe_LIBRARIES} freetype )
+
+
 add_executable(MTCNN test_mtcnn.cpp mtcnn.cpp mtcnn.h)
 target_link_libraries(MTCNN ${OpenCV_LIBS} ${Caffe_LIBRARIES} )

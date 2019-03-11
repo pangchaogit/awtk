@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -97,6 +97,8 @@ base/widget_consts.h
 ../src/base/base/widget_consts.h
 
 ../src/base/system_info.h
+tkc/object.h
+../src/base/tkc/object.h
 base/lcd.h
 ../src/base/base/lcd.h
 
@@ -193,8 +195,8 @@ tkc/types_def.h
 ../src/tkc/tkc/types_def.h
 
 ../src/tkc/emitter.h
-base/events.h
-../src/tkc/base/events.h
+tkc/event.h
+../src/tkc/tkc/event.h
 
 ../src/tkc/event.h
 tkc/value.h

@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -69,10 +69,14 @@ base/vgcanvas.h
 ../src/base/locale_info.h
 tkc/emitter.h
 ../src/base/tkc/emitter.h
+base/events.h
+../src/base/base/events.h
 base/assets_manager.h
 ../src/base/base/assets_manager.h
 
 ../src/base/system_info.h
+tkc/object.h
+../src/base/tkc/object.h
 base/lcd.h
 ../src/base/base/lcd.h
 
@@ -111,8 +115,8 @@ tkc/types_def.h
 ../src/tkc/tkc/types_def.h
 
 ../src/tkc/emitter.h
-base/events.h
-../src/tkc/base/events.h
+tkc/event.h
+../src/tkc/tkc/event.h
 
 ../src/tkc/event.h
 tkc/value.h
@@ -125,6 +129,10 @@ tkc/types_def.h
 ../src/tkc/matrix.h
 tkc/types_def.h
 ../src/tkc/tkc/types_def.h
+
+../src/tkc/object.h
+tkc/emitter.h
+../src/tkc/tkc/emitter.h
 
 ../src/tkc/rect.h
 tkc/types_def.h

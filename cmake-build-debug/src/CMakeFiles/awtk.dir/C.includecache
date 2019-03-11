@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -1003,6 +1003,8 @@ base/types_def.h
 ../src/base/locale_info.h
 tkc/emitter.h
 ../src/base/tkc/emitter.h
+base/events.h
+../src/base/base/events.h
 base/assets_manager.h
 ../src/base/base/assets_manager.h
 
@@ -1057,6 +1059,8 @@ base/assets_manager.h
 ../src/base/base/assets_manager.h
 
 ../src/base/system_info.h
+tkc/object.h
+../src/base/tkc/object.h
 base/lcd.h
 ../src/base/base/lcd.h
 
@@ -1533,8 +1537,8 @@ tkc/types_def.h
 ../src/tkc/tkc/types_def.h
 
 ../src/tkc/emitter.h
-base/events.h
-../src/tkc/base/events.h
+tkc/event.h
+../src/tkc/tkc/event.h
 
 ../src/tkc/event.h
 tkc/value.h
@@ -1871,6 +1875,8 @@ awtk_ext_widgets.h
 /home/pc/work/awtk/pc_awtk/awtk/src/awtk_ext_widgets.h
 
 /home/pc/work/awtk/pc_awtk/awtk/src/awtk_base.h
+base/keys.h
+/home/pc/work/awtk/pc_awtk/awtk/src/base/keys.h
 base/assets_manager.h
 /home/pc/work/awtk/pc_awtk/awtk/src/base/assets_manager.h
 base/awtk_config_sample.h
@@ -2241,6 +2247,8 @@ tkc/color_parser.h
 /home/pc/work/awtk/pc_awtk/awtk/src/base/tkc/color_parser.h
 base/wuxiaolin.inc
 /home/pc/work/awtk/pc_awtk/awtk/src/base/base/wuxiaolin.inc
+base/system_info.h
+/home/pc/work/awtk/pc_awtk/awtk/src/base/base/system_info.h
 
 /home/pc/work/awtk/pc_awtk/awtk/src/base/children_layouter.c
 base/children_layouter.h
@@ -2277,16 +2285,6 @@ base/events.h
 /home/pc/work/awtk/pc_awtk/awtk/src/base/base/events.h
 tkc/time_now.h
 /home/pc/work/awtk/pc_awtk/awtk/src/base/tkc/time_now.h
-
-/home/pc/work/awtk/pc_awtk/awtk/src/base/events.h
-tkc/event.h
-/home/pc/work/awtk/pc_awtk/awtk/src/base/tkc/event.h
-tkc/value.h
-/home/pc/work/awtk/pc_awtk/awtk/src/base/tkc/value.h
-base/canvas.h
-/home/pc/work/awtk/pc_awtk/awtk/src/base/base/canvas.h
-base/system_info.h
-/home/pc/work/awtk/pc_awtk/awtk/src/base/base/system_info.h
 
 /home/pc/work/awtk/pc_awtk/awtk/src/base/font.c
 tkc/mem.h
@@ -2430,6 +2428,12 @@ base/input_engine.h
 base/suggest_words.h
 /home/pc/work/awtk/pc_awtk/awtk/src/base/base/suggest_words.h
 
+/home/pc/work/awtk/pc_awtk/awtk/src/base/keys.h
+SDL_keycode.h
+-
+base/types_def.h
+/home/pc/work/awtk/pc_awtk/awtk/src/base/base/types_def.h
+
 /home/pc/work/awtk/pc_awtk/awtk/src/base/layout.c
 tkc/utils.h
 /home/pc/work/awtk/pc_awtk/awtk/src/base/tkc/utils.h
@@ -2491,6 +2495,8 @@ base/locale_info.h
 /home/pc/work/awtk/pc_awtk/awtk/src/base/locale_info.h
 tkc/emitter.h
 /home/pc/work/awtk/pc_awtk/awtk/src/base/tkc/emitter.h
+base/events.h
+/home/pc/work/awtk/pc_awtk/awtk/src/base/base/events.h
 base/assets_manager.h
 /home/pc/work/awtk/pc_awtk/awtk/src/base/base/assets_manager.h
 
@@ -2585,10 +2591,22 @@ base/suggest_words.h
 /home/pc/work/awtk/pc_awtk/awtk/src/base/base/suggest_words.h
 
 /home/pc/work/awtk/pc_awtk/awtk/src/base/system_info.c
+tkc/str.h
+/home/pc/work/awtk/pc_awtk/awtk/src/base/tkc/str.h
+tkc/mem.h
+/home/pc/work/awtk/pc_awtk/awtk/src/base/tkc/mem.h
+tkc/utils.h
+/home/pc/work/awtk/pc_awtk/awtk/src/base/tkc/utils.h
+tkc/object.h
+/home/pc/work/awtk/pc_awtk/awtk/src/base/tkc/object.h
 base/system_info.h
 /home/pc/work/awtk/pc_awtk/awtk/src/base/base/system_info.h
+base/locale_info.h
+/home/pc/work/awtk/pc_awtk/awtk/src/base/base/locale_info.h
 
 /home/pc/work/awtk/pc_awtk/awtk/src/base/system_info.h
+tkc/object.h
+/home/pc/work/awtk/pc_awtk/awtk/src/base/tkc/object.h
 base/lcd.h
 /home/pc/work/awtk/pc_awtk/awtk/src/base/base/lcd.h
 
@@ -2669,6 +2687,8 @@ tkc/color_parser.h
 /home/pc/work/awtk/pc_awtk/awtk/src/base/tkc/color_parser.h
 base/vgcanvas.h
 /home/pc/work/awtk/pc_awtk/awtk/src/base/base/vgcanvas.h
+base/system_info.h
+/home/pc/work/awtk/pc_awtk/awtk/src/base/base/system_info.h
 
 /home/pc/work/awtk/pc_awtk/awtk/src/base/vgcanvas.h
 tkc/rect.h
@@ -4705,6 +4725,8 @@ tkc/utils.h
 /home/pc/work/awtk/pc_awtk/awtk/src/tkc/tkc/utils.h
 tkc/value.h
 /home/pc/work/awtk/pc_awtk/awtk/src/tkc/tkc/value.h
+tkc/object.h
+/home/pc/work/awtk/pc_awtk/awtk/src/tkc/tkc/object.h
 tkc/tokenizer.h
 /home/pc/work/awtk/pc_awtk/awtk/src/tkc/tkc/tokenizer.h
 
@@ -5109,6 +5131,8 @@ base/idle.h
 /home/pc/work/awtk/pc_awtk/awtk/src/widgets/base/idle.h
 widgets/label.h
 /home/pc/work/awtk/pc_awtk/awtk/src/widgets/widgets/label.h
+widgets/button.h
+/home/pc/work/awtk/pc_awtk/awtk/src/widgets/widgets/button.h
 base/enums.h
 /home/pc/work/awtk/pc_awtk/awtk/src/widgets/base/enums.h
 tkc/utils.h
@@ -5125,6 +5149,8 @@ base/main_loop.h
 /home/pc/work/awtk/pc_awtk/awtk/src/widgets/base/main_loop.h
 base/image_manager.h
 /home/pc/work/awtk/pc_awtk/awtk/src/widgets/base/image_manager.h
+base/window_manager.h
+/home/pc/work/awtk/pc_awtk/awtk/src/widgets/base/window_manager.h
 base/window_manager.h
 /home/pc/work/awtk/pc_awtk/awtk/src/widgets/base/window_manager.h
 
@@ -5257,6 +5283,8 @@ widgets/label.h
 /home/pc/work/awtk/pc_awtk/awtk/src/widgets/widgets/label.h
 base/widget_vtable.h
 /home/pc/work/awtk/pc_awtk/awtk/src/widgets/base/widget_vtable.h
+base/window_manager.h
+/home/pc/work/awtk/pc_awtk/awtk/src/widgets/base/window_manager.h
 
 /home/pc/work/awtk/pc_awtk/awtk/src/widgets/label.h
 base/widget.h

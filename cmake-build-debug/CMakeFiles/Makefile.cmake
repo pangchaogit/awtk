@@ -97,6 +97,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "tools/image_gen/CMakeFiles/image_gen.dir/DependInfo.cmake"
   "tools/str_gen/CMakeFiles/str_gen.dir/DependInfo.cmake"
   "tools/theme_gen/CMakeFiles/theme_gen.dir/DependInfo.cmake"
+  "demos/CMakeFiles/awtk_show.dir/DependInfo.cmake"
   "demos/CMakeFiles/demo_animator_app.dir/DependInfo.cmake"
   "demos/CMakeFiles/test_opencv.dir/DependInfo.cmake"
   "demos/CMakeFiles/assets.dir/DependInfo.cmake"

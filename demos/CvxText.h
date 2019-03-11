@@ -4,7 +4,7 @@
 // source from: http://www.opencv.org.cn/forum.php?mod=viewthread&tid=2083&extra=&page=1
 // 支持OpenCV中文汉字输入
 
-#include <ft2build.h>
+#include <freetype2/ft2build.h>
 #include FT_FREETYPE_H
 
 #include <opencv2/opencv.hpp>

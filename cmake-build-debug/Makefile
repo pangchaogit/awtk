@@ -254,6 +254,19 @@ theme_gen/fast:
 .PHONY : theme_gen/fast
 
 #=============================================================================
+# Target rules for targets named awtk_show
+
+# Build rule for target.
+awtk_show: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 awtk_show
+.PHONY : awtk_show
+
+# fast build rule for target.
+awtk_show/fast:
+	$(MAKE) -f demos/CMakeFiles/awtk_show.dir/build.make demos/CMakeFiles/awtk_show.dir/build
+.PHONY : awtk_show/fast
+
+#=============================================================================
 # Target rules for targets named demo_animator_app
 
 # Build rule for target.
@@ -363,6 +376,7 @@ help:
 	@echo "... image_gen"
 	@echo "... str_gen"
 	@echo "... theme_gen"
+	@echo "... awtk_show"
 	@echo "... demo_animator_app"
 	@echo "... test_opencv"
 	@echo "... assets"

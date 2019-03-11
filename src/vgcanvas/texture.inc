@@ -21,7 +21,7 @@ static int vgcanvas_nanovg_ensure_image(vgcanvas_nanovg_t* canvas, bitmap_t* img
     if (img->flags & BITMAP_FLAG_CHANGED) {
       img->flags &= (~(BITMAP_FLAG_CHANGED));
       nvgUpdateImage(canvas->vg, i, img->data);
-      log_debug("nvgUpdateImage %d\n", i);
+     // log_debug("nvgUpdateImage %d\n", i);
     }
 
     return i;

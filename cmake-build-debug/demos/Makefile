@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+demos/CMakeFiles/awtk_show.dir/rule:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/awtk_show.dir/rule
+.PHONY : demos/CMakeFiles/awtk_show.dir/rule
+
+# Convenience name for target.
+awtk_show: demos/CMakeFiles/awtk_show.dir/rule
+
+.PHONY : awtk_show
+
+# fast build rule for target.
+awtk_show/fast:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/awtk_show.dir/build.make demos/CMakeFiles/awtk_show.dir/build
+.PHONY : awtk_show/fast
+
+# Convenience name for target.
 demos/CMakeFiles/demo_animator_app.dir/rule:
 	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/demo_animator_app.dir/rule
 .PHONY : demos/CMakeFiles/demo_animator_app.dir/rule
@@ -215,6 +230,36 @@ new_frambuffer/fast:
 	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/new_frambuffer.dir/build.make demos/CMakeFiles/new_frambuffer.dir/build
 .PHONY : new_frambuffer/fast
 
+CvxText.o: CvxText.cpp.o
+
+.PHONY : CvxText.o
+
+# target to build an object file
+CvxText.cpp.o:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/awtk_show.dir/build.make demos/CMakeFiles/awtk_show.dir/CvxText.cpp.o
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/test_opencv.dir/build.make demos/CMakeFiles/test_opencv.dir/CvxText.cpp.o
+.PHONY : CvxText.cpp.o
+
+CvxText.i: CvxText.cpp.i
+
+.PHONY : CvxText.i
+
+# target to preprocess a source file
+CvxText.cpp.i:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/awtk_show.dir/build.make demos/CMakeFiles/awtk_show.dir/CvxText.cpp.i
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/test_opencv.dir/build.make demos/CMakeFiles/test_opencv.dir/CvxText.cpp.i
+.PHONY : CvxText.cpp.i
+
+CvxText.s: CvxText.cpp.s
+
+.PHONY : CvxText.s
+
+# target to generate assembly for a file
+CvxText.cpp.s:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/awtk_show.dir/build.make demos/CMakeFiles/awtk_show.dir/CvxText.cpp.s
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/test_opencv.dir/build.make demos/CMakeFiles/test_opencv.dir/CvxText.cpp.s
+.PHONY : CvxText.cpp.s
+
 assets.o: assets.c.o
 
 .PHONY : assets.o
@@ -241,6 +286,33 @@ assets.s: assets.c.s
 assets.c.s:
 	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/assets.dir/build.make demos/CMakeFiles/assets.dir/assets.c.s
 .PHONY : assets.c.s
+
+awtk_show.o: awtk_show.cpp.o
+
+.PHONY : awtk_show.o
+
+# target to build an object file
+awtk_show.cpp.o:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/awtk_show.dir/build.make demos/CMakeFiles/awtk_show.dir/awtk_show.cpp.o
+.PHONY : awtk_show.cpp.o
+
+awtk_show.i: awtk_show.cpp.i
+
+.PHONY : awtk_show.i
+
+# target to preprocess a source file
+awtk_show.cpp.i:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/awtk_show.dir/build.make demos/CMakeFiles/awtk_show.dir/awtk_show.cpp.i
+.PHONY : awtk_show.cpp.i
+
+awtk_show.s: awtk_show.cpp.s
+
+.PHONY : awtk_show.s
+
+# target to generate assembly for a file
+awtk_show.cpp.s:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/awtk_show.dir/build.make demos/CMakeFiles/awtk_show.dir/awtk_show.cpp.s
+.PHONY : awtk_show.cpp.s
 
 demo_animator_app.o: demo_animator_app.c.o
 
@@ -302,6 +374,7 @@ mtcnn.o: mtcnn.cpp.o
 
 # target to build an object file
 mtcnn.cpp.o:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/awtk_show.dir/build.make demos/CMakeFiles/awtk_show.dir/mtcnn.cpp.o
 	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/test_opencv.dir/build.make demos/CMakeFiles/test_opencv.dir/mtcnn.cpp.o
 	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/MTCNN.dir/build.make demos/CMakeFiles/MTCNN.dir/mtcnn.cpp.o
 .PHONY : mtcnn.cpp.o
@@ -312,6 +385,7 @@ mtcnn.i: mtcnn.cpp.i
 
 # target to preprocess a source file
 mtcnn.cpp.i:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/awtk_show.dir/build.make demos/CMakeFiles/awtk_show.dir/mtcnn.cpp.i
 	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/test_opencv.dir/build.make demos/CMakeFiles/test_opencv.dir/mtcnn.cpp.i
 	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/MTCNN.dir/build.make demos/CMakeFiles/MTCNN.dir/mtcnn.cpp.i
 .PHONY : mtcnn.cpp.i
@@ -322,6 +396,7 @@ mtcnn.s: mtcnn.cpp.s
 
 # target to generate assembly for a file
 mtcnn.cpp.s:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/awtk_show.dir/build.make demos/CMakeFiles/awtk_show.dir/mtcnn.cpp.s
 	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/test_opencv.dir/build.make demos/CMakeFiles/test_opencv.dir/mtcnn.cpp.s
 	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/MTCNN.dir/build.make demos/CMakeFiles/MTCNN.dir/mtcnn.cpp.s
 .PHONY : mtcnn.cpp.s
@@ -468,6 +543,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... awtk_show"
 	@echo "... edit_cache"
 	@echo "... demo_animator_app"
 	@echo "... test_opencv"
@@ -476,9 +552,15 @@ help:
 	@echo "... frambuffer"
 	@echo "... MTCNN"
 	@echo "... new_frambuffer"
+	@echo "... CvxText.o"
+	@echo "... CvxText.i"
+	@echo "... CvxText.s"
 	@echo "... assets.o"
 	@echo "... assets.i"
 	@echo "... assets.s"
+	@echo "... awtk_show.o"
+	@echo "... awtk_show.i"
+	@echo "... awtk_show.s"
 	@echo "... demo_animator_app.o"
 	@echo "... demo_animator_app.i"
 	@echo "... demo_animator_app.s"
