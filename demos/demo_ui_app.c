@@ -246,11 +246,29 @@ static ret_t on_paint_vgcanvas(void* ctx, event_t* e) {
 }
 
 static ret_t on_open_window(void* ctx, event_t* e) {
-  open_window((const char*)ctx, NULL);
+  const char* name = ctx;
+
+  if (tk_str_eq(name, "toast")) {
+    dialog_toast("Hello AWTK!\nThis is a toast!", 3000);
+  } else if (tk_str_eq(name, "info")) {
+    dialog_info("Hello AWTK!\nThis is info dialog!");
+  } else if (tk_str_eq(name, "warn")) {
+    dialog_warn("Hello AWTK!\nDanger!!!");
+  } else if (tk_str_eq(name, "confirm")) {
+    dialog_confirm("Hello AWTK!\nAre you sure to close?");
+  } else {
+    open_window(name, NULL);
+  }
 
   (void)e;
 
+#if 1
+  /*for test only*/
+  widget_on(WIDGET(e->target), EVT_CLICK, on_open_window, (void*)name);
+  return RET_REMOVE;
+#else
   return RET_OK;
+#endif
 }
 
 static ret_t on_close(void* ctx, event_t* e) {
@@ -346,22 +364,44 @@ static ret_t on_mem_test(void* ctx, event_t* e) {
   return RET_OK;
 }
 
+static ret_t progress_bar_animate_delta(widget_t* win, const char* name, int32_t delta) {
+  widget_t* progress_bar = widget_lookup(win, name, TRUE);
+  int32_t value = (PROGRESS_BAR(progress_bar)->value + delta);
+  widget_animate_value_to(progress_bar, tk_min(100, value), 500);
+
+  return RET_OK;
+}
+
 static ret_t on_inc(void* ctx, event_t* e) {
   widget_t* win = WIDGET(ctx);
-  widget_t* progress_bar = widget_lookup(win, "bar1", TRUE);
-  int32_t value = (PROGRESS_BAR(progress_bar)->value + 20);
-  widget_animate_value_to(progress_bar, tk_min(100, value), 500);
+  progress_bar_animate_delta(win, "bar1", 10);
+  progress_bar_animate_delta(win, "bar2", 10);
   (void)e;
   return RET_OK;
 }
 
 static ret_t on_dec(void* ctx, event_t* e) {
   widget_t* win = WIDGET(ctx);
-  widget_t* progress_bar = widget_lookup(win, "bar1", TRUE);
-  int32_t value = PROGRESS_BAR(progress_bar)->value - 20;
-  widget_animate_value_to(progress_bar, tk_max(0, value), 500);
+  progress_bar_animate_delta(win, "bar1", -10);
+  progress_bar_animate_delta(win, "bar2", -10);
 
   (void)e;
+  return RET_OK;
+}
+
+static ret_t on_change_font_size(void* ctx, event_t* e) {
+  float_t font_scale = 1;
+  widget_t* win = WIDGET(ctx);
+
+  if (widget_get_value(widget_lookup(win, "font_small", TRUE))) {
+    font_scale = 0.9;
+  } else if (widget_get_value(widget_lookup(win, "font_big", TRUE))) {
+    font_scale = 1.1;
+  }
+  system_info_set_font_scale(system_info(), font_scale);
+
+  widget_invalidate_force(win, NULL);
+
   return RET_OK;
 }
 
@@ -406,6 +446,10 @@ static ret_t install_one(void* ctx, const void* iter) {
       widget_on(widget, EVT_CLICK, on_change_locale, "zh_CN");
     } else if (tk_str_eq(name, "english")) {
       widget_on(widget, EVT_CLICK, on_change_locale, "en_US");
+    } else if (tk_str_eq(name, "font_small") || tk_str_eq(name, "font_normal") ||
+               tk_str_eq(name, "font_big")) {
+      widget_t* win = widget_get_window(widget);
+      widget_on(widget, EVT_VALUE_CHANGED, on_change_font_size, win);
     } else if (tk_str_eq(name, "inc_value")) {
       widget_t* win = widget_get_window(widget);
       widget_on(widget, EVT_CLICK, on_inc, win);
