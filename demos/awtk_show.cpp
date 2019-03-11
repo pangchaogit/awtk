@@ -135,8 +135,8 @@ static ret_t dummy_prepare_image(void* ctx, bitmap_t* image) {
 
         switch (Predict(gray)) //对每张脸都识别
         {
-            case 32:str = (char *)"李佳杞";faceRecTime++;  break;
-            case 41:str = (char *)"庞超"; faceRecTime++;break;
+            case 2:str = (char *)"李佳杞";faceRecTime++;  break;
+            case 4:str = (char *)"庞超"; faceRecTime++;break;
             case 0:faceRecTime = 0; break;
             default: str = (char *)"Error";faceRecTime = 0; break;
         }
