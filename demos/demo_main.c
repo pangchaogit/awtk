@@ -74,12 +74,9 @@ int main(int argc, char* argv[]) {
 #endif /*NDEBUG*/
 #endif /*WIN32*/
 
-<<<<<<< HEAD
   tk_init(320, 480, APP_SIMULATOR, NULL, res_root);
   //tk_set_lcd_orientation(LCD_ORIENTATION_90);
-=======
   tk_init(lcd_w, lcd_h, APP_SIMULATOR, NULL, res_root);
->>>>>>> upstream/master
 #endif
 
 //#define WITH_LCD_PORTRAIT 1
