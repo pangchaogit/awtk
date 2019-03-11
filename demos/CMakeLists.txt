@@ -16,6 +16,9 @@ message("AWTK_LIBS " ${AWTK_LIBS})
 add_executable(demo_animator_app demo_animator_app.c)
 target_link_libraries(demo_animator_app ${AWTK_LIBS})
 
+add_executable(preview_ui preview_ui.c)
+target_link_libraries(preview_ui ${AWTK_LIBS})
+
 add_executable(mutable_image mutable_image.c)
 target_link_libraries(mutable_image ${AWTK_LIBS})
 
