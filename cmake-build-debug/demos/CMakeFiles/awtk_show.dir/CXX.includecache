@@ -1502,20 +1502,6 @@ string
 caffe/proto/caffe.pb.h
 /home/pc/software/caffe/include/caffe/util/caffe/proto/caffe.pb.h
 
-/home/pc/work/awtk/pc_awtk/awtk/demos/CvxText.cpp
-wchar.h
--
-assert.h
--
-locale.h
--
-ctype.h
--
-cmath
--
-CvxText.h
-/home/pc/work/awtk/pc_awtk/awtk/demos/CvxText.h
-
 /home/pc/work/awtk/pc_awtk/awtk/demos/CvxText.h
 freetype2/ft2build.h
 -
@@ -1545,10 +1531,6 @@ opencv2/face/facerec.hpp
 -
 CvxText.h
 /home/pc/work/awtk/pc_awtk/awtk/demos/CvxText.h
-
-/home/pc/work/awtk/pc_awtk/awtk/demos/mtcnn.cpp
-mtcnn.h
-/home/pc/work/awtk/pc_awtk/awtk/demos/mtcnn.h
 
 /home/pc/work/awtk/pc_awtk/awtk/demos/mtcnn.h
 caffe/caffe.hpp

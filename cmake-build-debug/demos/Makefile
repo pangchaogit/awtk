@@ -141,6 +141,81 @@ test_opencv/fast:
 .PHONY : test_opencv/fast
 
 # Convenience name for target.
+demos/CMakeFiles/MTCNN.dir/rule:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/MTCNN.dir/rule
+.PHONY : demos/CMakeFiles/MTCNN.dir/rule
+
+# Convenience name for target.
+MTCNN: demos/CMakeFiles/MTCNN.dir/rule
+
+.PHONY : MTCNN
+
+# fast build rule for target.
+MTCNN/fast:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/MTCNN.dir/build.make demos/CMakeFiles/MTCNN.dir/build
+.PHONY : MTCNN/fast
+
+# Convenience name for target.
+demos/CMakeFiles/new_frambuffer.dir/rule:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/new_frambuffer.dir/rule
+.PHONY : demos/CMakeFiles/new_frambuffer.dir/rule
+
+# Convenience name for target.
+new_frambuffer: demos/CMakeFiles/new_frambuffer.dir/rule
+
+.PHONY : new_frambuffer
+
+# fast build rule for target.
+new_frambuffer/fast:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/new_frambuffer.dir/build.make demos/CMakeFiles/new_frambuffer.dir/build
+.PHONY : new_frambuffer/fast
+
+# Convenience name for target.
+demos/CMakeFiles/demo_thread_app.dir/rule:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/demo_thread_app.dir/rule
+.PHONY : demos/CMakeFiles/demo_thread_app.dir/rule
+
+# Convenience name for target.
+demo_thread_app: demos/CMakeFiles/demo_thread_app.dir/rule
+
+.PHONY : demo_thread_app
+
+# fast build rule for target.
+demo_thread_app/fast:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/demo_thread_app.dir/build.make demos/CMakeFiles/demo_thread_app.dir/build
+.PHONY : demo_thread_app/fast
+
+# Convenience name for target.
+demos/CMakeFiles/mutable_image.dir/rule:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/mutable_image.dir/rule
+.PHONY : demos/CMakeFiles/mutable_image.dir/rule
+
+# Convenience name for target.
+mutable_image: demos/CMakeFiles/mutable_image.dir/rule
+
+.PHONY : mutable_image
+
+# fast build rule for target.
+mutable_image/fast:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/mutable_image.dir/build.make demos/CMakeFiles/mutable_image.dir/build
+.PHONY : mutable_image/fast
+
+# Convenience name for target.
+demos/CMakeFiles/assets.dir/rule:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/assets.dir/rule
+.PHONY : demos/CMakeFiles/assets.dir/rule
+
+# Convenience name for target.
+assets: demos/CMakeFiles/assets.dir/rule
+
+.PHONY : assets
+
+# fast build rule for target.
+assets/fast:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/assets.dir/build.make demos/CMakeFiles/assets.dir/build
+.PHONY : assets/fast
+
+# Convenience name for target.
 demos/CMakeFiles/demo_animator_app.dir/rule:
 	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/demo_animator_app.dir/rule
 .PHONY : demos/CMakeFiles/demo_animator_app.dir/rule
@@ -171,36 +246,6 @@ preview_ui/fast:
 .PHONY : preview_ui/fast
 
 # Convenience name for target.
-demos/CMakeFiles/assets.dir/rule:
-	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/assets.dir/rule
-.PHONY : demos/CMakeFiles/assets.dir/rule
-
-# Convenience name for target.
-assets: demos/CMakeFiles/assets.dir/rule
-
-.PHONY : assets
-
-# fast build rule for target.
-assets/fast:
-	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/assets.dir/build.make demos/CMakeFiles/assets.dir/build
-.PHONY : assets/fast
-
-# Convenience name for target.
-demos/CMakeFiles/mutable_image.dir/rule:
-	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/mutable_image.dir/rule
-.PHONY : demos/CMakeFiles/mutable_image.dir/rule
-
-# Convenience name for target.
-mutable_image: demos/CMakeFiles/mutable_image.dir/rule
-
-.PHONY : mutable_image
-
-# fast build rule for target.
-mutable_image/fast:
-	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/mutable_image.dir/build.make demos/CMakeFiles/mutable_image.dir/build
-.PHONY : mutable_image/fast
-
-# Convenience name for target.
 demos/CMakeFiles/frambuffer.dir/rule:
 	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/frambuffer.dir/rule
 .PHONY : demos/CMakeFiles/frambuffer.dir/rule
@@ -214,36 +259,6 @@ frambuffer: demos/CMakeFiles/frambuffer.dir/rule
 frambuffer/fast:
 	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/frambuffer.dir/build.make demos/CMakeFiles/frambuffer.dir/build
 .PHONY : frambuffer/fast
-
-# Convenience name for target.
-demos/CMakeFiles/MTCNN.dir/rule:
-	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/MTCNN.dir/rule
-.PHONY : demos/CMakeFiles/MTCNN.dir/rule
-
-# Convenience name for target.
-MTCNN: demos/CMakeFiles/MTCNN.dir/rule
-
-.PHONY : MTCNN
-
-# fast build rule for target.
-MTCNN/fast:
-	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/MTCNN.dir/build.make demos/CMakeFiles/MTCNN.dir/build
-.PHONY : MTCNN/fast
-
-# Convenience name for target.
-demos/CMakeFiles/new_frambuffer.dir/rule:
-	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/new_frambuffer.dir/rule
-.PHONY : demos/CMakeFiles/new_frambuffer.dir/rule
-
-# Convenience name for target.
-new_frambuffer: demos/CMakeFiles/new_frambuffer.dir/rule
-
-.PHONY : new_frambuffer
-
-# fast build rule for target.
-new_frambuffer/fast:
-	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/new_frambuffer.dir/build.make demos/CMakeFiles/new_frambuffer.dir/build
-.PHONY : new_frambuffer/fast
 
 CvxText.o: CvxText.cpp.o
 
@@ -355,6 +370,33 @@ demo_animator_app.s: demo_animator_app.c.s
 demo_animator_app.c.s:
 	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/demo_animator_app.dir/build.make demos/CMakeFiles/demo_animator_app.dir/demo_animator_app.c.s
 .PHONY : demo_animator_app.c.s
+
+demo_thread_app.o: demo_thread_app.c.o
+
+.PHONY : demo_thread_app.o
+
+# target to build an object file
+demo_thread_app.c.o:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/demo_thread_app.dir/build.make demos/CMakeFiles/demo_thread_app.dir/demo_thread_app.c.o
+.PHONY : demo_thread_app.c.o
+
+demo_thread_app.i: demo_thread_app.c.i
+
+.PHONY : demo_thread_app.i
+
+# target to preprocess a source file
+demo_thread_app.c.i:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/demo_thread_app.dir/build.make demos/CMakeFiles/demo_thread_app.dir/demo_thread_app.c.i
+.PHONY : demo_thread_app.c.i
+
+demo_thread_app.s: demo_thread_app.c.s
+
+.PHONY : demo_thread_app.s
+
+# target to generate assembly for a file
+demo_thread_app.c.s:
+	cd /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug && $(MAKE) -f demos/CMakeFiles/demo_thread_app.dir/build.make demos/CMakeFiles/demo_thread_app.dir/demo_thread_app.c.s
+.PHONY : demo_thread_app.c.s
 
 frambuffer.o: frambuffer.c.o
 
@@ -586,15 +628,16 @@ help:
 	@echo "... depend"
 	@echo "... awtk_show"
 	@echo "... test_opencv"
+	@echo "... MTCNN"
+	@echo "... new_frambuffer"
+	@echo "... demo_thread_app"
+	@echo "... mutable_image"
+	@echo "... assets"
 	@echo "... edit_cache"
 	@echo "... demo_animator_app"
 	@echo "... rebuild_cache"
 	@echo "... preview_ui"
-	@echo "... assets"
-	@echo "... mutable_image"
 	@echo "... frambuffer"
-	@echo "... MTCNN"
-	@echo "... new_frambuffer"
 	@echo "... CvxText.o"
 	@echo "... CvxText.i"
 	@echo "... CvxText.s"
@@ -607,6 +650,9 @@ help:
 	@echo "... demo_animator_app.o"
 	@echo "... demo_animator_app.i"
 	@echo "... demo_animator_app.s"
+	@echo "... demo_thread_app.o"
+	@echo "... demo_thread_app.i"
+	@echo "... demo_thread_app.s"
 	@echo "... frambuffer.o"
 	@echo "... frambuffer.i"
 	@echo "... frambuffer.s"

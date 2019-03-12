@@ -39,12 +39,13 @@
 /home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/tools/theme_gen/CMakeFiles/edit_cache.dir
 /home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/CMakeFiles/awtk_show.dir
 /home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/CMakeFiles/test_opencv.dir
+/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/CMakeFiles/MTCNN.dir
+/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/CMakeFiles/new_frambuffer.dir
+/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/CMakeFiles/demo_thread_app.dir
+/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/CMakeFiles/mutable_image.dir
+/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/CMakeFiles/assets.dir
 /home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/CMakeFiles/edit_cache.dir
 /home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/CMakeFiles/demo_animator_app.dir
 /home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/CMakeFiles/rebuild_cache.dir
 /home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/CMakeFiles/preview_ui.dir
-/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/CMakeFiles/assets.dir
-/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/CMakeFiles/mutable_image.dir
 /home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/CMakeFiles/frambuffer.dir
-/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/CMakeFiles/MTCNN.dir
-/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/CMakeFiles/new_frambuffer.dir

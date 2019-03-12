@@ -13,6 +13,9 @@ set(AWTK_LIBS ${AWTK_LIBS} ${AWTK_LIBS} CACHE INTERNAL "")
 
 message("AWTK_LIBS " ${AWTK_LIBS})
 
+add_executable(demo_thread_app demo_thread_app.c)
+target_link_libraries(demo_thread_app ${AWTK_LIBS})
+
 add_executable(demo_animator_app demo_animator_app.c)
 target_link_libraries(demo_animator_app ${AWTK_LIBS})
 

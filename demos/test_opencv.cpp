@@ -35,6 +35,47 @@ VideoCapture cap(0);
 char* str_name = NULL;
 wchar_t *w_str=NULL;
 char *tpm_name=NULL;
+widget_t* canvasshowname=NULL;
+int flag_widget=0;
+static ret_t on_paint_name(void* ctx, event_t* evt) {
+    widget_t* canvas_widget = WIDGET(ctx);
+    canvas_t* c = paint_event_cast(evt)->c;
+    vgcanvas_t* vg = canvas_get_vgcanvas(c);
+    rect_t r = rect_init(canvas_widget->x, canvas_widget->y, canvas_widget->w, canvas_widget->h);
+    vgcanvas_save(vg);
+    vgcanvas_clip_rect(vg, r.x, r.y, r.w, r.h);
+    vgcanvas_translate(vg, r.x, r.y);
+    color_t bg;
+    color_t tc;
+    if(w_str!=NULL){
+        bg = color_init(51,214,255, 0xff);
+        tc = color_init(255,255,255, 0xff);
+        if(num_recog>0 && num_recog <2){
+            canvas_set_font(c, NULL, 80);
+        }
+        else if(num_recog>=5 && num_recog<=30)
+        {
+            canvas_set_font(c, NULL, 40);
+        }
+        if(num_recog >30){
+            bg = color_init(51,214,255, 0);
+            tc = color_init(255,255,255, 0);
+        }
+    } else{
+        bg = color_init(51,214,255, 0);
+        tc = color_init(255,255,255, 0);
+    }
+
+
+    vgcanvas_set_fill_color(vg, bg);
+    vgcanvas_rect(vg, 0, 0, r.w, r.h);
+    vgcanvas_fill(vg);
+    canvas_set_text_color(c, tc);
+    canvas_draw_text(c, w_str, 10, -IM_WIDTH/2+120, -IM_HEIGHT/2+90);
+    vgcanvas_restore(vg);
+
+    return RET_OK;
+}
 
 string  readConfigFile(const char * cfgfilepath, const string & key)
 {
@@ -147,6 +188,7 @@ void bgrTobgra(const unsigned char *im_yuv, unsigned char *dst) {
 }
 
 static ret_t dummy_prepare_image(void* ctx, bitmap_t* image) {
+    cout<<"flag="<<flag_widget<<endl;
     CvxText text("../../demos/SimHei.ttf");
     cv::Scalar size1{ 40, 0.5, 0.1, 0 }; // (字体大小, 无效的, 字符间距, 无效的 }
 
@@ -169,34 +211,31 @@ static ret_t dummy_prepare_image(void* ctx, bitmap_t* image) {
     int face_size=faceInfo.size();
     if(face_size==0){
         num_recog=0;
-    } else{
+    } else {
         for (int i = 0; i < face_size; i++) {
             int x = (int) faceInfo[i].bbox.xmin;
             int y = (int) faceInfo[i].bbox.ymin;
             int w = (int) (faceInfo[i].bbox.xmax - faceInfo[i].bbox.xmin + 1);
             int h = (int) (faceInfo[i].bbox.ymax - faceInfo[i].bbox.ymin + 1);
-            Mat img_roi=image_mat(cv::Rect(x, y, w, h));//扣出人脸
+            Mat img_roi = image_mat(cv::Rect(x, y, w, h));//扣出人脸
             cvtColor(image_mat, img_roi, CV_RGB2GRAY);//测试图像必须为灰度图
 
             equalizeHist(img_roi, img_roi); //变换后的图像进行直方图均值化处理
-            int predit_num=Predict(img_roi);
+            int predit_num = Predict(img_roi);
             std::string num = std::to_string(predit_num);
-            string name=readConfigFile(filepath,num);
+            string name = readConfigFile(filepath, num);
 
-            if(name=="-1"){
-                tpm_name="UnKnow";
-            }else{
-                tpm_name=(char*)name.data();
+            if (name == "-1") {
+                tpm_name = "NULL";
+            } else {
+                tpm_name = (char *) name.data();
             }
             num_recog++;
             text_lb = Point(x, y);
-            ToWchar(tpm_name,w_str);
+            ToWchar(tpm_name, w_str);
             cv::rectangle(image_mat, cv::Rect(x, y, w, h), cv::Scalar(255, 0, 0), 2);
-            if(num_recog>=20&&num_recog<=40){
-                text.putText(image_mat, w_str, cv::Point(x,y), cv::Scalar(0, 0, 255));
             }
         }
-    }
     bgrTobgra(image_mat.data,src_img);
     ConvertBetweenBGRAandRGBA(src_img,IM_WIDTH,IM_HEIGHT,src_rgba);
     memcpy(const_cast<u_int8_t *>(image->data),src_rgba,IMG_LEN);
@@ -305,9 +344,9 @@ int main(void) {
 
     widget_t *tc=digit_clock_create(win,10,10,240,30);
     digit_clock_set_format(tc,"YYYY年MM月DD日 hh:mm:ss");
-    model = FisherFaceRecognizer::create();
+    model = LBPHFaceRecognizer::create();
     //1.加载训练好的分类器
-    model->read("../../demos/model/MyFaceFisherModel.xml");// opencv2用load
+    model->read("../../demos/model/MyFaceLBPHModel.xml");// opencv2用load
     s_bg_color = color_init(0,0,0,0);
     char res_root[MAX_PATH + 1];
     char app_root[MAX_PATH + 1];
@@ -340,7 +379,7 @@ int main(void) {
     widget_t* canvasRight = canvas_widget_create(win, IM_WIDTH/2+60, IM_HEIGHT+ 10, IM_WIDTH/2 - 15, 130);
     widget_on(canvasRight, EVT_PAINT, on_paint_Time, canvasRight);
     widget_t* tc1 = digit_clock_create(win, IM_WIDTH/2, IM_HEIGHT+ 20, 240, 60);
-    digit_clock_set_format(tc1, "hh:mm");
+    digit_clock_set_format(tc1, "hh:mm:ss");
     widget_t* tc2= digit_clock_create(win, IM_WIDTH/2, IM_HEIGHT+ 40, 240, 60);
     digit_clock_set_format(tc2, "YYYY-MM-DD");
 
@@ -351,6 +390,12 @@ int main(void) {
     //控制下端左下侧显示版本号
     widget_t* canvasLeftDown = canvas_widget_create(win, 10, IM_HEIGHT+ 100, IM_WIDTH/2 +40, 40);
     widget_on(canvasLeftDown, EVT_PAINT, on_paint_version, canvasLeftDown);
+
+    //显示访客姓名
+    canvasshowname = canvas_widget_create(win, IM_WIDTH/2-80, IM_HEIGHT/2-60, 200, 100);
+    flag_widget=widget_on(canvasshowname, EVT_PAINT, on_paint_name,
+                          canvasshowname);
+
     tk_run();
     return EXIT_SUCCESS;
 }

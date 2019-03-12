@@ -20,6 +20,10 @@ using namespace cv::face;
 int faceRecTime = 0;
 Ptr<FaceRecognizer> model;
 widget_t* win =NULL;
+wchar_t *w_str;
+static ret_t on_paint_Name(void* ctx, event_t* evt);
+widget_t* canvasShowName=NULL;
+
 int Predict(Mat src_image)  //识别图片
 {
     Mat face_test;
@@ -113,6 +117,7 @@ static ret_t dummy_prepare_image(void* ctx, bitmap_t* image) {
     vector<FaceInfo> faceInfo = detector.Detect(image_mat, minSize, threshold, factor, 3);
     if(faceInfo.size() == 0){
         faceRecTime = 0;
+        w_str = NULL;
     }
     for (int i = 0; i < faceInfo.size(); i++) {
         int x = (int) faceInfo[i].bbox.xmin;
@@ -131,20 +136,16 @@ static ret_t dummy_prepare_image(void* ctx, bitmap_t* image) {
         cv::Scalar size1{ 60, 0.5, 0.1, 0 }; // (字体大小, 无效的, 字符间距, 无效的 }
         text.setFont(nullptr, &size1, nullptr, 0);
         char* str;
-        wchar_t *w_str;
+
 
         switch (Predict(gray)) //对每张脸都识别
         {
-            case 2:str = (char *)"李佳杞";faceRecTime++;  break;
-            case 4:str = (char *)"庞超"; faceRecTime++;break;
-            case 0:faceRecTime = 0; break;
-            default: str = (char *)"Error";faceRecTime = 0; break;
+            case 2:str = (char *)"李佳杞";faceRecTime++; ToWchar(str,w_str); break;
+            case 4:str = (char *)"庞超"; faceRecTime++;ToWchar(str,w_str);break;
+            case 0:w_str = NULL;faceRecTime = 0; break;
+            default: w_str = NULL;str = (char *)"Error";faceRecTime = 0; break;
         }
-        ToWchar(str,w_str);
-        if(faceRecTime >= 15 && faceRecTime <= 40){
-            rectangle(image_mat,Point(200,180),Point(470,310),Scalar(255,214,51),-1,4);
-            text.putText(image_mat, w_str, cv::Point(220,280), cv::Scalar(255, 255, 255));
-        }
+        cout<<"*****off widget******"<<endl;
     }
     bgrTobgra(image_mat.data,src_img);
     ConvertBetweenBGRAandRGBA(src_img,IM_WIDTH,IM_HEIGHT,src_rgba);
@@ -246,6 +247,45 @@ static ret_t on_paint_version(void* ctx, event_t* evt) {
 
     return RET_OK;
 }
+static ret_t on_paint_Name(void* ctx, event_t* evt) {
+    widget_t* canvas_widget = WIDGET(ctx);
+    canvas_t* c = paint_event_cast(evt)->c;
+    vgcanvas_t* vg = canvas_get_vgcanvas(c);
+    rect_t r = rect_init(canvas_widget->x, canvas_widget->y, canvas_widget->w, canvas_widget->h);
+    vgcanvas_save(vg);
+    vgcanvas_clip_rect(vg, r.x, r.y, r.w, r.h);
+    vgcanvas_translate(vg, r.x, r.y);
+    color_t bg;
+    color_t tc;
+    if(w_str!=NULL){
+        bg = color_init(51,214,255, 0xff);
+        tc = color_init(255,255,255, 0xff);
+        if(faceRecTime>0 && faceRecTime <2){
+            canvas_set_font(c, NULL, 80);
+        }
+        else if(faceRecTime>=5 && faceRecTime<=30)
+        {
+            canvas_set_font(c, NULL, 40);
+        }
+        if(faceRecTime >30){
+            bg = color_init(51,214,255, 0);
+            tc = color_init(255,255,255, 0);
+        }
+    } else{
+        bg = color_init(51,214,255, 0);
+        tc = color_init(255,255,255, 0);
+    }
+
+
+    vgcanvas_set_fill_color(vg, bg);
+    vgcanvas_rect(vg, 0, 0, r.w, r.h);
+    vgcanvas_fill(vg);
+    canvas_set_text_color(c, tc);
+    canvas_draw_text(c, w_str, 10, -IM_WIDTH/2+120, -IM_HEIGHT/2+90);
+    vgcanvas_restore(vg);
+
+    return RET_OK;
+}
 int main(void) {
 
     s_bg_color = color_init(0,0,0,0);
@@ -262,9 +302,9 @@ int main(void) {
         cout<<"opencv Camera failed.\n";
         return RET_FAIL;
     }
-    model = FisherFaceRecognizer::create();
+    model = LBPHFaceRecognizer::create();
     //1.加载训练好的分类器
-    model->read("../../demos/model/MyFaceFisherModel.xml");// opencv2用load
+    model->read("../../demos/model/MyFaceLBPHModel.xml");// opencv2用load
     tk_init(IM_WIDTH,IM_HEIGHT + 150,APP_SIMULATOR, NULL, res_root);
     //tk_set_lcd_orientation(LCD_ORIENTATION_90);
     assets_init();
@@ -296,6 +336,13 @@ int main(void) {
     //控制下端左下侧显示版本号
     widget_t* canvasLeftDown = canvas_widget_create(win, 10, IM_HEIGHT+ 100, IM_WIDTH/2 +40, 40);
     widget_on(canvasLeftDown, EVT_PAINT, on_paint_version, canvasLeftDown);
+
+
+    canvasShowName = canvas_widget_create(win, IM_WIDTH/2-80, IM_HEIGHT/2-60, 200, 100);
+    widget_on(canvasShowName, EVT_PAINT, on_paint_Name, canvasShowName);
+
+
+
     tk_run();
     return EXIT_SUCCESS;
 }

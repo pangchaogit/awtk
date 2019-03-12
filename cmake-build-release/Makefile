@@ -280,6 +280,71 @@ test_opencv/fast:
 .PHONY : test_opencv/fast
 
 #=============================================================================
+# Target rules for targets named MTCNN
+
+# Build rule for target.
+MTCNN: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MTCNN
+.PHONY : MTCNN
+
+# fast build rule for target.
+MTCNN/fast:
+	$(MAKE) -f demos/CMakeFiles/MTCNN.dir/build.make demos/CMakeFiles/MTCNN.dir/build
+.PHONY : MTCNN/fast
+
+#=============================================================================
+# Target rules for targets named new_frambuffer
+
+# Build rule for target.
+new_frambuffer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 new_frambuffer
+.PHONY : new_frambuffer
+
+# fast build rule for target.
+new_frambuffer/fast:
+	$(MAKE) -f demos/CMakeFiles/new_frambuffer.dir/build.make demos/CMakeFiles/new_frambuffer.dir/build
+.PHONY : new_frambuffer/fast
+
+#=============================================================================
+# Target rules for targets named demo_thread_app
+
+# Build rule for target.
+demo_thread_app: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_thread_app
+.PHONY : demo_thread_app
+
+# fast build rule for target.
+demo_thread_app/fast:
+	$(MAKE) -f demos/CMakeFiles/demo_thread_app.dir/build.make demos/CMakeFiles/demo_thread_app.dir/build
+.PHONY : demo_thread_app/fast
+
+#=============================================================================
+# Target rules for targets named mutable_image
+
+# Build rule for target.
+mutable_image: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mutable_image
+.PHONY : mutable_image
+
+# fast build rule for target.
+mutable_image/fast:
+	$(MAKE) -f demos/CMakeFiles/mutable_image.dir/build.make demos/CMakeFiles/mutable_image.dir/build
+.PHONY : mutable_image/fast
+
+#=============================================================================
+# Target rules for targets named assets
+
+# Build rule for target.
+assets: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 assets
+.PHONY : assets
+
+# fast build rule for target.
+assets/fast:
+	$(MAKE) -f demos/CMakeFiles/assets.dir/build.make demos/CMakeFiles/assets.dir/build
+.PHONY : assets/fast
+
+#=============================================================================
 # Target rules for targets named demo_animator_app
 
 # Build rule for target.
@@ -306,32 +371,6 @@ preview_ui/fast:
 .PHONY : preview_ui/fast
 
 #=============================================================================
-# Target rules for targets named assets
-
-# Build rule for target.
-assets: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 assets
-.PHONY : assets
-
-# fast build rule for target.
-assets/fast:
-	$(MAKE) -f demos/CMakeFiles/assets.dir/build.make demos/CMakeFiles/assets.dir/build
-.PHONY : assets/fast
-
-#=============================================================================
-# Target rules for targets named mutable_image
-
-# Build rule for target.
-mutable_image: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mutable_image
-.PHONY : mutable_image
-
-# fast build rule for target.
-mutable_image/fast:
-	$(MAKE) -f demos/CMakeFiles/mutable_image.dir/build.make demos/CMakeFiles/mutable_image.dir/build
-.PHONY : mutable_image/fast
-
-#=============================================================================
 # Target rules for targets named frambuffer
 
 # Build rule for target.
@@ -343,32 +382,6 @@ frambuffer: cmake_check_build_system
 frambuffer/fast:
 	$(MAKE) -f demos/CMakeFiles/frambuffer.dir/build.make demos/CMakeFiles/frambuffer.dir/build
 .PHONY : frambuffer/fast
-
-#=============================================================================
-# Target rules for targets named MTCNN
-
-# Build rule for target.
-MTCNN: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 MTCNN
-.PHONY : MTCNN
-
-# fast build rule for target.
-MTCNN/fast:
-	$(MAKE) -f demos/CMakeFiles/MTCNN.dir/build.make demos/CMakeFiles/MTCNN.dir/build
-.PHONY : MTCNN/fast
-
-#=============================================================================
-# Target rules for targets named new_frambuffer
-
-# Build rule for target.
-new_frambuffer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 new_frambuffer
-.PHONY : new_frambuffer
-
-# fast build rule for target.
-new_frambuffer/fast:
-	$(MAKE) -f demos/CMakeFiles/new_frambuffer.dir/build.make demos/CMakeFiles/new_frambuffer.dir/build
-.PHONY : new_frambuffer/fast
 
 # Help Target
 help:
@@ -391,13 +404,14 @@ help:
 	@echo "... theme_gen"
 	@echo "... awtk_show"
 	@echo "... test_opencv"
-	@echo "... demo_animator_app"
-	@echo "... preview_ui"
-	@echo "... assets"
-	@echo "... mutable_image"
-	@echo "... frambuffer"
 	@echo "... MTCNN"
 	@echo "... new_frambuffer"
+	@echo "... demo_thread_app"
+	@echo "... mutable_image"
+	@echo "... assets"
+	@echo "... demo_animator_app"
+	@echo "... preview_ui"
+	@echo "... frambuffer"
 .PHONY : help
 
 

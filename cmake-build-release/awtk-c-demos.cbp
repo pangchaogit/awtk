@@ -1515,566 +1515,6 @@
 					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="demo_animator_app">
-				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/demo_animator_app" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DWITH_STB_FONT"/>
-					<Add option="-DWITH_FT_FONT"/>
-					<Add option="-DSTBTT_STATIC"/>
-					<Add option="-DSTB_IMAGE_STATIC"/>
-					<Add option="-DWITH_STB_IMAGE"/>
-					<Add option="-DWITH_VGCANVAS"/>
-					<Add option="-DWITH_UNICODE_BREAK"/>
-					<Add option="-DWITH_DESKTOP_STYLE"/>
-					<Add option="-DSDL2"/>
-					<Add option="-DHAS_STD_MALLOC"/>
-					<Add option="-DWITH_SDL"/>
-					<Add option="-DWITH_FS_RES"/>
-					<Add option="-DHAS_STDIO"/>
-					<Add option="-DWITH_NANOVG_GPU"/>
-					<Add option="-DWITH_VGCANVAS_LCD"/>
-					<Add option="-DWITH_NANOVG_GL3"/>
-					<Add option="-DWITH_NANOVG_GL"/>
-					<Add option="-DLINUX"/>
-					<Add option="-DHAS_PTHREAD"/>
-					<Add option="-DSDL_REAL_API"/>
-					<Add option="-DSDL_TIMER_UNIX"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
-					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
-					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
-					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
-					<Add option="-DSDL_LOADSO_DLOPEN"/>
-					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
-					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
-					<Add option="-DSDL_HAPTIC_DISABLED"/>
-					<Add option="-DSDL_SENSOR_DISABLED"/>
-					<Add option="-DSDL_JOYSTICK_DISABLED"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 demo_animator_app"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="demo_animator_app/fast">
-				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/demo_animator_app" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DWITH_STB_FONT"/>
-					<Add option="-DWITH_FT_FONT"/>
-					<Add option="-DSTBTT_STATIC"/>
-					<Add option="-DSTB_IMAGE_STATIC"/>
-					<Add option="-DWITH_STB_IMAGE"/>
-					<Add option="-DWITH_VGCANVAS"/>
-					<Add option="-DWITH_UNICODE_BREAK"/>
-					<Add option="-DWITH_DESKTOP_STYLE"/>
-					<Add option="-DSDL2"/>
-					<Add option="-DHAS_STD_MALLOC"/>
-					<Add option="-DWITH_SDL"/>
-					<Add option="-DWITH_FS_RES"/>
-					<Add option="-DHAS_STDIO"/>
-					<Add option="-DWITH_NANOVG_GPU"/>
-					<Add option="-DWITH_VGCANVAS_LCD"/>
-					<Add option="-DWITH_NANOVG_GL3"/>
-					<Add option="-DWITH_NANOVG_GL"/>
-					<Add option="-DLINUX"/>
-					<Add option="-DHAS_PTHREAD"/>
-					<Add option="-DSDL_REAL_API"/>
-					<Add option="-DSDL_TIMER_UNIX"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
-					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
-					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
-					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
-					<Add option="-DSDL_LOADSO_DLOPEN"/>
-					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
-					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
-					<Add option="-DSDL_HAPTIC_DISABLED"/>
-					<Add option="-DSDL_SENSOR_DISABLED"/>
-					<Add option="-DSDL_JOYSTICK_DISABLED"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 demo_animator_app/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="preview_ui">
-				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/preview_ui" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DWITH_STB_FONT"/>
-					<Add option="-DWITH_FT_FONT"/>
-					<Add option="-DSTBTT_STATIC"/>
-					<Add option="-DSTB_IMAGE_STATIC"/>
-					<Add option="-DWITH_STB_IMAGE"/>
-					<Add option="-DWITH_VGCANVAS"/>
-					<Add option="-DWITH_UNICODE_BREAK"/>
-					<Add option="-DWITH_DESKTOP_STYLE"/>
-					<Add option="-DSDL2"/>
-					<Add option="-DHAS_STD_MALLOC"/>
-					<Add option="-DWITH_SDL"/>
-					<Add option="-DWITH_FS_RES"/>
-					<Add option="-DHAS_STDIO"/>
-					<Add option="-DWITH_NANOVG_GPU"/>
-					<Add option="-DWITH_VGCANVAS_LCD"/>
-					<Add option="-DWITH_NANOVG_GL3"/>
-					<Add option="-DWITH_NANOVG_GL"/>
-					<Add option="-DLINUX"/>
-					<Add option="-DHAS_PTHREAD"/>
-					<Add option="-DSDL_REAL_API"/>
-					<Add option="-DSDL_TIMER_UNIX"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
-					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
-					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
-					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
-					<Add option="-DSDL_LOADSO_DLOPEN"/>
-					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
-					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
-					<Add option="-DSDL_HAPTIC_DISABLED"/>
-					<Add option="-DSDL_SENSOR_DISABLED"/>
-					<Add option="-DSDL_JOYSTICK_DISABLED"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 preview_ui"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="preview_ui/fast">
-				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/preview_ui" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DWITH_STB_FONT"/>
-					<Add option="-DWITH_FT_FONT"/>
-					<Add option="-DSTBTT_STATIC"/>
-					<Add option="-DSTB_IMAGE_STATIC"/>
-					<Add option="-DWITH_STB_IMAGE"/>
-					<Add option="-DWITH_VGCANVAS"/>
-					<Add option="-DWITH_UNICODE_BREAK"/>
-					<Add option="-DWITH_DESKTOP_STYLE"/>
-					<Add option="-DSDL2"/>
-					<Add option="-DHAS_STD_MALLOC"/>
-					<Add option="-DWITH_SDL"/>
-					<Add option="-DWITH_FS_RES"/>
-					<Add option="-DHAS_STDIO"/>
-					<Add option="-DWITH_NANOVG_GPU"/>
-					<Add option="-DWITH_VGCANVAS_LCD"/>
-					<Add option="-DWITH_NANOVG_GL3"/>
-					<Add option="-DWITH_NANOVG_GL"/>
-					<Add option="-DLINUX"/>
-					<Add option="-DHAS_PTHREAD"/>
-					<Add option="-DSDL_REAL_API"/>
-					<Add option="-DSDL_TIMER_UNIX"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
-					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
-					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
-					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
-					<Add option="-DSDL_LOADSO_DLOPEN"/>
-					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
-					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
-					<Add option="-DSDL_HAPTIC_DISABLED"/>
-					<Add option="-DSDL_SENSOR_DISABLED"/>
-					<Add option="-DSDL_JOYSTICK_DISABLED"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 preview_ui/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="assets">
-				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/libassets.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DWITH_STB_FONT"/>
-					<Add option="-DWITH_FT_FONT"/>
-					<Add option="-DSTBTT_STATIC"/>
-					<Add option="-DSTB_IMAGE_STATIC"/>
-					<Add option="-DWITH_STB_IMAGE"/>
-					<Add option="-DWITH_VGCANVAS"/>
-					<Add option="-DWITH_UNICODE_BREAK"/>
-					<Add option="-DWITH_DESKTOP_STYLE"/>
-					<Add option="-DSDL2"/>
-					<Add option="-DHAS_STD_MALLOC"/>
-					<Add option="-DWITH_SDL"/>
-					<Add option="-DWITH_FS_RES"/>
-					<Add option="-DHAS_STDIO"/>
-					<Add option="-DWITH_NANOVG_GPU"/>
-					<Add option="-DWITH_VGCANVAS_LCD"/>
-					<Add option="-DWITH_NANOVG_GL3"/>
-					<Add option="-DWITH_NANOVG_GL"/>
-					<Add option="-DLINUX"/>
-					<Add option="-DHAS_PTHREAD"/>
-					<Add option="-DSDL_REAL_API"/>
-					<Add option="-DSDL_TIMER_UNIX"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
-					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
-					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
-					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
-					<Add option="-DSDL_LOADSO_DLOPEN"/>
-					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
-					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
-					<Add option="-DSDL_HAPTIC_DISABLED"/>
-					<Add option="-DSDL_SENSOR_DISABLED"/>
-					<Add option="-DSDL_JOYSTICK_DISABLED"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 assets"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="assets/fast">
-				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/libassets.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DWITH_STB_FONT"/>
-					<Add option="-DWITH_FT_FONT"/>
-					<Add option="-DSTBTT_STATIC"/>
-					<Add option="-DSTB_IMAGE_STATIC"/>
-					<Add option="-DWITH_STB_IMAGE"/>
-					<Add option="-DWITH_VGCANVAS"/>
-					<Add option="-DWITH_UNICODE_BREAK"/>
-					<Add option="-DWITH_DESKTOP_STYLE"/>
-					<Add option="-DSDL2"/>
-					<Add option="-DHAS_STD_MALLOC"/>
-					<Add option="-DWITH_SDL"/>
-					<Add option="-DWITH_FS_RES"/>
-					<Add option="-DHAS_STDIO"/>
-					<Add option="-DWITH_NANOVG_GPU"/>
-					<Add option="-DWITH_VGCANVAS_LCD"/>
-					<Add option="-DWITH_NANOVG_GL3"/>
-					<Add option="-DWITH_NANOVG_GL"/>
-					<Add option="-DLINUX"/>
-					<Add option="-DHAS_PTHREAD"/>
-					<Add option="-DSDL_REAL_API"/>
-					<Add option="-DSDL_TIMER_UNIX"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
-					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
-					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
-					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
-					<Add option="-DSDL_LOADSO_DLOPEN"/>
-					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
-					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
-					<Add option="-DSDL_HAPTIC_DISABLED"/>
-					<Add option="-DSDL_SENSOR_DISABLED"/>
-					<Add option="-DSDL_JOYSTICK_DISABLED"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 assets/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="mutable_image">
-				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/mutable_image" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DWITH_STB_FONT"/>
-					<Add option="-DWITH_FT_FONT"/>
-					<Add option="-DSTBTT_STATIC"/>
-					<Add option="-DSTB_IMAGE_STATIC"/>
-					<Add option="-DWITH_STB_IMAGE"/>
-					<Add option="-DWITH_VGCANVAS"/>
-					<Add option="-DWITH_UNICODE_BREAK"/>
-					<Add option="-DWITH_DESKTOP_STYLE"/>
-					<Add option="-DSDL2"/>
-					<Add option="-DHAS_STD_MALLOC"/>
-					<Add option="-DWITH_SDL"/>
-					<Add option="-DWITH_FS_RES"/>
-					<Add option="-DHAS_STDIO"/>
-					<Add option="-DWITH_NANOVG_GPU"/>
-					<Add option="-DWITH_VGCANVAS_LCD"/>
-					<Add option="-DWITH_NANOVG_GL3"/>
-					<Add option="-DWITH_NANOVG_GL"/>
-					<Add option="-DLINUX"/>
-					<Add option="-DHAS_PTHREAD"/>
-					<Add option="-DSDL_REAL_API"/>
-					<Add option="-DSDL_TIMER_UNIX"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
-					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
-					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
-					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
-					<Add option="-DSDL_LOADSO_DLOPEN"/>
-					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
-					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
-					<Add option="-DSDL_HAPTIC_DISABLED"/>
-					<Add option="-DSDL_SENSOR_DISABLED"/>
-					<Add option="-DSDL_JOYSTICK_DISABLED"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 mutable_image"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="mutable_image/fast">
-				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/mutable_image" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DWITH_STB_FONT"/>
-					<Add option="-DWITH_FT_FONT"/>
-					<Add option="-DSTBTT_STATIC"/>
-					<Add option="-DSTB_IMAGE_STATIC"/>
-					<Add option="-DWITH_STB_IMAGE"/>
-					<Add option="-DWITH_VGCANVAS"/>
-					<Add option="-DWITH_UNICODE_BREAK"/>
-					<Add option="-DWITH_DESKTOP_STYLE"/>
-					<Add option="-DSDL2"/>
-					<Add option="-DHAS_STD_MALLOC"/>
-					<Add option="-DWITH_SDL"/>
-					<Add option="-DWITH_FS_RES"/>
-					<Add option="-DHAS_STDIO"/>
-					<Add option="-DWITH_NANOVG_GPU"/>
-					<Add option="-DWITH_VGCANVAS_LCD"/>
-					<Add option="-DWITH_NANOVG_GL3"/>
-					<Add option="-DWITH_NANOVG_GL"/>
-					<Add option="-DLINUX"/>
-					<Add option="-DHAS_PTHREAD"/>
-					<Add option="-DSDL_REAL_API"/>
-					<Add option="-DSDL_TIMER_UNIX"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
-					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
-					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
-					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
-					<Add option="-DSDL_LOADSO_DLOPEN"/>
-					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
-					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
-					<Add option="-DSDL_HAPTIC_DISABLED"/>
-					<Add option="-DSDL_SENSOR_DISABLED"/>
-					<Add option="-DSDL_JOYSTICK_DISABLED"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 mutable_image/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="frambuffer">
-				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/frambuffer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DWITH_STB_FONT"/>
-					<Add option="-DWITH_FT_FONT"/>
-					<Add option="-DSTBTT_STATIC"/>
-					<Add option="-DSTB_IMAGE_STATIC"/>
-					<Add option="-DWITH_STB_IMAGE"/>
-					<Add option="-DWITH_VGCANVAS"/>
-					<Add option="-DWITH_UNICODE_BREAK"/>
-					<Add option="-DWITH_DESKTOP_STYLE"/>
-					<Add option="-DSDL2"/>
-					<Add option="-DHAS_STD_MALLOC"/>
-					<Add option="-DWITH_SDL"/>
-					<Add option="-DWITH_FS_RES"/>
-					<Add option="-DHAS_STDIO"/>
-					<Add option="-DWITH_NANOVG_GPU"/>
-					<Add option="-DWITH_VGCANVAS_LCD"/>
-					<Add option="-DWITH_NANOVG_GL3"/>
-					<Add option="-DWITH_NANOVG_GL"/>
-					<Add option="-DLINUX"/>
-					<Add option="-DHAS_PTHREAD"/>
-					<Add option="-DSDL_REAL_API"/>
-					<Add option="-DSDL_TIMER_UNIX"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
-					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
-					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
-					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
-					<Add option="-DSDL_LOADSO_DLOPEN"/>
-					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
-					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
-					<Add option="-DSDL_HAPTIC_DISABLED"/>
-					<Add option="-DSDL_SENSOR_DISABLED"/>
-					<Add option="-DSDL_JOYSTICK_DISABLED"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 frambuffer"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="frambuffer/fast">
-				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/frambuffer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DWITH_STB_FONT"/>
-					<Add option="-DWITH_FT_FONT"/>
-					<Add option="-DSTBTT_STATIC"/>
-					<Add option="-DSTB_IMAGE_STATIC"/>
-					<Add option="-DWITH_STB_IMAGE"/>
-					<Add option="-DWITH_VGCANVAS"/>
-					<Add option="-DWITH_UNICODE_BREAK"/>
-					<Add option="-DWITH_DESKTOP_STYLE"/>
-					<Add option="-DSDL2"/>
-					<Add option="-DHAS_STD_MALLOC"/>
-					<Add option="-DWITH_SDL"/>
-					<Add option="-DWITH_FS_RES"/>
-					<Add option="-DHAS_STDIO"/>
-					<Add option="-DWITH_NANOVG_GPU"/>
-					<Add option="-DWITH_VGCANVAS_LCD"/>
-					<Add option="-DWITH_NANOVG_GL3"/>
-					<Add option="-DWITH_NANOVG_GL"/>
-					<Add option="-DLINUX"/>
-					<Add option="-DHAS_PTHREAD"/>
-					<Add option="-DSDL_REAL_API"/>
-					<Add option="-DSDL_TIMER_UNIX"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
-					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
-					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
-					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
-					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
-					<Add option="-DSDL_LOADSO_DLOPEN"/>
-					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
-					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
-					<Add option="-DSDL_HAPTIC_DISABLED"/>
-					<Add option="-DSDL_SENSOR_DISABLED"/>
-					<Add option="-DSDL_JOYSTICK_DISABLED"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
-					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 frambuffer/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="MTCNN">
 				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/MTCNN" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
@@ -2316,6 +1756,678 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 new_frambuffer/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_thread_app">
+				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/demo_thread_app" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_STB_FONT"/>
+					<Add option="-DWITH_FT_FONT"/>
+					<Add option="-DSTBTT_STATIC"/>
+					<Add option="-DSTB_IMAGE_STATIC"/>
+					<Add option="-DWITH_STB_IMAGE"/>
+					<Add option="-DWITH_VGCANVAS"/>
+					<Add option="-DWITH_UNICODE_BREAK"/>
+					<Add option="-DWITH_DESKTOP_STYLE"/>
+					<Add option="-DSDL2"/>
+					<Add option="-DHAS_STD_MALLOC"/>
+					<Add option="-DWITH_SDL"/>
+					<Add option="-DWITH_FS_RES"/>
+					<Add option="-DHAS_STDIO"/>
+					<Add option="-DWITH_NANOVG_GPU"/>
+					<Add option="-DWITH_VGCANVAS_LCD"/>
+					<Add option="-DWITH_NANOVG_GL3"/>
+					<Add option="-DWITH_NANOVG_GL"/>
+					<Add option="-DLINUX"/>
+					<Add option="-DHAS_PTHREAD"/>
+					<Add option="-DSDL_REAL_API"/>
+					<Add option="-DSDL_TIMER_UNIX"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
+					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
+					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
+					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
+					<Add option="-DSDL_LOADSO_DLOPEN"/>
+					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
+					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
+					<Add option="-DSDL_HAPTIC_DISABLED"/>
+					<Add option="-DSDL_SENSOR_DISABLED"/>
+					<Add option="-DSDL_JOYSTICK_DISABLED"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 demo_thread_app"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_thread_app/fast">
+				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/demo_thread_app" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_STB_FONT"/>
+					<Add option="-DWITH_FT_FONT"/>
+					<Add option="-DSTBTT_STATIC"/>
+					<Add option="-DSTB_IMAGE_STATIC"/>
+					<Add option="-DWITH_STB_IMAGE"/>
+					<Add option="-DWITH_VGCANVAS"/>
+					<Add option="-DWITH_UNICODE_BREAK"/>
+					<Add option="-DWITH_DESKTOP_STYLE"/>
+					<Add option="-DSDL2"/>
+					<Add option="-DHAS_STD_MALLOC"/>
+					<Add option="-DWITH_SDL"/>
+					<Add option="-DWITH_FS_RES"/>
+					<Add option="-DHAS_STDIO"/>
+					<Add option="-DWITH_NANOVG_GPU"/>
+					<Add option="-DWITH_VGCANVAS_LCD"/>
+					<Add option="-DWITH_NANOVG_GL3"/>
+					<Add option="-DWITH_NANOVG_GL"/>
+					<Add option="-DLINUX"/>
+					<Add option="-DHAS_PTHREAD"/>
+					<Add option="-DSDL_REAL_API"/>
+					<Add option="-DSDL_TIMER_UNIX"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
+					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
+					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
+					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
+					<Add option="-DSDL_LOADSO_DLOPEN"/>
+					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
+					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
+					<Add option="-DSDL_HAPTIC_DISABLED"/>
+					<Add option="-DSDL_SENSOR_DISABLED"/>
+					<Add option="-DSDL_JOYSTICK_DISABLED"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 demo_thread_app/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mutable_image">
+				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/mutable_image" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_STB_FONT"/>
+					<Add option="-DWITH_FT_FONT"/>
+					<Add option="-DSTBTT_STATIC"/>
+					<Add option="-DSTB_IMAGE_STATIC"/>
+					<Add option="-DWITH_STB_IMAGE"/>
+					<Add option="-DWITH_VGCANVAS"/>
+					<Add option="-DWITH_UNICODE_BREAK"/>
+					<Add option="-DWITH_DESKTOP_STYLE"/>
+					<Add option="-DSDL2"/>
+					<Add option="-DHAS_STD_MALLOC"/>
+					<Add option="-DWITH_SDL"/>
+					<Add option="-DWITH_FS_RES"/>
+					<Add option="-DHAS_STDIO"/>
+					<Add option="-DWITH_NANOVG_GPU"/>
+					<Add option="-DWITH_VGCANVAS_LCD"/>
+					<Add option="-DWITH_NANOVG_GL3"/>
+					<Add option="-DWITH_NANOVG_GL"/>
+					<Add option="-DLINUX"/>
+					<Add option="-DHAS_PTHREAD"/>
+					<Add option="-DSDL_REAL_API"/>
+					<Add option="-DSDL_TIMER_UNIX"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
+					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
+					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
+					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
+					<Add option="-DSDL_LOADSO_DLOPEN"/>
+					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
+					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
+					<Add option="-DSDL_HAPTIC_DISABLED"/>
+					<Add option="-DSDL_SENSOR_DISABLED"/>
+					<Add option="-DSDL_JOYSTICK_DISABLED"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 mutable_image"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mutable_image/fast">
+				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/mutable_image" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_STB_FONT"/>
+					<Add option="-DWITH_FT_FONT"/>
+					<Add option="-DSTBTT_STATIC"/>
+					<Add option="-DSTB_IMAGE_STATIC"/>
+					<Add option="-DWITH_STB_IMAGE"/>
+					<Add option="-DWITH_VGCANVAS"/>
+					<Add option="-DWITH_UNICODE_BREAK"/>
+					<Add option="-DWITH_DESKTOP_STYLE"/>
+					<Add option="-DSDL2"/>
+					<Add option="-DHAS_STD_MALLOC"/>
+					<Add option="-DWITH_SDL"/>
+					<Add option="-DWITH_FS_RES"/>
+					<Add option="-DHAS_STDIO"/>
+					<Add option="-DWITH_NANOVG_GPU"/>
+					<Add option="-DWITH_VGCANVAS_LCD"/>
+					<Add option="-DWITH_NANOVG_GL3"/>
+					<Add option="-DWITH_NANOVG_GL"/>
+					<Add option="-DLINUX"/>
+					<Add option="-DHAS_PTHREAD"/>
+					<Add option="-DSDL_REAL_API"/>
+					<Add option="-DSDL_TIMER_UNIX"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
+					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
+					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
+					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
+					<Add option="-DSDL_LOADSO_DLOPEN"/>
+					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
+					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
+					<Add option="-DSDL_HAPTIC_DISABLED"/>
+					<Add option="-DSDL_SENSOR_DISABLED"/>
+					<Add option="-DSDL_JOYSTICK_DISABLED"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 mutable_image/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assets">
+				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/libassets.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_STB_FONT"/>
+					<Add option="-DWITH_FT_FONT"/>
+					<Add option="-DSTBTT_STATIC"/>
+					<Add option="-DSTB_IMAGE_STATIC"/>
+					<Add option="-DWITH_STB_IMAGE"/>
+					<Add option="-DWITH_VGCANVAS"/>
+					<Add option="-DWITH_UNICODE_BREAK"/>
+					<Add option="-DWITH_DESKTOP_STYLE"/>
+					<Add option="-DSDL2"/>
+					<Add option="-DHAS_STD_MALLOC"/>
+					<Add option="-DWITH_SDL"/>
+					<Add option="-DWITH_FS_RES"/>
+					<Add option="-DHAS_STDIO"/>
+					<Add option="-DWITH_NANOVG_GPU"/>
+					<Add option="-DWITH_VGCANVAS_LCD"/>
+					<Add option="-DWITH_NANOVG_GL3"/>
+					<Add option="-DWITH_NANOVG_GL"/>
+					<Add option="-DLINUX"/>
+					<Add option="-DHAS_PTHREAD"/>
+					<Add option="-DSDL_REAL_API"/>
+					<Add option="-DSDL_TIMER_UNIX"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
+					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
+					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
+					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
+					<Add option="-DSDL_LOADSO_DLOPEN"/>
+					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
+					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
+					<Add option="-DSDL_HAPTIC_DISABLED"/>
+					<Add option="-DSDL_SENSOR_DISABLED"/>
+					<Add option="-DSDL_JOYSTICK_DISABLED"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 assets"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assets/fast">
+				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/libassets.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_STB_FONT"/>
+					<Add option="-DWITH_FT_FONT"/>
+					<Add option="-DSTBTT_STATIC"/>
+					<Add option="-DSTB_IMAGE_STATIC"/>
+					<Add option="-DWITH_STB_IMAGE"/>
+					<Add option="-DWITH_VGCANVAS"/>
+					<Add option="-DWITH_UNICODE_BREAK"/>
+					<Add option="-DWITH_DESKTOP_STYLE"/>
+					<Add option="-DSDL2"/>
+					<Add option="-DHAS_STD_MALLOC"/>
+					<Add option="-DWITH_SDL"/>
+					<Add option="-DWITH_FS_RES"/>
+					<Add option="-DHAS_STDIO"/>
+					<Add option="-DWITH_NANOVG_GPU"/>
+					<Add option="-DWITH_VGCANVAS_LCD"/>
+					<Add option="-DWITH_NANOVG_GL3"/>
+					<Add option="-DWITH_NANOVG_GL"/>
+					<Add option="-DLINUX"/>
+					<Add option="-DHAS_PTHREAD"/>
+					<Add option="-DSDL_REAL_API"/>
+					<Add option="-DSDL_TIMER_UNIX"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
+					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
+					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
+					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
+					<Add option="-DSDL_LOADSO_DLOPEN"/>
+					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
+					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
+					<Add option="-DSDL_HAPTIC_DISABLED"/>
+					<Add option="-DSDL_SENSOR_DISABLED"/>
+					<Add option="-DSDL_JOYSTICK_DISABLED"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 assets/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_animator_app">
+				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/demo_animator_app" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_STB_FONT"/>
+					<Add option="-DWITH_FT_FONT"/>
+					<Add option="-DSTBTT_STATIC"/>
+					<Add option="-DSTB_IMAGE_STATIC"/>
+					<Add option="-DWITH_STB_IMAGE"/>
+					<Add option="-DWITH_VGCANVAS"/>
+					<Add option="-DWITH_UNICODE_BREAK"/>
+					<Add option="-DWITH_DESKTOP_STYLE"/>
+					<Add option="-DSDL2"/>
+					<Add option="-DHAS_STD_MALLOC"/>
+					<Add option="-DWITH_SDL"/>
+					<Add option="-DWITH_FS_RES"/>
+					<Add option="-DHAS_STDIO"/>
+					<Add option="-DWITH_NANOVG_GPU"/>
+					<Add option="-DWITH_VGCANVAS_LCD"/>
+					<Add option="-DWITH_NANOVG_GL3"/>
+					<Add option="-DWITH_NANOVG_GL"/>
+					<Add option="-DLINUX"/>
+					<Add option="-DHAS_PTHREAD"/>
+					<Add option="-DSDL_REAL_API"/>
+					<Add option="-DSDL_TIMER_UNIX"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
+					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
+					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
+					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
+					<Add option="-DSDL_LOADSO_DLOPEN"/>
+					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
+					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
+					<Add option="-DSDL_HAPTIC_DISABLED"/>
+					<Add option="-DSDL_SENSOR_DISABLED"/>
+					<Add option="-DSDL_JOYSTICK_DISABLED"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 demo_animator_app"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_animator_app/fast">
+				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/demo_animator_app" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_STB_FONT"/>
+					<Add option="-DWITH_FT_FONT"/>
+					<Add option="-DSTBTT_STATIC"/>
+					<Add option="-DSTB_IMAGE_STATIC"/>
+					<Add option="-DWITH_STB_IMAGE"/>
+					<Add option="-DWITH_VGCANVAS"/>
+					<Add option="-DWITH_UNICODE_BREAK"/>
+					<Add option="-DWITH_DESKTOP_STYLE"/>
+					<Add option="-DSDL2"/>
+					<Add option="-DHAS_STD_MALLOC"/>
+					<Add option="-DWITH_SDL"/>
+					<Add option="-DWITH_FS_RES"/>
+					<Add option="-DHAS_STDIO"/>
+					<Add option="-DWITH_NANOVG_GPU"/>
+					<Add option="-DWITH_VGCANVAS_LCD"/>
+					<Add option="-DWITH_NANOVG_GL3"/>
+					<Add option="-DWITH_NANOVG_GL"/>
+					<Add option="-DLINUX"/>
+					<Add option="-DHAS_PTHREAD"/>
+					<Add option="-DSDL_REAL_API"/>
+					<Add option="-DSDL_TIMER_UNIX"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
+					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
+					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
+					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
+					<Add option="-DSDL_LOADSO_DLOPEN"/>
+					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
+					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
+					<Add option="-DSDL_HAPTIC_DISABLED"/>
+					<Add option="-DSDL_SENSOR_DISABLED"/>
+					<Add option="-DSDL_JOYSTICK_DISABLED"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 demo_animator_app/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="preview_ui">
+				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/preview_ui" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_STB_FONT"/>
+					<Add option="-DWITH_FT_FONT"/>
+					<Add option="-DSTBTT_STATIC"/>
+					<Add option="-DSTB_IMAGE_STATIC"/>
+					<Add option="-DWITH_STB_IMAGE"/>
+					<Add option="-DWITH_VGCANVAS"/>
+					<Add option="-DWITH_UNICODE_BREAK"/>
+					<Add option="-DWITH_DESKTOP_STYLE"/>
+					<Add option="-DSDL2"/>
+					<Add option="-DHAS_STD_MALLOC"/>
+					<Add option="-DWITH_SDL"/>
+					<Add option="-DWITH_FS_RES"/>
+					<Add option="-DHAS_STDIO"/>
+					<Add option="-DWITH_NANOVG_GPU"/>
+					<Add option="-DWITH_VGCANVAS_LCD"/>
+					<Add option="-DWITH_NANOVG_GL3"/>
+					<Add option="-DWITH_NANOVG_GL"/>
+					<Add option="-DLINUX"/>
+					<Add option="-DHAS_PTHREAD"/>
+					<Add option="-DSDL_REAL_API"/>
+					<Add option="-DSDL_TIMER_UNIX"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
+					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
+					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
+					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
+					<Add option="-DSDL_LOADSO_DLOPEN"/>
+					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
+					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
+					<Add option="-DSDL_HAPTIC_DISABLED"/>
+					<Add option="-DSDL_SENSOR_DISABLED"/>
+					<Add option="-DSDL_JOYSTICK_DISABLED"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 preview_ui"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="preview_ui/fast">
+				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/preview_ui" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_STB_FONT"/>
+					<Add option="-DWITH_FT_FONT"/>
+					<Add option="-DSTBTT_STATIC"/>
+					<Add option="-DSTB_IMAGE_STATIC"/>
+					<Add option="-DWITH_STB_IMAGE"/>
+					<Add option="-DWITH_VGCANVAS"/>
+					<Add option="-DWITH_UNICODE_BREAK"/>
+					<Add option="-DWITH_DESKTOP_STYLE"/>
+					<Add option="-DSDL2"/>
+					<Add option="-DHAS_STD_MALLOC"/>
+					<Add option="-DWITH_SDL"/>
+					<Add option="-DWITH_FS_RES"/>
+					<Add option="-DHAS_STDIO"/>
+					<Add option="-DWITH_NANOVG_GPU"/>
+					<Add option="-DWITH_VGCANVAS_LCD"/>
+					<Add option="-DWITH_NANOVG_GL3"/>
+					<Add option="-DWITH_NANOVG_GL"/>
+					<Add option="-DLINUX"/>
+					<Add option="-DHAS_PTHREAD"/>
+					<Add option="-DSDL_REAL_API"/>
+					<Add option="-DSDL_TIMER_UNIX"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
+					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
+					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
+					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
+					<Add option="-DSDL_LOADSO_DLOPEN"/>
+					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
+					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
+					<Add option="-DSDL_HAPTIC_DISABLED"/>
+					<Add option="-DSDL_SENSOR_DISABLED"/>
+					<Add option="-DSDL_JOYSTICK_DISABLED"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 preview_ui/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="frambuffer">
+				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/frambuffer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_STB_FONT"/>
+					<Add option="-DWITH_FT_FONT"/>
+					<Add option="-DSTBTT_STATIC"/>
+					<Add option="-DSTB_IMAGE_STATIC"/>
+					<Add option="-DWITH_STB_IMAGE"/>
+					<Add option="-DWITH_VGCANVAS"/>
+					<Add option="-DWITH_UNICODE_BREAK"/>
+					<Add option="-DWITH_DESKTOP_STYLE"/>
+					<Add option="-DSDL2"/>
+					<Add option="-DHAS_STD_MALLOC"/>
+					<Add option="-DWITH_SDL"/>
+					<Add option="-DWITH_FS_RES"/>
+					<Add option="-DHAS_STDIO"/>
+					<Add option="-DWITH_NANOVG_GPU"/>
+					<Add option="-DWITH_VGCANVAS_LCD"/>
+					<Add option="-DWITH_NANOVG_GL3"/>
+					<Add option="-DWITH_NANOVG_GL"/>
+					<Add option="-DLINUX"/>
+					<Add option="-DHAS_PTHREAD"/>
+					<Add option="-DSDL_REAL_API"/>
+					<Add option="-DSDL_TIMER_UNIX"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
+					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
+					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
+					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
+					<Add option="-DSDL_LOADSO_DLOPEN"/>
+					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
+					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
+					<Add option="-DSDL_HAPTIC_DISABLED"/>
+					<Add option="-DSDL_SENSOR_DISABLED"/>
+					<Add option="-DSDL_JOYSTICK_DISABLED"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 frambuffer"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="frambuffer/fast">
+				<Option output="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/frambuffer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_STB_FONT"/>
+					<Add option="-DWITH_FT_FONT"/>
+					<Add option="-DSTBTT_STATIC"/>
+					<Add option="-DSTB_IMAGE_STATIC"/>
+					<Add option="-DWITH_STB_IMAGE"/>
+					<Add option="-DWITH_VGCANVAS"/>
+					<Add option="-DWITH_UNICODE_BREAK"/>
+					<Add option="-DWITH_DESKTOP_STYLE"/>
+					<Add option="-DSDL2"/>
+					<Add option="-DHAS_STD_MALLOC"/>
+					<Add option="-DWITH_SDL"/>
+					<Add option="-DWITH_FS_RES"/>
+					<Add option="-DHAS_STDIO"/>
+					<Add option="-DWITH_NANOVG_GPU"/>
+					<Add option="-DWITH_VGCANVAS_LCD"/>
+					<Add option="-DWITH_NANOVG_GL3"/>
+					<Add option="-DWITH_NANOVG_GL"/>
+					<Add option="-DLINUX"/>
+					<Add option="-DHAS_PTHREAD"/>
+					<Add option="-DSDL_REAL_API"/>
+					<Add option="-DSDL_TIMER_UNIX"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11"/>
+					<Add option="-DSDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS"/>
+					<Add option="-DSDL_AUDIO_DRIVER_SNDIO"/>
+					<Add option="-DSDL_VIDEO_OPENGL_GLX"/>
+					<Add option="-DSDL_VIDEO_RENDER_OGL"/>
+					<Add option="-DSDL_LOADSO_DLOPEN"/>
+					<Add option="-DSDL_VIDEO_OPENGL_EGL"/>
+					<Add option="-DSDL_VIDEO_OPENGL_ES2"/>
+					<Add option="-DSDL_HAPTIC_DISABLED"/>
+					<Add option="-DSDL_SENSOR_DISABLED"/>
+					<Add option="-DSDL_JOYSTICK_DISABLED"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/base"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/nanovg/gl"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/SDL/include"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/3rd/libunibreak"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/tools"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/tkc"/>
+					<Add directory="/home/pc/work/awtk/pc_awtk/awtk/src/ext_widgets"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 frambuffer/fast"/>
 					<CompileFile command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -f &quot;/home/pc/work/awtk/pc_awtk/awtk/cmake-build-release/demos/Makefile&quot;  VERBOSE=1 clean"/>
@@ -2974,6 +3086,9 @@
 		</Unit>
 		<Unit filename="/home/pc/work/awtk/pc_awtk/awtk/demos/demo_animator_app.c">
 			<Option target="demo_animator_app"/>
+		</Unit>
+		<Unit filename="/home/pc/work/awtk/pc_awtk/awtk/demos/demo_thread_app.c">
+			<Option target="demo_thread_app"/>
 		</Unit>
 		<Unit filename="/home/pc/work/awtk/pc_awtk/awtk/demos/frambuffer.c">
 			<Option target="frambuffer"/>

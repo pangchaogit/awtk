@@ -89,7 +89,7 @@ src/preinstall:
 src/CMakeFiles/awtk.dir/all:
 	$(MAKE) -f src/CMakeFiles/awtk.dir/build.make src/CMakeFiles/awtk.dir/depend
 	$(MAKE) -f src/CMakeFiles/awtk.dir/build.make src/CMakeFiles/awtk.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86 "Built target awtk"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles --progress-num=34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86 "Built target awtk"
 .PHONY : src/CMakeFiles/awtk.dir/all
 
 # Include target in all.
@@ -99,7 +99,7 @@ all: src/CMakeFiles/awtk.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/awtk.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 53
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/awtk.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
 .PHONY : src/CMakeFiles/awtk.dir/rule
@@ -479,7 +479,7 @@ tools/common/preinstall:
 tools/common/CMakeFiles/common.dir/all:
 	$(MAKE) -f tools/common/CMakeFiles/common.dir/build.make tools/common/CMakeFiles/common.dir/depend
 	$(MAKE) -f tools/common/CMakeFiles/common.dir/build.make tools/common/CMakeFiles/common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles --progress-num=88 "Built target common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles --progress-num= "Built target common"
 .PHONY : tools/common/CMakeFiles/common.dir/all
 
 # Include target in all.
@@ -489,7 +489,7 @@ all: tools/common/CMakeFiles/common.dir/all
 
 # Build rule for subdir invocation for target.
 tools/common/CMakeFiles/common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 tools/common/CMakeFiles/common.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
 .PHONY : tools/common/CMakeFiles/common.dir/rule
@@ -735,26 +735,28 @@ clean: tools/theme_gen/CMakeFiles/theme_gen.dir/clean
 # Convenience name for "all" pass in the directory.
 demos/all: demos/CMakeFiles/awtk_show.dir/all
 demos/all: demos/CMakeFiles/test_opencv.dir/all
-demos/all: demos/CMakeFiles/demo_animator_app.dir/all
-demos/all: demos/CMakeFiles/preview_ui.dir/all
-demos/all: demos/CMakeFiles/assets.dir/all
-demos/all: demos/CMakeFiles/mutable_image.dir/all
-demos/all: demos/CMakeFiles/frambuffer.dir/all
 demos/all: demos/CMakeFiles/MTCNN.dir/all
 demos/all: demos/CMakeFiles/new_frambuffer.dir/all
+demos/all: demos/CMakeFiles/demo_thread_app.dir/all
+demos/all: demos/CMakeFiles/mutable_image.dir/all
+demos/all: demos/CMakeFiles/assets.dir/all
+demos/all: demos/CMakeFiles/demo_animator_app.dir/all
+demos/all: demos/CMakeFiles/preview_ui.dir/all
+demos/all: demos/CMakeFiles/frambuffer.dir/all
 
 .PHONY : demos/all
 
 # Convenience name for "clean" pass in the directory.
 demos/clean: demos/CMakeFiles/awtk_show.dir/clean
 demos/clean: demos/CMakeFiles/test_opencv.dir/clean
-demos/clean: demos/CMakeFiles/demo_animator_app.dir/clean
-demos/clean: demos/CMakeFiles/preview_ui.dir/clean
-demos/clean: demos/CMakeFiles/assets.dir/clean
-demos/clean: demos/CMakeFiles/mutable_image.dir/clean
-demos/clean: demos/CMakeFiles/frambuffer.dir/clean
 demos/clean: demos/CMakeFiles/MTCNN.dir/clean
 demos/clean: demos/CMakeFiles/new_frambuffer.dir/clean
+demos/clean: demos/CMakeFiles/demo_thread_app.dir/clean
+demos/clean: demos/CMakeFiles/mutable_image.dir/clean
+demos/clean: demos/CMakeFiles/assets.dir/clean
+demos/clean: demos/CMakeFiles/demo_animator_app.dir/clean
+demos/clean: demos/CMakeFiles/preview_ui.dir/clean
+demos/clean: demos/CMakeFiles/frambuffer.dir/clean
 
 .PHONY : demos/clean
 
@@ -791,7 +793,7 @@ all: demos/CMakeFiles/awtk_show.dir/all
 
 # Build rule for subdir invocation for target.
 demos/CMakeFiles/awtk_show.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 97
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 96
 	$(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/awtk_show.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
 .PHONY : demos/CMakeFiles/awtk_show.dir/rule
@@ -839,7 +841,7 @@ all: demos/CMakeFiles/test_opencv.dir/all
 
 # Build rule for subdir invocation for target.
 demos/CMakeFiles/test_opencv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 97
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 96
 	$(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/test_opencv.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
 .PHONY : demos/CMakeFiles/test_opencv.dir/rule
@@ -856,235 +858,6 @@ demos/CMakeFiles/test_opencv.dir/clean:
 
 # clean rule for target.
 clean: demos/CMakeFiles/test_opencv.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target demos/CMakeFiles/demo_animator_app.dir
-
-# All Build rule for target.
-demos/CMakeFiles/demo_animator_app.dir/all: src/CMakeFiles/awtk.dir/all
-demos/CMakeFiles/demo_animator_app.dir/all: 3rd/SDL/CMakeFiles/SDL2.dir/all
-demos/CMakeFiles/demo_animator_app.dir/all: 3rd/nanovg/CMakeFiles/nanovg.dir/all
-demos/CMakeFiles/demo_animator_app.dir/all: 3rd/glad/CMakeFiles/glad.dir/all
-demos/CMakeFiles/demo_animator_app.dir/all: 3rd/gpinyin/CMakeFiles/gpinyin.dir/all
-demos/CMakeFiles/demo_animator_app.dir/all: 3rd/libunibreak/CMakeFiles/linebreak.dir/all
-demos/CMakeFiles/demo_animator_app.dir/all: tools/common/CMakeFiles/common.dir/all
-demos/CMakeFiles/demo_animator_app.dir/all: tools/font_gen/CMakeFiles/font_gen.dir/all
-demos/CMakeFiles/demo_animator_app.dir/all: tools/image_gen/CMakeFiles/image_gen.dir/all
-demos/CMakeFiles/demo_animator_app.dir/all: tools/str_gen/CMakeFiles/str_gen.dir/all
-demos/CMakeFiles/demo_animator_app.dir/all: tools/theme_gen/CMakeFiles/theme_gen.dir/all
-demos/CMakeFiles/demo_animator_app.dir/all: demos/CMakeFiles/assets.dir/all
-	$(MAKE) -f demos/CMakeFiles/demo_animator_app.dir/build.make demos/CMakeFiles/demo_animator_app.dir/depend
-	$(MAKE) -f demos/CMakeFiles/demo_animator_app.dir/build.make demos/CMakeFiles/demo_animator_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles --progress-num= "Built target demo_animator_app"
-.PHONY : demos/CMakeFiles/demo_animator_app.dir/all
-
-# Include target in all.
-all: demos/CMakeFiles/demo_animator_app.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-demos/CMakeFiles/demo_animator_app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 96
-	$(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/demo_animator_app.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
-.PHONY : demos/CMakeFiles/demo_animator_app.dir/rule
-
-# Convenience name for target.
-demo_animator_app: demos/CMakeFiles/demo_animator_app.dir/rule
-
-.PHONY : demo_animator_app
-
-# clean rule for target.
-demos/CMakeFiles/demo_animator_app.dir/clean:
-	$(MAKE) -f demos/CMakeFiles/demo_animator_app.dir/build.make demos/CMakeFiles/demo_animator_app.dir/clean
-.PHONY : demos/CMakeFiles/demo_animator_app.dir/clean
-
-# clean rule for target.
-clean: demos/CMakeFiles/demo_animator_app.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target demos/CMakeFiles/preview_ui.dir
-
-# All Build rule for target.
-demos/CMakeFiles/preview_ui.dir/all: src/CMakeFiles/awtk.dir/all
-demos/CMakeFiles/preview_ui.dir/all: 3rd/SDL/CMakeFiles/SDL2.dir/all
-demos/CMakeFiles/preview_ui.dir/all: 3rd/nanovg/CMakeFiles/nanovg.dir/all
-demos/CMakeFiles/preview_ui.dir/all: 3rd/glad/CMakeFiles/glad.dir/all
-demos/CMakeFiles/preview_ui.dir/all: 3rd/gpinyin/CMakeFiles/gpinyin.dir/all
-demos/CMakeFiles/preview_ui.dir/all: 3rd/libunibreak/CMakeFiles/linebreak.dir/all
-demos/CMakeFiles/preview_ui.dir/all: tools/common/CMakeFiles/common.dir/all
-demos/CMakeFiles/preview_ui.dir/all: tools/font_gen/CMakeFiles/font_gen.dir/all
-demos/CMakeFiles/preview_ui.dir/all: tools/image_gen/CMakeFiles/image_gen.dir/all
-demos/CMakeFiles/preview_ui.dir/all: tools/str_gen/CMakeFiles/str_gen.dir/all
-demos/CMakeFiles/preview_ui.dir/all: tools/theme_gen/CMakeFiles/theme_gen.dir/all
-demos/CMakeFiles/preview_ui.dir/all: demos/CMakeFiles/assets.dir/all
-	$(MAKE) -f demos/CMakeFiles/preview_ui.dir/build.make demos/CMakeFiles/preview_ui.dir/depend
-	$(MAKE) -f demos/CMakeFiles/preview_ui.dir/build.make demos/CMakeFiles/preview_ui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles --progress-num= "Built target preview_ui"
-.PHONY : demos/CMakeFiles/preview_ui.dir/all
-
-# Include target in all.
-all: demos/CMakeFiles/preview_ui.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-demos/CMakeFiles/preview_ui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 96
-	$(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/preview_ui.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
-.PHONY : demos/CMakeFiles/preview_ui.dir/rule
-
-# Convenience name for target.
-preview_ui: demos/CMakeFiles/preview_ui.dir/rule
-
-.PHONY : preview_ui
-
-# clean rule for target.
-demos/CMakeFiles/preview_ui.dir/clean:
-	$(MAKE) -f demos/CMakeFiles/preview_ui.dir/build.make demos/CMakeFiles/preview_ui.dir/clean
-.PHONY : demos/CMakeFiles/preview_ui.dir/clean
-
-# clean rule for target.
-clean: demos/CMakeFiles/preview_ui.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target demos/CMakeFiles/assets.dir
-
-# All Build rule for target.
-demos/CMakeFiles/assets.dir/all:
-	$(MAKE) -f demos/CMakeFiles/assets.dir/build.make demos/CMakeFiles/assets.dir/depend
-	$(MAKE) -f demos/CMakeFiles/assets.dir/build.make demos/CMakeFiles/assets.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles --progress-num=34 "Built target assets"
-.PHONY : demos/CMakeFiles/assets.dir/all
-
-# Include target in all.
-all: demos/CMakeFiles/assets.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-demos/CMakeFiles/assets.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/assets.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
-.PHONY : demos/CMakeFiles/assets.dir/rule
-
-# Convenience name for target.
-assets: demos/CMakeFiles/assets.dir/rule
-
-.PHONY : assets
-
-# clean rule for target.
-demos/CMakeFiles/assets.dir/clean:
-	$(MAKE) -f demos/CMakeFiles/assets.dir/build.make demos/CMakeFiles/assets.dir/clean
-.PHONY : demos/CMakeFiles/assets.dir/clean
-
-# clean rule for target.
-clean: demos/CMakeFiles/assets.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target demos/CMakeFiles/mutable_image.dir
-
-# All Build rule for target.
-demos/CMakeFiles/mutable_image.dir/all: src/CMakeFiles/awtk.dir/all
-demos/CMakeFiles/mutable_image.dir/all: 3rd/SDL/CMakeFiles/SDL2.dir/all
-demos/CMakeFiles/mutable_image.dir/all: 3rd/nanovg/CMakeFiles/nanovg.dir/all
-demos/CMakeFiles/mutable_image.dir/all: 3rd/glad/CMakeFiles/glad.dir/all
-demos/CMakeFiles/mutable_image.dir/all: 3rd/gpinyin/CMakeFiles/gpinyin.dir/all
-demos/CMakeFiles/mutable_image.dir/all: 3rd/libunibreak/CMakeFiles/linebreak.dir/all
-demos/CMakeFiles/mutable_image.dir/all: tools/common/CMakeFiles/common.dir/all
-demos/CMakeFiles/mutable_image.dir/all: tools/font_gen/CMakeFiles/font_gen.dir/all
-demos/CMakeFiles/mutable_image.dir/all: tools/image_gen/CMakeFiles/image_gen.dir/all
-demos/CMakeFiles/mutable_image.dir/all: tools/str_gen/CMakeFiles/str_gen.dir/all
-demos/CMakeFiles/mutable_image.dir/all: tools/theme_gen/CMakeFiles/theme_gen.dir/all
-demos/CMakeFiles/mutable_image.dir/all: demos/CMakeFiles/assets.dir/all
-	$(MAKE) -f demos/CMakeFiles/mutable_image.dir/build.make demos/CMakeFiles/mutable_image.dir/depend
-	$(MAKE) -f demos/CMakeFiles/mutable_image.dir/build.make demos/CMakeFiles/mutable_image.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles --progress-num=96 "Built target mutable_image"
-.PHONY : demos/CMakeFiles/mutable_image.dir/all
-
-# Include target in all.
-all: demos/CMakeFiles/mutable_image.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-demos/CMakeFiles/mutable_image.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 97
-	$(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/mutable_image.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
-.PHONY : demos/CMakeFiles/mutable_image.dir/rule
-
-# Convenience name for target.
-mutable_image: demos/CMakeFiles/mutable_image.dir/rule
-
-.PHONY : mutable_image
-
-# clean rule for target.
-demos/CMakeFiles/mutable_image.dir/clean:
-	$(MAKE) -f demos/CMakeFiles/mutable_image.dir/build.make demos/CMakeFiles/mutable_image.dir/clean
-.PHONY : demos/CMakeFiles/mutable_image.dir/clean
-
-# clean rule for target.
-clean: demos/CMakeFiles/mutable_image.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target demos/CMakeFiles/frambuffer.dir
-
-# All Build rule for target.
-demos/CMakeFiles/frambuffer.dir/all: src/CMakeFiles/awtk.dir/all
-demos/CMakeFiles/frambuffer.dir/all: 3rd/SDL/CMakeFiles/SDL2.dir/all
-demos/CMakeFiles/frambuffer.dir/all: 3rd/nanovg/CMakeFiles/nanovg.dir/all
-demos/CMakeFiles/frambuffer.dir/all: 3rd/glad/CMakeFiles/glad.dir/all
-demos/CMakeFiles/frambuffer.dir/all: 3rd/gpinyin/CMakeFiles/gpinyin.dir/all
-demos/CMakeFiles/frambuffer.dir/all: 3rd/libunibreak/CMakeFiles/linebreak.dir/all
-demos/CMakeFiles/frambuffer.dir/all: tools/common/CMakeFiles/common.dir/all
-demos/CMakeFiles/frambuffer.dir/all: tools/font_gen/CMakeFiles/font_gen.dir/all
-demos/CMakeFiles/frambuffer.dir/all: tools/image_gen/CMakeFiles/image_gen.dir/all
-demos/CMakeFiles/frambuffer.dir/all: tools/str_gen/CMakeFiles/str_gen.dir/all
-demos/CMakeFiles/frambuffer.dir/all: tools/theme_gen/CMakeFiles/theme_gen.dir/all
-demos/CMakeFiles/frambuffer.dir/all: demos/CMakeFiles/assets.dir/all
-	$(MAKE) -f demos/CMakeFiles/frambuffer.dir/build.make demos/CMakeFiles/frambuffer.dir/depend
-	$(MAKE) -f demos/CMakeFiles/frambuffer.dir/build.make demos/CMakeFiles/frambuffer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles --progress-num= "Built target frambuffer"
-.PHONY : demos/CMakeFiles/frambuffer.dir/all
-
-# Include target in all.
-all: demos/CMakeFiles/frambuffer.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-demos/CMakeFiles/frambuffer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 96
-	$(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/frambuffer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
-.PHONY : demos/CMakeFiles/frambuffer.dir/rule
-
-# Convenience name for target.
-frambuffer: demos/CMakeFiles/frambuffer.dir/rule
-
-.PHONY : frambuffer
-
-# clean rule for target.
-demos/CMakeFiles/frambuffer.dir/clean:
-	$(MAKE) -f demos/CMakeFiles/frambuffer.dir/build.make demos/CMakeFiles/frambuffer.dir/clean
-.PHONY : demos/CMakeFiles/frambuffer.dir/clean
-
-# clean rule for target.
-clean: demos/CMakeFiles/frambuffer.dir/clean
 
 .PHONY : clean
 
@@ -1153,7 +926,7 @@ all: demos/CMakeFiles/new_frambuffer.dir/all
 
 # Build rule for subdir invocation for target.
 demos/CMakeFiles/new_frambuffer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 97
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 96
 	$(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/new_frambuffer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
 .PHONY : demos/CMakeFiles/new_frambuffer.dir/rule
@@ -1170,6 +943,283 @@ demos/CMakeFiles/new_frambuffer.dir/clean:
 
 # clean rule for target.
 clean: demos/CMakeFiles/new_frambuffer.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target demos/CMakeFiles/demo_thread_app.dir
+
+# All Build rule for target.
+demos/CMakeFiles/demo_thread_app.dir/all: src/CMakeFiles/awtk.dir/all
+demos/CMakeFiles/demo_thread_app.dir/all: 3rd/SDL/CMakeFiles/SDL2.dir/all
+demos/CMakeFiles/demo_thread_app.dir/all: 3rd/nanovg/CMakeFiles/nanovg.dir/all
+demos/CMakeFiles/demo_thread_app.dir/all: 3rd/glad/CMakeFiles/glad.dir/all
+demos/CMakeFiles/demo_thread_app.dir/all: 3rd/gpinyin/CMakeFiles/gpinyin.dir/all
+demos/CMakeFiles/demo_thread_app.dir/all: 3rd/libunibreak/CMakeFiles/linebreak.dir/all
+demos/CMakeFiles/demo_thread_app.dir/all: tools/common/CMakeFiles/common.dir/all
+demos/CMakeFiles/demo_thread_app.dir/all: tools/font_gen/CMakeFiles/font_gen.dir/all
+demos/CMakeFiles/demo_thread_app.dir/all: tools/image_gen/CMakeFiles/image_gen.dir/all
+demos/CMakeFiles/demo_thread_app.dir/all: tools/str_gen/CMakeFiles/str_gen.dir/all
+demos/CMakeFiles/demo_thread_app.dir/all: tools/theme_gen/CMakeFiles/theme_gen.dir/all
+demos/CMakeFiles/demo_thread_app.dir/all: demos/CMakeFiles/assets.dir/all
+	$(MAKE) -f demos/CMakeFiles/demo_thread_app.dir/build.make demos/CMakeFiles/demo_thread_app.dir/depend
+	$(MAKE) -f demos/CMakeFiles/demo_thread_app.dir/build.make demos/CMakeFiles/demo_thread_app.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles --progress-num= "Built target demo_thread_app"
+.PHONY : demos/CMakeFiles/demo_thread_app.dir/all
+
+# Include target in all.
+all: demos/CMakeFiles/demo_thread_app.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+demos/CMakeFiles/demo_thread_app.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 95
+	$(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/demo_thread_app.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
+.PHONY : demos/CMakeFiles/demo_thread_app.dir/rule
+
+# Convenience name for target.
+demo_thread_app: demos/CMakeFiles/demo_thread_app.dir/rule
+
+.PHONY : demo_thread_app
+
+# clean rule for target.
+demos/CMakeFiles/demo_thread_app.dir/clean:
+	$(MAKE) -f demos/CMakeFiles/demo_thread_app.dir/build.make demos/CMakeFiles/demo_thread_app.dir/clean
+.PHONY : demos/CMakeFiles/demo_thread_app.dir/clean
+
+# clean rule for target.
+clean: demos/CMakeFiles/demo_thread_app.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target demos/CMakeFiles/mutable_image.dir
+
+# All Build rule for target.
+demos/CMakeFiles/mutable_image.dir/all: src/CMakeFiles/awtk.dir/all
+demos/CMakeFiles/mutable_image.dir/all: 3rd/SDL/CMakeFiles/SDL2.dir/all
+demos/CMakeFiles/mutable_image.dir/all: 3rd/nanovg/CMakeFiles/nanovg.dir/all
+demos/CMakeFiles/mutable_image.dir/all: 3rd/glad/CMakeFiles/glad.dir/all
+demos/CMakeFiles/mutable_image.dir/all: 3rd/gpinyin/CMakeFiles/gpinyin.dir/all
+demos/CMakeFiles/mutable_image.dir/all: 3rd/libunibreak/CMakeFiles/linebreak.dir/all
+demos/CMakeFiles/mutable_image.dir/all: tools/common/CMakeFiles/common.dir/all
+demos/CMakeFiles/mutable_image.dir/all: tools/font_gen/CMakeFiles/font_gen.dir/all
+demos/CMakeFiles/mutable_image.dir/all: tools/image_gen/CMakeFiles/image_gen.dir/all
+demos/CMakeFiles/mutable_image.dir/all: tools/str_gen/CMakeFiles/str_gen.dir/all
+demos/CMakeFiles/mutable_image.dir/all: tools/theme_gen/CMakeFiles/theme_gen.dir/all
+demos/CMakeFiles/mutable_image.dir/all: demos/CMakeFiles/assets.dir/all
+	$(MAKE) -f demos/CMakeFiles/mutable_image.dir/build.make demos/CMakeFiles/mutable_image.dir/depend
+	$(MAKE) -f demos/CMakeFiles/mutable_image.dir/build.make demos/CMakeFiles/mutable_image.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles --progress-num=96 "Built target mutable_image"
+.PHONY : demos/CMakeFiles/mutable_image.dir/all
+
+# Include target in all.
+all: demos/CMakeFiles/mutable_image.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+demos/CMakeFiles/mutable_image.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 96
+	$(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/mutable_image.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
+.PHONY : demos/CMakeFiles/mutable_image.dir/rule
+
+# Convenience name for target.
+mutable_image: demos/CMakeFiles/mutable_image.dir/rule
+
+.PHONY : mutable_image
+
+# clean rule for target.
+demos/CMakeFiles/mutable_image.dir/clean:
+	$(MAKE) -f demos/CMakeFiles/mutable_image.dir/build.make demos/CMakeFiles/mutable_image.dir/clean
+.PHONY : demos/CMakeFiles/mutable_image.dir/clean
+
+# clean rule for target.
+clean: demos/CMakeFiles/mutable_image.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target demos/CMakeFiles/assets.dir
+
+# All Build rule for target.
+demos/CMakeFiles/assets.dir/all:
+	$(MAKE) -f demos/CMakeFiles/assets.dir/build.make demos/CMakeFiles/assets.dir/depend
+	$(MAKE) -f demos/CMakeFiles/assets.dir/build.make demos/CMakeFiles/assets.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles --progress-num= "Built target assets"
+.PHONY : demos/CMakeFiles/assets.dir/all
+
+# Include target in all.
+all: demos/CMakeFiles/assets.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+demos/CMakeFiles/assets.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/assets.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
+.PHONY : demos/CMakeFiles/assets.dir/rule
+
+# Convenience name for target.
+assets: demos/CMakeFiles/assets.dir/rule
+
+.PHONY : assets
+
+# clean rule for target.
+demos/CMakeFiles/assets.dir/clean:
+	$(MAKE) -f demos/CMakeFiles/assets.dir/build.make demos/CMakeFiles/assets.dir/clean
+.PHONY : demos/CMakeFiles/assets.dir/clean
+
+# clean rule for target.
+clean: demos/CMakeFiles/assets.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target demos/CMakeFiles/demo_animator_app.dir
+
+# All Build rule for target.
+demos/CMakeFiles/demo_animator_app.dir/all: src/CMakeFiles/awtk.dir/all
+demos/CMakeFiles/demo_animator_app.dir/all: 3rd/SDL/CMakeFiles/SDL2.dir/all
+demos/CMakeFiles/demo_animator_app.dir/all: 3rd/nanovg/CMakeFiles/nanovg.dir/all
+demos/CMakeFiles/demo_animator_app.dir/all: 3rd/glad/CMakeFiles/glad.dir/all
+demos/CMakeFiles/demo_animator_app.dir/all: 3rd/gpinyin/CMakeFiles/gpinyin.dir/all
+demos/CMakeFiles/demo_animator_app.dir/all: 3rd/libunibreak/CMakeFiles/linebreak.dir/all
+demos/CMakeFiles/demo_animator_app.dir/all: tools/common/CMakeFiles/common.dir/all
+demos/CMakeFiles/demo_animator_app.dir/all: tools/font_gen/CMakeFiles/font_gen.dir/all
+demos/CMakeFiles/demo_animator_app.dir/all: tools/image_gen/CMakeFiles/image_gen.dir/all
+demos/CMakeFiles/demo_animator_app.dir/all: tools/str_gen/CMakeFiles/str_gen.dir/all
+demos/CMakeFiles/demo_animator_app.dir/all: tools/theme_gen/CMakeFiles/theme_gen.dir/all
+demos/CMakeFiles/demo_animator_app.dir/all: demos/CMakeFiles/assets.dir/all
+	$(MAKE) -f demos/CMakeFiles/demo_animator_app.dir/build.make demos/CMakeFiles/demo_animator_app.dir/depend
+	$(MAKE) -f demos/CMakeFiles/demo_animator_app.dir/build.make demos/CMakeFiles/demo_animator_app.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles --progress-num=88 "Built target demo_animator_app"
+.PHONY : demos/CMakeFiles/demo_animator_app.dir/all
+
+# Include target in all.
+all: demos/CMakeFiles/demo_animator_app.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+demos/CMakeFiles/demo_animator_app.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 96
+	$(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/demo_animator_app.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
+.PHONY : demos/CMakeFiles/demo_animator_app.dir/rule
+
+# Convenience name for target.
+demo_animator_app: demos/CMakeFiles/demo_animator_app.dir/rule
+
+.PHONY : demo_animator_app
+
+# clean rule for target.
+demos/CMakeFiles/demo_animator_app.dir/clean:
+	$(MAKE) -f demos/CMakeFiles/demo_animator_app.dir/build.make demos/CMakeFiles/demo_animator_app.dir/clean
+.PHONY : demos/CMakeFiles/demo_animator_app.dir/clean
+
+# clean rule for target.
+clean: demos/CMakeFiles/demo_animator_app.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target demos/CMakeFiles/preview_ui.dir
+
+# All Build rule for target.
+demos/CMakeFiles/preview_ui.dir/all: src/CMakeFiles/awtk.dir/all
+demos/CMakeFiles/preview_ui.dir/all: 3rd/SDL/CMakeFiles/SDL2.dir/all
+demos/CMakeFiles/preview_ui.dir/all: 3rd/nanovg/CMakeFiles/nanovg.dir/all
+demos/CMakeFiles/preview_ui.dir/all: 3rd/glad/CMakeFiles/glad.dir/all
+demos/CMakeFiles/preview_ui.dir/all: 3rd/gpinyin/CMakeFiles/gpinyin.dir/all
+demos/CMakeFiles/preview_ui.dir/all: 3rd/libunibreak/CMakeFiles/linebreak.dir/all
+demos/CMakeFiles/preview_ui.dir/all: tools/common/CMakeFiles/common.dir/all
+demos/CMakeFiles/preview_ui.dir/all: tools/font_gen/CMakeFiles/font_gen.dir/all
+demos/CMakeFiles/preview_ui.dir/all: tools/image_gen/CMakeFiles/image_gen.dir/all
+demos/CMakeFiles/preview_ui.dir/all: tools/str_gen/CMakeFiles/str_gen.dir/all
+demos/CMakeFiles/preview_ui.dir/all: tools/theme_gen/CMakeFiles/theme_gen.dir/all
+demos/CMakeFiles/preview_ui.dir/all: demos/CMakeFiles/assets.dir/all
+	$(MAKE) -f demos/CMakeFiles/preview_ui.dir/build.make demos/CMakeFiles/preview_ui.dir/depend
+	$(MAKE) -f demos/CMakeFiles/preview_ui.dir/build.make demos/CMakeFiles/preview_ui.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles --progress-num= "Built target preview_ui"
+.PHONY : demos/CMakeFiles/preview_ui.dir/all
+
+# Include target in all.
+all: demos/CMakeFiles/preview_ui.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+demos/CMakeFiles/preview_ui.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 95
+	$(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/preview_ui.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
+.PHONY : demos/CMakeFiles/preview_ui.dir/rule
+
+# Convenience name for target.
+preview_ui: demos/CMakeFiles/preview_ui.dir/rule
+
+.PHONY : preview_ui
+
+# clean rule for target.
+demos/CMakeFiles/preview_ui.dir/clean:
+	$(MAKE) -f demos/CMakeFiles/preview_ui.dir/build.make demos/CMakeFiles/preview_ui.dir/clean
+.PHONY : demos/CMakeFiles/preview_ui.dir/clean
+
+# clean rule for target.
+clean: demos/CMakeFiles/preview_ui.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target demos/CMakeFiles/frambuffer.dir
+
+# All Build rule for target.
+demos/CMakeFiles/frambuffer.dir/all: src/CMakeFiles/awtk.dir/all
+demos/CMakeFiles/frambuffer.dir/all: 3rd/SDL/CMakeFiles/SDL2.dir/all
+demos/CMakeFiles/frambuffer.dir/all: 3rd/nanovg/CMakeFiles/nanovg.dir/all
+demos/CMakeFiles/frambuffer.dir/all: 3rd/glad/CMakeFiles/glad.dir/all
+demos/CMakeFiles/frambuffer.dir/all: 3rd/gpinyin/CMakeFiles/gpinyin.dir/all
+demos/CMakeFiles/frambuffer.dir/all: 3rd/libunibreak/CMakeFiles/linebreak.dir/all
+demos/CMakeFiles/frambuffer.dir/all: tools/common/CMakeFiles/common.dir/all
+demos/CMakeFiles/frambuffer.dir/all: tools/font_gen/CMakeFiles/font_gen.dir/all
+demos/CMakeFiles/frambuffer.dir/all: tools/image_gen/CMakeFiles/image_gen.dir/all
+demos/CMakeFiles/frambuffer.dir/all: tools/str_gen/CMakeFiles/str_gen.dir/all
+demos/CMakeFiles/frambuffer.dir/all: tools/theme_gen/CMakeFiles/theme_gen.dir/all
+demos/CMakeFiles/frambuffer.dir/all: demos/CMakeFiles/assets.dir/all
+	$(MAKE) -f demos/CMakeFiles/frambuffer.dir/build.make demos/CMakeFiles/frambuffer.dir/depend
+	$(MAKE) -f demos/CMakeFiles/frambuffer.dir/build.make demos/CMakeFiles/frambuffer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles --progress-num= "Built target frambuffer"
+.PHONY : demos/CMakeFiles/frambuffer.dir/all
+
+# Include target in all.
+all: demos/CMakeFiles/frambuffer.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+demos/CMakeFiles/frambuffer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 95
+	$(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/frambuffer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles 0
+.PHONY : demos/CMakeFiles/frambuffer.dir/rule
+
+# Convenience name for target.
+frambuffer: demos/CMakeFiles/frambuffer.dir/rule
+
+.PHONY : frambuffer
+
+# clean rule for target.
+demos/CMakeFiles/frambuffer.dir/clean:
+	$(MAKE) -f demos/CMakeFiles/frambuffer.dir/build.make demos/CMakeFiles/frambuffer.dir/clean
+.PHONY : demos/CMakeFiles/frambuffer.dir/clean
+
+# clean rule for target.
+clean: demos/CMakeFiles/frambuffer.dir/clean
 
 .PHONY : clean
 
