@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
@@ -6,3 +7,59 @@
 
 #IncludeRegexTransform: 
 
+=======
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/misc/new.hpp
+new
+-
+cstddef
+-
+tkc/mem.h
+../src/misc/tkc/mem.h
+
+../src/tkc/mem.h
+tkc/types_def.h
+../src/tkc/tkc/types_def.h
+
+../src/tkc/types_def.h
+math.h
+-
+ctype.h
+-
+wchar.h
+-
+assert.h
+-
+stdarg.h
+-
+stdint.h
+-
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+windows.h
+-
+awtk_config.h
+../src/tkc/awtk_config.h
+
+/home/pc/work/awtk/pc_awtk/awtk/src/misc/new.cpp
+misc/new.hpp
+/home/pc/work/awtk/pc_awtk/awtk/src/misc/misc/new.hpp
+
+/home/pc/work/awtk/pc_awtk/awtk/src/misc/test_cpp.cpp
+tkc/mem.h
+/home/pc/work/awtk/pc_awtk/awtk/src/misc/tkc/mem.h
+misc/new.hpp
+/home/pc/work/awtk/pc_awtk/awtk/src/misc/misc/new.hpp
+
+>>>>>>> f0b07eb62fc777719170c6c80beebae73b26d7f5

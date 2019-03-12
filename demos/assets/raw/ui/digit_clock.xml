@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <window anim_hint="htranslate" children_layout="default(c=1,h=30,s=10)">
   <digit_clock format="h:m" />
   <digit_clock format="hh:mm" />
@@ -10,3 +11,15 @@
   <digit_clock style="green" format="W(w)"/>
   <digit_clock style="green" format="MMM(M) W(w)"/>
 </window>
+=======
+<window anim_hint="htranslate" children_layout="default(c=1,h=30,s=10)">
+  <digit_clock format="h:m" />
+  <digit_clock format="hh:mm" />
+  <digit_clock format="h:m:s"/>
+  <digit_clock format="hh:mm:ss"/>
+  <digit_clock format="Y/M/D"/>
+  <digit_clock format="YY-MM-DD"/>
+  <digit_clock format="Y/M/D h:mm:ss"/>
+  <digit_clock format="YY/MM/DD h:mm:ss"/>
+</window>
+>>>>>>> f0b07eb62fc777719170c6c80beebae73b26d7f5
