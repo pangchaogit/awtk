@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 include_directories(${AWTK_INCLUDES}
         )
 
@@ -41,7 +40,6 @@ target_link_libraries(awtk_show ${OpenCV_LIBS} ${AWTK_LIBS}  ${Caffe_LIBRARIES} 
 
 add_executable(MTCNN test_mtcnn.cpp mtcnn.cpp mtcnn.h)
 target_link_libraries(MTCNN ${OpenCV_LIBS} ${Caffe_LIBRARIES} )
-=======
 include_directories(${AWTK_INCLUDES}
         )
 
@@ -81,4 +79,3 @@ target_link_libraries(awtk_show ${OpenCV_LIBS} ${AWTK_LIBS}  ${Caffe_LIBRARIES} 
 
 add_executable(MTCNN test_mtcnn.cpp mtcnn.cpp mtcnn.h)
 target_link_libraries(MTCNN ${OpenCV_LIBS} ${Caffe_LIBRARIES} )
->>>>>>> f0b07eb62fc777719170c6c80beebae73b26d7f5

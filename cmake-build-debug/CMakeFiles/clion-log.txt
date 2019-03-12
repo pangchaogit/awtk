@@ -1,32 +1,83 @@
-<<<<<<< HEAD
 /home/pc/software/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/pc/work/awtk/pc_awtk/awtk
 GTK3_LIBRARIES gtk-3;gdk-3;pangocairo-1.0;pango-1.0;atk-1.0;cairo-gobject;cairo;gdk_pixbuf-2.0;gio-2.0;gobject-2.0;glib-2.0
-AWTK_LIBS awtkSDL2nanovggladgpinyinlinebreakcommonfont_genimage_genstr_gentheme_genassetsawtkSDL2nanovggladgpinyinlinebreakcommonfont_genimage_genstr_gentheme_genassets
--- Configuring done
--- Generating done
--- Build files have been written to: /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug
-=======
-/home/pc/software/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/pc/work/awtk/pc_awtk/awtk
--- The C compiler identification is GNU 5.4.0
--- The CXX compiler identification is GNU 5.4.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /usr/bin/c++
--- Check for working CXX compiler: /usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Checking for module 'gtk+-3.0'
---   Found gtk+-3.0, version 3.18.9
-GTK3_LIBRARIES gtk-3;gdk-3;pangocairo-1.0;pango-1.0;atk-1.0;cairo-gobject;cairo;gdk_pixbuf-2.0;gio-2.0;gobject-2.0;glib-2.0
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
 -- Found CUDA: /usr/local/cuda (found suitable exact version "9.0") 
+-- Found OpenCV: /usr/local (found version "3.4.1") 
 AWTK_LIBS awtkSDL2nanovggladgpinyinlinebreakcommonfont_genimage_genstr_gentheme_genassetsawtkSDL2nanovggladgpinyinlinebreakcommonfont_genimage_genstr_gentheme_genassets
--- Configuring done
--- Generating done
--- Build files have been written to: /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug
->>>>>>> f0b07eb62fc777719170c6c80beebae73b26d7f5
+CMake Error at demos/CMakeLists.txt:51 (add_library):
+  add_library cannot create target "assets" because another target with the
+  same name already exists.  The existing target is a static library created
+  in source directory "/home/pc/work/awtk/pc_awtk/awtk/demos".  See
+  documentation for policy CMP0002 for more details.
+
+
+AWTK_LIBS awtkSDL2nanovggladgpinyinlinebreakcommonfont_genimage_genstr_gentheme_genassetsawtkSDL2nanovggladgpinyinlinebreakcommonfont_genimage_genstr_gentheme_genassetsassetsawtkSDL2nanovggladgpinyinlinebreakcommonfont_genimage_genstr_gentheme_genassetsawtkSDL2nanovggladgpinyinlinebreakcommonfont_genimage_genstr_gentheme_genassetsassets
+CMake Error at demos/CMakeLists.txt:58 (add_executable):
+  add_executable cannot create target "demo_animator_app" because another
+  target with the same name already exists.  The existing target is an
+  executable created in source directory
+  "/home/pc/work/awtk/pc_awtk/awtk/demos".  See documentation for policy
+  CMP0002 for more details.
+
+
+CMake Error at demos/CMakeLists.txt:61 (add_executable):
+  add_executable cannot create target "preview_ui" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory "/home/pc/work/awtk/pc_awtk/awtk/demos".  See
+  documentation for policy CMP0002 for more details.
+
+
+CMake Error at demos/CMakeLists.txt:64 (add_executable):
+  add_executable cannot create target "mutable_image" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory "/home/pc/work/awtk/pc_awtk/awtk/demos".  See
+  documentation for policy CMP0002 for more details.
+
+
+CMake Error at demos/CMakeLists.txt:67 (add_executable):
+  add_executable cannot create target "frambuffer" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory "/home/pc/work/awtk/pc_awtk/awtk/demos".  See
+  documentation for policy CMP0002 for more details.
+
+
+CMake Error at demos/CMakeLists.txt:70 (add_executable):
+  add_executable cannot create target "new_frambuffer" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory "/home/pc/work/awtk/pc_awtk/awtk/demos".  See
+  documentation for policy CMP0002 for more details.
+
+
+CMake Error at demos/CMakeLists.txt:73 (add_executable):
+  add_executable cannot create target "test_opencv" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory "/home/pc/work/awtk/pc_awtk/awtk/demos".  See
+  documentation for policy CMP0002 for more details.
+
+
+CMake Error at demos/CMakeLists.txt:76 (add_executable):
+  add_executable cannot create target "awtk_show" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/pc/work/awtk/pc_awtk/awtk/demos".  See
+  documentation for policy CMP0002 for more details.
+
+
+CMake Error at demos/CMakeLists.txt:80 (add_executable):
+  add_executable cannot create target "MTCNN" because another target with the
+  same name already exists.  The existing target is an executable created in
+  source directory "/home/pc/work/awtk/pc_awtk/awtk/demos".  See
+  documentation for policy CMP0002 for more details.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/CMakeFiles/CMakeError.log".
+Cannot read project file /home/pc/work/awtk/pc_awtk/awtk/cmake-build-debug/awtk-c-demos.cbp
